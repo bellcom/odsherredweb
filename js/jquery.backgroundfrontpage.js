@@ -18,9 +18,11 @@ jQuery(document).ready(function($) {
       backgrounds: backgrounds,
     })('overlay');
 
+    Drupal.viewsSlideshowControls.play = function (options) {
+      $.vegas('pause');
+    }
     Drupal.viewsSlideshowControls.pause = function (options) {
       $.vegas('pause');
-
     }
     Drupal.viewsSlideshowPagerFields.goToSlide = function (options) {
       $.vegas('jump', options['slideNum']);
