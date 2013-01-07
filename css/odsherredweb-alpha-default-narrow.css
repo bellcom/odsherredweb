@@ -1,0 +1,50 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+ #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 160px !important;}
+ 
+ ul#main-menu { 
+	margin: 0;
+	padding: 0;
+	}
+	
+ul#main-menu li { 
+	margin-left: 10px;
+	margin-right: 10px;	
+	display: block; 
+	float: left;
+	width: 220px;
+	padding: 0;}
+
+ul#main-menu li.first {
+	margin-left: 0;
+	padding-left: 0; 
+	}
+	
+ul#main-menu li.last {
+	margin-right: 0;
+	padding-right: 0;
+	}
+
+ul#main-menu li a {  
+	display: block; 
+	font-size: 15px; 
+	color: #FFF; 
+	text-decoration: none;
+	padding: 16px 16px 16px 50px;
+	background-repeat: no-repeat;
+	}
+ 
+ul#main-menu li.menu-782 a {
+	background-image: url(img/portalknap-borger.png);
+}
+
+ul#main-menu li.menu-783 a {
+	background-image: url(img/portalknap-erhverv.png);
+}
+
+ul#main-menu li.menu-784 a {
+	background-image: url(img/portalknap-politik.png);
+}

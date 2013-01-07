@@ -1,0 +1,300 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+	-moz-box-shadow:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	z-index: 1;
+	}
+
+body  {
+	background-color: #faf9f7;
+	color: #000;
+	font-size: 12px; 
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	}
+	
+a { color: #000;
+	}
+.logo-img {
+	margin-top: 15px;
+	margin-left: 5px;
+	}
+.page {
+	background-image: url( img/top-blue.png); 
+	background-repeat: repeat-x;
+	}
+	
+#zone-branding { 
+	background-color: transparent;
+	background-image: url(img/top-u-logo.png);
+	background-repeat: no-repeat;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.05em;
+	font-weight: normal;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	}
+
+h1 { 
+	font-size: 25px;
+	}
+	
+h2 { 
+	font-size: 20px; 
+	}
+		
+#region-branding { 
+	height: 170px;
+	}
+	
+#region-user-first { 
+	height: 70px;
+	}
+	
+#region-header-second { 
+	height: 30px;
+	padding-bottom: 30px;
+	}
+
+#region-user-first ul.menu , 
+#region-header-second ul.menu { 
+	text-align: right
+	}
+#region-user-first a, 
+#region-header-second a { 
+	color: #FFF;
+	text-decoration: none;
+	border-left: 1px solid #FFF;
+	padding-left: 10px;
+	margin-left: 10px;
+	}
+#region-user-first li, 
+#region-header-second li {
+	margin: 0;padding: 0;
+}
+#region-user-first li.first a, 
+#region-header-second li.first a { 
+	padding-left: 0;
+	margin-left: 0;
+	border-left: none;
+	}
+	
+#zone-branding ul.menu li { 
+	display: inline; 
+	list-style: none;
+	}
+
+#zone-footer-wrapper { 
+	border-top: 10px solid #68b63c; 
+	background-color: #302f2e; 
+	color: #FFF;
+	}
+	
+#zone-footer a { 
+	color: #fff; 
+	text-decoration: none;
+	}
+	
+#zone-footer li { 
+	margin-left: 0; 
+	padding-left: 0; 
+	list-style: none;
+	}
+
+.panels-flexible-region-new-center { 
+	width: 100%;
+	}
+
+ul#main-menu { 
+	margin: 0;
+	padding: 0;
+	}
+	
+ul#main-menu li { 
+	display: block; 
+	float: none; 
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0;}
+
+ul#main-menu li.first {
+	margin-left: 0;
+	padding-left: 0; 
+	}
+	
+ul#main-menu li.last {
+	margin-right: 0;
+	padding-right: 0;
+	}
+
+ul#main-menu li a {  
+	display: block;
+	padding: 16px 16px 16px 50px;
+	background-repeat: no-repeat; 
+	color: #FFF; 
+	text-decoration: none; 
+	font-size: 22px;
+	}
+ 
+ul#main-menu li.menu-782 a {
+	background-image: url(img/portalknap-borger.png);
+	}
+
+ul#main-menu li.menu-783 a {
+	background-image: url(img/portalknap-erhverv.png);
+	}
+
+ul#main-menu li.menu-784 a {
+	background-image: url(img/portalknap-politik.png);
+	}
+	
+.breadcrumb ul {
+	}
+	
+.breadcrumb li {
+	display: list-item;
+	list-style-position: inside;
+	list-style-type: disc;
+	list-style-image: url(img/ikon-larger.png);
+	}
+	
+
+#region-sidebar-first, .page-node #region-content {
+	background-image: url(img/c-bg.png);}
+	
+#region-sidebar-first a { 
+	color: #000;
+	text-decoration: none;
+	}
+
+#zone-content { 
+	padding-top: 20px;
+	}
+	
+.page-node #region-content .block-inner { 
+	padding: 15px;
+	}
+	
+#region-sidebar-first .menu-block-wrapper {
+	padding: 10px;
+	}
+	
+#breadcrumb {
+	padding: 10px
+	}
+	
+#search-block-form { 
+	background-image: url(img/search-bg.png);
+	height: 44px;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	}
+
+#search-block-form input[type="submit"] {
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	width: 49px;
+	height: 45px;
+	outline: 0;
+	border: none;
+	border-color: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: #ddd url(img/search.png) no-repeat;
+	color: #333;
+	text-shadow: none;
+	font: bold 12px/1.2 Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	}
+
+#search-block-form input[type="text"] {
+	height: 47px;
+	width: 554px;
+	font-size: 20px;
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+	background-color: transparent;
+	}
+.rel-register-link a { display: none}
+
+.qtip-cmstheme { background-color: #fff}
+
+.front #zone-header-wrapper, #block-superfish-2 { display: none}
+
+#block-feedback-form {
+	display: none;
+	position: absolute;
+	bottom: 60px;
+	right: 50%;
+	overflow: hidden;
+	z-index: 10;
+	top: 0;
+	margin-right: -370px;
+	}
+
+.grid-9 .views-row-1.grid-3, 
+.grid-9 .views-row-4.grid-3, 
+.grid-9 .views-row-7.grid-3, 
+.grid-9 .views-row-10.grid-3, 
+.grid-9 .views-row-13.grid-3,
+.grid-9 .views-row-16.grid-3,
+.grid-9 .views-row-19.grid-3,
+.grid-9 .views-row-22.grid-3 { 
+	margin-left: 0
+	}
+	
+.grid-9 .views-row-3.grid-3,
+.grid-9 .views-row-6.grid-3,
+.grid-9 .views-row-9.grid-3,
+.grid-9 .views-row-12.grid-3,
+.grid-9 .views-row-15.grid-3,
+.grid-9 .views-row-18.grid-3,
+.grid-9 .views-row-21.grid-3,
+.grid-9 .views-row-24.grid-3 {
+	margin-right: 0
+	}
+	
+.spotbox-row img { 
+	width: 100%
+	}
+
+.spotbox-row .spotbox_right img { 
+	max-width: 230px;
+	max-height: 115px;
+	}
+
+.spotwrapper { 
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+	background-image: url(img/c-bg.png);
+	}
+	
+.menu-minipanels .grid-3 .inside { 
+	padding: 20px;
+	}
+
+.menu-minipanels h2.pane-title { 
+	font-size: 14px; 
+	font-weight: bold;
+	margin-bottom: 5px;
+	}
+	
+.grid-3 .spotwrapper h2.pane-title {
+	background-image: url(img/spot-title-yellow.png);
+	height: 28px;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0;
+	color: #FFF;
+	}
