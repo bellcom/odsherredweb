@@ -415,66 +415,122 @@ ul#main-menu li.menu-784 a {
 /*Slideshow backgground on the frontpage */
 
 /*Breaking news on frontpage*/
-.view-id-aktuelt.view-display-id-panel_pane_6 .views-label {float: left;}
-.view-id-aktuelt.view-display-id-panel_pane_6 {background: #ecc73e;}
-.view-id-aktuelt.view-display-id-panel_pane_6 .views-row {float: left; margin: 0 20px;}
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label {
+	float: left;
+	}
+	
+.view-id-aktuelt.view-display-id-panel_pane_6 {
+	background: #ecc73e;
+	}
+	
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-row {
+	float: left; 
+	margin: 0 20px;
+	}
+	
 .view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title,
 .view-id-aktuelt.view-display-id-panel_pane_6 .field-content a, 
-.view-id-aktuelt.view-display-id-panel_pane_6 .field-content  {color: #323232;font-size: 14px; text-decoration: none;}
-.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title { font-weight: bold;}
+.view-id-aktuelt.view-display-id-panel_pane_6 .field-content  {
+	color: #323232;
+	font-size: 14px; 
+	text-decoration: none;
+	}
+	
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title { 
+	font-weight: bold;
+	}
+
+
 /*Breaking news on frontpage*/
 
-#mini-panel-forside_minipanel .panel-panel .inside { 
+.megamini .panel-panel .inside { 
 	background-color: #FFF;
 	border-top-left-radius:  5px;
 	border-top-right-radius:  5px;
 	}
 
-#mini-panel-forside_minipanel .panel-panel .inside  h2.pane-title { 
+.megamini .panel-panel .inside  h2.pane-title { 
 	padding: 10px 10px 10px 50px; 
 	color: #FFF;
 	height: 40px; margin: 0;
 	}
+	
+	
+.megamini .panel-panel .inside .pane-content h2.pane-title { 
+	padding: 50px 10px 10px 10px; 
+	font-size: 12px; 
+	color: #FFF; 
+	height: 24px;
+	background-repeat: no-repeat;
+	}
+	
+.megamini .panel-panel .inside .pane-content h2.pane-title a {
+	color: #FFF
+	}
+	
+.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
+	background-image: url(img/menu-mini-borger.png);
+	background-repeat: no-repeat;
+	}
+	
+.megamini .panel-panel .inside .pane-content .pane-selvbetjening h2.pane-title {
+	background-image: url(img/sb-mini-borger.png);
+	background-repeat: no-repeat;
+	}
 
-#mini-panel-forside_minipanel .panel-region-stack1 {
+.megamini .panel-region-stack1,
+.megamini .panel-region-stack2,
+.megamini .panel-region-stack3 {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.megamini .panel-region-stack1 {
     background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
-    padding: 5px;
+    }
+     
+.megamini .panel-region-stack2 {
+    background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+    }
+    
+.megamini .panel-region-stack3 {
+    background: none repeat scroll 0 0 rgba(197, 56, 56, 0.8);
     }
 
-#mini-panel-forside_minipanel .panel-region-stack1  h2.pane-title { 
+.megamini .panel-region-stack1  h2.pane-title { 
 	background-image: url(img/minibar-borger.png);
 	background-repeat: no-repeat;
 	}
-#mini-panel-forside_minipanel ul.quicktabs-tabs li a { 
+.megamini ul.quicktabs-tabs li a { 
 	font-weight: normal
 	}
 
-#mini-panel-forside_minipanel .panel-region-stack1  ul.quicktabs-tabs li a { 
+.megamini .panel-region-stack1  ul.quicktabs-tabs li a { 
 	color: #50942f;
 	}
 	
-#mini-panel-forside_minipanel .panel-region-stack2  ul.quicktabs-tabs li a { 
+.megamini .panel-region-stack2  ul.quicktabs-tabs li a { 
 	color: #50942f;
 	}
 	
-#mini-panel-forside_minipanel .panel-region-stack3  ul.quicktabs-tabs li a { 
+.megamini .panel-region-stack3  ul.quicktabs-tabs li a { 
 	color: #50942f;
 	}
 	
-#mini-panel-forside_minipanel .panel-region-stack1 .overlay {
+.megamini .panel-region-stack1 .overlay {
 	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
 }
 	
-#mini-panel-forside_minipanel ul.quicktabs-tabs li.active a { 
+.megamini ul.quicktabs-tabs li.active a { 
 	color: #000;
 	}
 
-#mini-panel-forside_minipanel .pane-content { 
+.megamini .pane-content { 
 	color: #888;
 	font-size: 12px;
 	}
 
-#mini-panel-forside_minipanel ul.quicktabs-tabs { 
+.megamini ul.quicktabs-tabs { 
 	background-image: url(img/minibar-tabs.png);
 	background-repeat: no-repeat;
 	height: 25px; 
@@ -485,7 +541,7 @@ ul#main-menu li.menu-784 a {
 	padding-left: 0;
 	}
 	
-#mini-panel-forside_minipanel ul.quicktabs-tabs li { 
+.megamini ul.quicktabs-tabs li { 
 	padding-left: 0;
 	margin-left: 10px;
 	margin-right: 20px;
@@ -493,31 +549,39 @@ ul#main-menu li.menu-784 a {
 
 
 
-#mini-panel-forside_minipanel .quicktabs_main { 
+.megamini .quicktabs_main { 
 	padding: 10px;
 	background-image: url(img/minibar-footer-bg.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
 	
-#mini-panel-forside_minipanel .pane-content a { 
+.megamini .pane-content a { 
 	color: #000; 
 	font-weight: bold; 
 	text-decoration: none;
 	}
 	
-#mini-panel-forside_mini_borger { }
-
 #mini-panel-forside_mini_borger h2 { 
 	background-color: green;
 	}
-	
-#mini-panel-forside_mini_borger .panel-panel { 
+
+.megamini .2col-1-3 .panel-region-col1, 
+.megamini .2col-1-3 .panel-region-col2 { 
 	float: left;
+	}
+
+.megamini .2col-1-3 .panel-region-col1 { 
 	width: 316px;
 	}
 
-#mini-panel-forside_mini_borger .panel-panel .overlay {
+.megamini .2col-1-3 .panel-region-col2 { 
+	width: 100px;
+	margin-left: 10px;
+	}
+
+
+.view-id-aktuelt.view-display-id-panel_pane_4 .overlay {
 	position: absolute;
 	top: 159px;	
 	padding: 10px;
@@ -526,30 +590,49 @@ ul#main-menu li.menu-784 a {
 	color: #FFF;
 	}
 
-#mini-panel-forside_mini_borger .panel-panel .overlay a {
+.view-id-aktuelt.view-display-id-panel_pane_4 .overlay a {
 	color: #FFF;
 	font-weight: normal;
 	}
 
-#mini-panel-forside_mini_borger .panel-panel .overlay .title {
+.view-id-aktuelt.view-display-id-panel_pane_4 .overlay .title {
 	display: block;
 	font-size: 16px;
 	margin-bottom: 5px;
 	}
 
-#mini-panel-forside_mini_borger .panel-panel .overlay .text {
+.view-id-aktuelt.view-display-id-panel_pane_4 .overlay .text {
 	display: block;
 	font-size: 12px;
 	}
 	
-#mini-panel-forside_mini_borger .panel-region-col2 { 
+.view-id-aktuelt.view-display-id-panel_pane_4 .panel-region-col2 { 
 	width: 160px; 
 	margin-left: 10px;
 	}
 	
-#mini-panel-forside_mini_borger .panel-region-col2 .views-row { 
+.view-id-aktuelt.view-display-id-panel_pane_4 .panel-region-col2 .views-row { 
 	background-image: url(img/ikon-green-larger.png);
 	background-repeat: no-repeat;
 	padding-left: 15px;
 	background-position: 0 5px;
 	}
+	
+.megamini ul li { 
+	list-style-image:url(img/ikon-green-larger.png); 
+	margin-left: 15px 
+	}
+
+.megamini .view-selvbetjening ul li { 
+	list-style-image:url(img/ikon-gul-3omv.png); 
+	}
+	
+.megamini ul li a { 
+	font-weight: normal !important;
+	}
+	
+.megamini .panel-region-stack1 ul.menu a:hover { 
+	color: #316916;
+	}
+
+.selvbetjening-megamenu .view-header { display: none}
