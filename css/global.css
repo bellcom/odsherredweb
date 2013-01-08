@@ -186,12 +186,19 @@ ul#main-menu li.menu-784 a {
 #breadcrumb {
 	padding: 10px
 	}
-	
+
+
+.front #search-block-form {
+	padding: 5px;
+	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+
+}
+
 #search-block-form { 
-	background-image: url(img/search-bg.png);
 	height: 44px;
 	padding: 0 0 0 10px;
 	background-repeat: no-repeat;
+	padding: 5px;
 	}
 
 #search-block-form input[type="submit"] {
@@ -206,7 +213,7 @@ ul#main-menu li.menu-784 a {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	background: #ddd url(img/search.png) no-repeat;
+	background: transparent url(img/search.png) no-repeat;
 	color: #333;
 	text-shadow: none;
 	font: bold 12px/1.2 Arial, sans-serif;
@@ -223,9 +230,31 @@ ul#main-menu li.menu-784 a {
 	margin-right: 0;
 	padding-right: 0;
 	border: none;
-	background-color: transparent;
+	background-image: url(img/search-bg.png);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	float: left;
 	}
-.rel-register-link a { display: none}
+	
+.front .region-header-first-inner { 
+	padding-left: 80px 
+	}
+
+.front #search-block-form {
+
+	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+
+}	
+
+.front #search-block-form input[type="text"] {
+	width: 480px;
+	}
+
+
+.rel-register-link a { 
+	display: none
+	}
 
 .qtip-cmstheme { background-color: #fff}
 
@@ -365,20 +394,20 @@ ul#main-menu li.menu-784 a {
     color: #FFFFFF;
     font-size: 20px;
 }
-.views-field-title .field-content {
-    font-size: 46px;
-}
+#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content {
+    font-size: 50px;
+    }
 
 .Borger span {
     background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
-}
+    }
 
 .Politik-amp-planer span {
     background: none repeat scroll 0 0 rgba(197, 56, 56, 0.8);
-}
+    }
 .Erhverv span{
     background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
-}
+    }
 
 .views-field-title .field-content a{
     color: #FFFFFF;
@@ -394,3 +423,133 @@ ul#main-menu li.menu-784 a {
 .view-id-aktuelt.view-display-id-panel_pane_6 .field-content  {color: #323232;font-size: 14px; text-decoration: none;}
 .view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title { font-weight: bold;}
 /*Breaking news on frontpage*/
+
+#mini-panel-forside_minipanel .panel-panel .inside { 
+	background-color: #FFF;
+	border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	}
+
+#mini-panel-forside_minipanel .panel-panel .inside  h2.pane-title { 
+	padding: 10px 10px 10px 50px; 
+	color: #FFF;
+	height: 40px; margin: 0;
+	}
+
+#mini-panel-forside_minipanel .panel-region-stack1 {
+    background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
+    padding: 5px;
+    }
+
+#mini-panel-forside_minipanel .panel-region-stack1  h2.pane-title { 
+	background-image: url(img/minibar-borger.png);
+	background-repeat: no-repeat;
+	}
+#mini-panel-forside_minipanel ul.quicktabs-tabs li a { 
+	font-weight: normal
+	}
+
+#mini-panel-forside_minipanel .panel-region-stack1  ul.quicktabs-tabs li a { 
+	color: #50942f;
+	}
+	
+#mini-panel-forside_minipanel .panel-region-stack2  ul.quicktabs-tabs li a { 
+	color: #50942f;
+	}
+	
+#mini-panel-forside_minipanel .panel-region-stack3  ul.quicktabs-tabs li a { 
+	color: #50942f;
+	}
+	
+#mini-panel-forside_minipanel .panel-region-stack1 .overlay {
+	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
+}
+	
+#mini-panel-forside_minipanel ul.quicktabs-tabs li.active a { 
+	color: #000;
+	}
+
+#mini-panel-forside_minipanel .pane-content { 
+	color: #888;
+	font-size: 12px;
+	}
+
+#mini-panel-forside_minipanel ul.quicktabs-tabs { 
+	background-image: url(img/minibar-tabs.png);
+	background-repeat: no-repeat;
+	height: 25px; 
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-left: 0;
+	}
+	
+#mini-panel-forside_minipanel ul.quicktabs-tabs li { 
+	padding-left: 0;
+	margin-left: 10px;
+	margin-right: 20px;
+	}
+
+
+
+#mini-panel-forside_minipanel .quicktabs_main { 
+	padding: 10px;
+	background-image: url(img/minibar-footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+	
+#mini-panel-forside_minipanel .pane-content a { 
+	color: #000; 
+	font-weight: bold; 
+	text-decoration: none;
+	}
+	
+#mini-panel-forside_mini_borger { }
+
+#mini-panel-forside_mini_borger h2 { 
+	background-color: green;
+	}
+	
+#mini-panel-forside_mini_borger .panel-panel { 
+	float: left;
+	width: 316px;
+	}
+
+#mini-panel-forside_mini_borger .panel-panel .overlay {
+	position: absolute;
+	top: 159px;	
+	padding: 10px;
+	height: 64px;
+	overflow: hidden;
+	color: #FFF;
+	}
+
+#mini-panel-forside_mini_borger .panel-panel .overlay a {
+	color: #FFF;
+	font-weight: normal;
+	}
+
+#mini-panel-forside_mini_borger .panel-panel .overlay .title {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+	}
+
+#mini-panel-forside_mini_borger .panel-panel .overlay .text {
+	display: block;
+	font-size: 12px;
+	}
+	
+#mini-panel-forside_mini_borger .panel-region-col2 { 
+	width: 160px; 
+	margin-left: 10px;
+	}
+	
+#mini-panel-forside_mini_borger .panel-region-col2 .views-row { 
+	background-image: url(img/ikon-green-larger.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: 0 5px;
+	}
