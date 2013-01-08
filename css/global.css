@@ -384,3 +384,13 @@ ul#main-menu li.menu-784 a {
     color: #FFFFFF;
   }
 /*Slideshow backgground on the frontpage */
+
+/*Breaking news on frontpage*/
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label {float: left;}
+.view-id-aktuelt.view-display-id-panel_pane_6 {background: #ecc73e;}
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-row {float: left; margin: 0 20px;}
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title,
+.view-id-aktuelt.view-display-id-panel_pane_6 .field-content a, 
+.view-id-aktuelt.view-display-id-panel_pane_6 .field-content  {color: #323232;font-size: 14px; text-decoration: none;}
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title { font-weight: bold;}
+/*Breaking news on frontpage*/
