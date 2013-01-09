@@ -501,6 +501,17 @@ ul#main-menu li.menu-784 a {
 	background-image: url(img/minibar-borger.png);
 	background-repeat: no-repeat;
 	}
+
+.megamini .panel-region-stack2  h2.pane-title { 
+	background-image: url(img/minibar-erhverv.png);
+	background-repeat: no-repeat;
+	}
+
+.megamini .panel-region-stack3  h2.pane-title { 
+	background-image: url(img/minibar-politik.png);
+	background-repeat: no-repeat;
+	}
+	
 .megamini ul.quicktabs-tabs li a { 
 	font-weight: normal
 	}
