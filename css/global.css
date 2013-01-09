@@ -566,16 +566,17 @@ ul#main-menu li.menu-784 a {
 	background-color: green;
 	}
 
-.megamini .2col-1-3 .panel-region-col1, 
-.megamini .2col-1-3 .panel-region-col2 { 
+.col2-1-3 {}
+.col2-1-3 .panel-region-col1, 
+.col2-1-3 .panel-region-col2 { 
 	float: left;
 	}
 
-.megamini .2col-1-3 .panel-region-col1 { 
+.col2-1-3 .panel-region-col1 { 
 	width: 316px;
 	}
 
-.megamini .2col-1-3 .panel-region-col2 { 
+.col2-1-3 .panel-region-col2 { 
 	width: 100px;
 	margin-left: 10px;
 	}
