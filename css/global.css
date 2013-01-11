@@ -190,6 +190,11 @@ ul#main-menu li.menu-784 a {
 .breadcrumb ul {
 	}
 	
+ul.breadcrumb {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+	
 .breadcrumb li {
 	display: list-item;
 	list-style-position: inside;
