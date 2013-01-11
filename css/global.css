@@ -105,6 +105,11 @@ h2 {
 #region-header-second ul.menu { 
 	text-align: right
 	}
+
+.fedbackogminside {
+	margin-left: 15px;
+}
+	
 #region-user-first a, 
 #region-header-second a { 
 	color: #FFF;
