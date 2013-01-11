@@ -43,6 +43,11 @@ h1 {
 	font-size: 25px;
 	}
 	
+h1#page-title {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+	
 h2 { 
 	font-size: 20px; 
 	}
