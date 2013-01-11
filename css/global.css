@@ -46,13 +46,35 @@ h1 {
 h2 { 
 	font-size: 20px; 
 	}
-		
-ul li.collapsed {
-	list-style-image:url(img/ikon-green-larger.png);
+#region-sidebar-first ul.menu li a {
+	color: #1f1f1f;
+	}
+	
+#region-sidebar-first ul.menu li a.active {
+	font-weight: bold;
 }
 
-ul li.leaf {
-list-style-image: url(img/ikon-green-larger.png);
+#region-sidebar-first ul.menu li {
+	padding: 0 0 7px 12px;
+	margin-left: 0;
+	margin-top: 7px;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	background-image:  url(img/ikon-green-larger.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	font-size: 14px;
+}
+
+#region-sidebar-first ul.menu li ul li {
+	border-bottom: none;
+	padding: 0 0 2px 8px;
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+#region-sidebar-first li.active-trail a {
+	color: #000:
 }
 
 #region-branding { 
@@ -700,11 +722,3 @@ ul#main-menu li.menu-784 a {
 	background-image: url(img/ikon-minside.png);
 	}
 	
-	/*.block-menu-block-12 h2.block-title {
-	background-image: url(http://odsherred.bellcom.dk/sites/default/files/subsite/logo/borger-ikon.png);
-	padding-left: 40px;
-	padding-top: 7px; padding-bottom: 5px;
-	background-repeat: no-repeat;
-	}
-
-#block-views-sitestuktur-block-2 {display: none}*/
