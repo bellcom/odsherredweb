@@ -268,12 +268,12 @@ ul#main-menu li.menu-784 a {
 #block-feedback-form {
 	display: none;
 	position: absolute;
-	bottom: 60px;
-	right: 50%;
+	bottom: 0;
+	right: 0;
 	overflow: hidden;
 	z-index: 10;
 	top: 0;
-	margin-right: -370px;
+	margin-right: 0;
 	}
 
 .grid-9 .views-row-1.grid-3, 
@@ -670,4 +670,24 @@ ul#main-menu li.menu-784 a {
 	color: #316916;
 	}
 
-.selvbetjening-megamenu .view-header { display: none}
+.selvbetjening-megamenu .view-header { 
+	display: none
+	}
+
+.fedbackogminside a {
+	display: inline-block;
+	width: 113px;
+	height: 30px;
+	background-repeat: no-repeat;
+	border-left: none !important;
+	text-indent: -99999px;
+	margin-left: 0 !important;
+	padding-left: 0 !important ;
+	}
+.fedbackogminside a.feedback { 
+	background-image: url(img/ikon-feedback.png);
+	}
+	
+.fedbackogminside a.minside { 
+	background-image: url(img/ikon-minside.png);
+	}
