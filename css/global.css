@@ -124,6 +124,13 @@ h2 {
 	border-left: none;
 	}
 	
+#region-user-first .block {
+	float: right;
+}
+#region-user-first .block-menu {
+	float: left;
+}
+	
 #zone-branding ul.menu li { 
 	display: inline; 
 	list-style: none;
@@ -726,6 +733,10 @@ ul.breadcrumb {
 	margin-left: 0 !important;
 	padding-left: 0 !important ;
 	}
+	
+.fedbackogminside a.minside {
+	width: 104px;
+} 
 .fedbackogminside a.feedback { 
 	background-image: url(img/ikon-feedback.png);
 	}
