@@ -47,6 +47,14 @@ h2 {
 	font-size: 20px; 
 	}
 		
+ul li.collapsed {
+	list-style-image:url(img/ikon-green-larger.png);
+}
+
+ul li.leaf {
+list-style-image: url(img/ikon-green-larger.png);
+}
+
 #region-branding { 
 	height: 170px;
 	}
