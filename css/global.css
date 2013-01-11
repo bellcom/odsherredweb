@@ -44,8 +44,10 @@ h1 {
 	}
 	
 h1#page-title {
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-left: 15px;
+	padding-bottom: 0;
+	margin-bottom: 10px;
 }
 	
 h2 { 
