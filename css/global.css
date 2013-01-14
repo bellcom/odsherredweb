@@ -527,7 +527,7 @@ ul.breadcrumb {
 .megamini .panel-panel .inside  h2.pane-title { 
 	padding: 10px 10px 10px 50px; 
 	color: #FFF;
-	height: 40px; margin: 0;
+	height: 31px; margin: 0;
 	text-transform: uppercase;
 	}
 	
@@ -765,4 +765,22 @@ ul.breadcrumb {
 .fedbackogminside a.minside { 
 	background-image: url(img/ikon-minside.png);
 	}
-	
+
+
+/*
+ * Toggle panels on frontpage
+ */
+.toggle-panel {
+  background: url('../images/plus.png') no-repeat scroll 15px 15px;
+  height: 14px;
+  position: absolute;
+  top: 6px;
+  width: 14px;
+  cursor: pointer;
+  right: 3px;
+  padding: 15px;
+}
+
+.pane-quicktabs-borger .toggle-panel {
+  top: 4px;
+}
