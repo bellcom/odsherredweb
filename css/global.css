@@ -591,16 +591,19 @@ ul.breadcrumb {
 	font-weight: normal
 	}
 
-.megamini .panel-region-stack1  ul.quicktabs-tabs li a { 
+.megamini .panel-region-stack1  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack1 a:hover { 
 	color: #50942f;
 	}
 	
-.megamini .panel-region-stack2  ul.quicktabs-tabs li a { 
-	color: #50942f;
+.megamini .panel-region-stack2  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack2 a:hover { 
+	color: #3081b7;
 	}
 	
-.megamini .panel-region-stack3  ul.quicktabs-tabs li a { 
-	color: #50942f;
+.megamini .panel-region-stack3  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack3 a:hover { 
+	color: #ce4949;
 	}
 	
 .megamini .panel-region-stack1 .overlay {
@@ -726,6 +729,14 @@ ul.breadcrumb {
 	list-style-image:url(img/ikon-green-larger.png); 
 	margin-left: 15px 
 	}
+	
+.megamini .panel-region-stack3 ul li {
+	list-style-image:url(img/ikon-red-larger.png); 
+}
+
+.megamini .panel-region-stack2 ul li {
+	list-style-image:url(img/ikon-blue-larger.png); 
+}
 
 .megamini .view-selvbetjening ul li { 
 	list-style-image:url(img/ikon-gul-3omv.png); 
