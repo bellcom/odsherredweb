@@ -10,10 +10,13 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 	}
 
 body  {
-	background-color: #faf9f7;
+	background-color: #eeece7;
+	background-image: url(img/bg-forloeb.png);
+	background-repeat: repeat-x;
 	color: #474545;
 	font-size: 12px; 
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	height: 100%;
 	}
 	
 a { color: #000;
@@ -22,7 +25,14 @@ a { color: #000;
 	margin-top: 15px;
 	margin-left: 5px;
 	}
-.page {
+
+.not-front.page-node #section-content {
+	background-image: url(img/tpl_bg.png);
+	background-position: center bottom;
+	padding-bottom: 70px;
+}
+
+#section-header {
 	background-image: url( img/top-blue.png); 
 	background-repeat: repeat-x;
 	}
@@ -151,6 +161,21 @@ h2 {
 	display: inline; 
 	list-style: none;
 	}
+
+.front #section-footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
 
 #zone-footer-wrapper { 
 	border-top: 10px solid #68b63c; 
@@ -592,16 +617,19 @@ ul.breadcrumb {
 	font-weight: normal
 	}
 
-.megamini .panel-region-stack1  ul.quicktabs-tabs li a { 
+.megamini .panel-region-stack1  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack1 a:hover { 
 	color: #50942f;
 	}
 	
-.megamini .panel-region-stack2  ul.quicktabs-tabs li a { 
-	color: #50942f;
+.megamini .panel-region-stack2  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack2 a:hover { 
+	color: #3081b7;
 	}
 	
-.megamini .panel-region-stack3  ul.quicktabs-tabs li a { 
-	color: #50942f;
+.megamini .panel-region-stack3  ul.quicktabs-tabs li a,
+.megamini .panel-region-stack3 a:hover { 
+	color: #ce4949;
 	}
 	
 .megamini .panel-region-stack1 .overlay {
@@ -609,11 +637,11 @@ ul.breadcrumb {
 }
 
 .megamini .panel-region-stack2 .overlay {
-	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
+	background-image:url(img/accordion_blue_bg_large.png);
 }
 
 .megamini .panel-region-stack3 .overlay {
-	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
+	background-image: url(img/accordion_red_bg_large.png);
 }
 	
 .megamini ul.quicktabs-tabs li.active a { 
@@ -727,6 +755,14 @@ ul.breadcrumb {
 	list-style-image:url(img/ikon-green-larger.png); 
 	margin-left: 15px 
 	}
+	
+.megamini .panel-region-stack3 ul li {
+	list-style-image:url(img/ikon-red-larger.png); 
+}
+
+.megamini .panel-region-stack2 ul li {
+	list-style-image:url(img/ikon-blue-larger.png); 
+}
 
 .megamini .view-selvbetjening ul li { 
 	list-style-image:url(img/ikon-gul-3omv.png); 
