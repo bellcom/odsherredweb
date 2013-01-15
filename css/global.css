@@ -373,6 +373,7 @@ ul.breadcrumb {
 	}
 
 .spotwrapper { 
+    height: 207px;
 	padding: 5px;
 	display: block;
 	margin-bottom: 10px;
@@ -391,7 +392,7 @@ ul.breadcrumb {
 	
 .grid-3 .spotwrapper h2.pane-title {
 	background-image: url(img/spot-title-yellow.png);
-	height: 28px;
+	height: 19px;
 	font-size: 14px;
 	padding: 5px 10px;
 	margin: 0;
@@ -765,19 +766,107 @@ ul.breadcrumb {
 	background-image: url(img/ikon-minside.png);
 	}
 
-
-/*
- * Toggle panels on frontpage
- */
+/*Toggle panels on frontpage --> */
 .toggle-panel {
-  background: url('../images/plus.png') no-repeat scroll 15px 15px;
-  height: 14px;
+  background: url('../images/plus.png') no-repeat scroll 97% 15px;
+  height: 41px;
   position: relative;
   top: -46px;
-  width: 14px;
+  width: 100%;
   cursor: pointer;
   right: 3px;
-  padding: 15px;
+  float: right;
+  }
+
+.toggle-panel.open {
+  background: url('../images/plus.png') no-repeat scroll 97% 15px;
+}
+/* <-- Toggle panels on frontpage*/
+
+/* spotbox portal --> */
+.view-display-id-panel_pane_13 .show-links {
+background: url('../images/spotbox-sprite.png') no-repeat scroll -31px;
+height: 31px;
+width: 31px;
+position: absolute;
+z-index: 100;
+}
+
+.view-display-id-panel_pane_13 .show-links.open{
+  background: url('../images/spotbox-sprite.png') no-repeat;
+}
+
+.view-display-id-panel_pane_13 .item-list{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  height: 148px;
+  width: 210px;
+  overflow: hidden;
+  border-bottom: 5px solid #efbe02;
+}
+
+.view-display-id-panel_pane_13 .item-list ul {
+  padding-top: 10px;
+}
+.view-display-id-panel_pane_13 .item-list ul li {
+  margin: 0 0 0 11px;
+  height: 13px;
+  padding: 0 0 9px;
+  overflow: hidden;
+}
+.view-display-id-panel_pane_13 .item-list a {
+  background: url('../images/list-style.png') no-repeat scroll 0 2px;
+  padding-left: 17px;
+  color: #2d2d2b;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.view-display-id-panel_pane_13 .border {
+  height: 9px;
+}
+.view-display-id-panel_pane_13 .border.selvbetjening {
+  background: yellow;
+}
+.view-display-id-panel_pane_13 .border.Borger {
+  background: green;
+}
+.view-display-id-panel_pane_13 .border.Erhverv {
+  background: blue;
+}
+.view-display-id-panel_pane_13 .border.Politik.planer {
+  background: red;
+}
+.view-display-id-panel_pane_13 .text {
+height: 58px;
+padding: 5px 8px 0;
+margin: 0;
+background: #FFF;
+}
+.view-display-id-panel_pane_13 .goto {
+  width: 31px;
+  height: 31px;
+  display: block;
+  position: absolute;
+}
+.view-display-id-panel_pane_13 .goto.Borger {background: green; }
+.view-display-id-panel_pane_13 .goto.Erhverv {background: blue; }
+.view-display-id-panel_pane_13 .goto.Politik.planer {background: red;}
+
+.view-display-id-panel_pane_13 .show-links-wrapper,
+.view-display-id-panel_pane_13 .goto-wrapper {
+  position: relative;
+  top: -10px;
+  right: 36px;
   float: right;
 }
 
+.view-display-id-panel_pane_13 .pane-title {
+  overflow: hidden;
+}
+.view-display-id-panel_pane_13 .pane-title a {
+  color: white;
+  text-decoration: none;
+}
+
+/* <-- spotbox portal */
