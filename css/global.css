@@ -14,6 +14,7 @@ body  {
 	color: #474545;
 	font-size: 12px; 
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	height: 100%;
 	}
 	
 a { color: #000;
@@ -22,7 +23,19 @@ a { color: #000;
 	margin-top: 15px;
 	margin-left: 5px;
 	}
-.page {
+
+#page {
+	background-image: url(img/tpl_bg.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#section-header {
 	background-image: url( img/top-blue.png); 
 	background-repeat: repeat-x;
 	}
@@ -151,6 +164,21 @@ h2 {
 	display: inline; 
 	list-style: none;
 	}
+
+.front #section-footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
 
 #zone-footer-wrapper { 
 	border-top: 10px solid #68b63c; 
