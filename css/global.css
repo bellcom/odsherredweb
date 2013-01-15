@@ -522,7 +522,8 @@ ul.breadcrumb {
 	background-color: #FFF;
 	border-top-left-radius:  5px;
 	border-top-right-radius:  5px;
-	}
+    height: 51px;
+    }
 
 .megamini .panel-panel .inside  h2.pane-title { 
 	padding: 10px 10px 10px 50px; 
@@ -773,14 +774,12 @@ ul.breadcrumb {
 .toggle-panel {
   background: url('../images/plus.png') no-repeat scroll 15px 15px;
   height: 14px;
-  position: absolute;
-  top: 6px;
+  position: relative;
+  top: -46px;
   width: 14px;
   cursor: pointer;
   right: 3px;
   padding: 15px;
+  float: right;
 }
 
-.pane-quicktabs-borger .toggle-panel {
-  top: 4px;
-}
