@@ -10,7 +10,9 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 	}
 
 body  {
-	background-color: #faf9f7;
+	background-color: #eeece7;
+	background-image: url(img/bg-forloeb.png);
+	background-repeat: repeat-x;
 	color: #474545;
 	font-size: 12px; 
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -24,15 +26,10 @@ a { color: #000;
 	margin-left: 5px;
 	}
 
-#page {
+.not-front.page-node #section-content {
 	background-image: url(img/tpl_bg.png);
 	background-position: center bottom;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100%;
+	padding-bottom: 20px;
 }
 
 #section-header {
