@@ -608,11 +608,11 @@ ul.breadcrumb {
 }
 
 .megamini .panel-region-stack2 .overlay {
-	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
+	background-image:url(img/accordion_blue_bg_large.png);
 }
 
 .megamini .panel-region-stack3 .overlay {
-	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
+	background-image: url(img/accordion_red_bg_large.png);
 }
 	
 .megamini ul.quicktabs-tabs li.active a { 
