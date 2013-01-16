@@ -879,7 +879,7 @@ background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
 .view-display-id-panel_pane_13 .border.Erhverv {
   background: url('img/lineBlue.png');
 }
-.view-display-id-panel_pane_13 .border.Politik.planer {
+.view-display-id-panel_pane_13 .border.Politik {
   background: url('img/lineRed.png');
 }
 .view-display-id-panel_pane_13 .text {
@@ -896,7 +896,7 @@ background: #FFF;
 }
 .view-display-id-panel_pane_13 .goto.Borger { background: url('img/spotbox-sprite.png') no-repeat scroll -74px -3px; }
 .view-display-id-panel_pane_13 .goto.Erhverv { background: url('img/spotbox-sprite.png') no-repeat scroll -111px -3px; }
-.view-display-id-panel_pane_13 .goto.Politik.planer { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
+.view-display-id-panel_pane_13 .goto.Politik { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
 
 .view-display-id-panel_pane_13 .show-links-wrapper,
 .view-display-id-panel_pane_13 .goto-wrapper {
@@ -1011,4 +1011,3 @@ background: #FFF;
 .panel-pane.pane-views.pane-tagadelic-view .tagadelic.level3 { font-size: 11px; }
 .panel-pane.pane-views.pane-tagadelic-view .tagadelic.level2 { font-size: 10px; }
 .panel-pane.pane-views.pane-tagadelic-view .tagadelic.level1 { font-size: 10px; }
->>>>>>> 6feb2490679652e678585d0e81d4b999ffe3b43c
