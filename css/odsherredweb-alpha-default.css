@@ -2,6 +2,7 @@
 
 #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 220px !important;}
 
+.menu-minipanels .container-12 { width: auto}
 .menu-minipanel-784 {
 	background-image: url(img/megadd-transpbg-politik.png);
 }
@@ -12,12 +13,21 @@
 	background-repeat: no-repeat;
 }
 
-.menu-minipanel-782 {
-	background-image: url(img/megadd-transpbg-borger.png);
+#mini-panel-odsherred_borger {
+	background-image: url(img/megadd-bg-borger.png);
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: transparent;
 }
 
-.menu-minipanel-782 .panel-display {
+#mini-panel-odsherred_borger .inner-wrapper {
 	background-image: url(img/megadd-contentbg-borger.png);
 	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+#mini-panel-odsherred_borger .inner {
+	background-image: url(img/megadd-topbg-borger.png);
+	background-position: center top;
 	background-repeat: no-repeat;
 }
