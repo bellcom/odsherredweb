@@ -1,3 +1,23 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 220px !important;}
+
+.menu-minipanel-784 {
+	background-image: url(img/megadd-transpbg-politik.png);
+}
+
+.menu-minipanel-784 .panel-display {
+	background-image: url(img/megadd-contentbg-politik.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.menu-minipanel-782 {
+	background-image: url(img/megadd-transpbg-borger.png);
+}
+
+.menu-minipanel-782 .panel-display {
+	background-image: url(img/megadd-contentbg-borger.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
