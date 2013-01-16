@@ -10,8 +10,12 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
- 
- function odsherredweb_image_style($variables) {
+
+function odsherredweb_page_alter(&$page){
+  $page['content']['overlay']['#markup'] = '<div id="page-overlay" style="display:none;"></div>';
+}
+
+function odsherredweb_image_style($variables) {
   // Determine the dimensions of the styled image.
   $dimensions = array(
     'width' => $variables['width'], 

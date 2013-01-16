@@ -36,6 +36,7 @@ css[global.css][name] = 'Grund design'
 css[global.css][description] = 'Her er grund farverne.'
 css[global.css][options][weight] = '10'
 scripts[] = js/jquery.backgroundfrontpage.js
+scripts[] = js/jquery.portalMenuPageDimmer.js
 scripts[] = js/jquery.panel-toggle.js
 scripts[] = js/jquery.spotbox-toggle.js
 version = '7.x-3.1'
