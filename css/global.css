@@ -965,3 +965,17 @@ background: #FFF;
   z-index: 200;
   position: relative;
 }
+
+.gaatilforside {
+	position: absolute;
+	width: 486px;
+	display: block;
+}
+
+.gaatilforside a { font-weight: normal; font-size: 14px;}
+
+.gaatilforside .pane-content { top: -37px; float: right; z-index: 9999999; position: relative;}
+
+.front .block-panels-mini .panel-separator {
+	margin: 0 !important
+}
