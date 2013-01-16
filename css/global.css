@@ -821,7 +821,7 @@ ul.breadcrumb {
 
 /* spotbox portal --> */
 .view-display-id-panel_pane_13 .show-links {
-background: url('../images/spotbox-sprite.png') no-repeat scroll -31px;
+  background: url('../images/spotbox-sprite.png') ;
 height: 31px;
 width: 31px;
 position: absolute;
@@ -829,7 +829,7 @@ z-index: 100;
 }
 
 .view-display-id-panel_pane_13 .show-links.open{
-  background: url('../images/spotbox-sprite.png') no-repeat;
+background: url('../images/spotbox-sprite.png') no-repeat scroll -37px -1px;
 }
 
 .view-display-id-panel_pane_13 .item-list{
@@ -862,10 +862,10 @@ z-index: 100;
   height: 9px;
 }
 .view-display-id-panel_pane_13 .border.selvbetjening {
-  background: yellow;
+  background: url('../images/lineYellow.png');
 }
 .view-display-id-panel_pane_13 .border.Borger {
-  background: green;
+  background: url('../images/lineGreen.png');
 }
 .view-display-id-panel_pane_13 .border.Erhverv {
   background: blue;
@@ -885,7 +885,7 @@ background: #FFF;
   display: block;
   position: absolute;
 }
-.view-display-id-panel_pane_13 .goto.Borger {background: green; }
+.view-display-id-panel_pane_13 .goto.Borger { background: url('../images/spotbox-sprite.png') no-repeat scroll -74px -2px; }
 .view-display-id-panel_pane_13 .goto.Erhverv {background: blue; }
 .view-display-id-panel_pane_13 .goto.Politik.planer {background: red;}
 
@@ -905,4 +905,7 @@ background: #FFF;
   text-decoration: none;
 }
 
+.view-display-id-panel_pane_13 .spotbox_no_picture {
+  height: 106px;  
+}
 /* <-- spotbox portal */

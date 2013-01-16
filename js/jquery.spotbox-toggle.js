@@ -1,6 +1,4 @@
 jQuery(document).ready(function($){
-  console.log('spotbox-toggle');
-
   $('.view-display-id-panel_pane_13').each(function(){
     var $itemList = $(this).find('.item-list');
 
