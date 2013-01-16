@@ -966,7 +966,6 @@ background: #FFF;
   z-index: 200;
   position: relative;
 }
-<<<<<<< HEAD
 
 .gaatilforside {
 	position: absolute;
@@ -974,14 +973,13 @@ background: #FFF;
 	display: block;
 }
 
-.gaatilforside a { font-weight: normal; font-size: 14px;}
+.gaatilforside a { font-weight: normal !important; font-size: 14px;}
 
-.gaatilforside .pane-content { top: -37px; float: right; z-index: 9999999; position: relative;}
+.gaatilforside .pane-content { top: -39px; float: right; z-index: 9999999; position: relative;}
 
 .front .block-panels-mini .panel-separator {
 	margin: 0 !important
 }
-=======
 #mini-panel-odsherred_borger .pane-tagadelic-view {
   background: url('img/tagwall-borger.png');
 }
