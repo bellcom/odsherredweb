@@ -574,11 +574,27 @@ ul.breadcrumb {
 	color: #FFF;
 	}
 	
-.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
+/*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
 	text-transform: none;
 	}
-	
+*/
+
+.front .panel-region-stack1 .panel-col-first h2.pane-title {
+	background-image: url(img/menu-accmini-borger.png);
+	text-transform: none;
+}
+
+.front .panel-region-stack2 .panel-col-first h2.pane-title {
+	background-image: url(img/menu-accmini-erhverv.png);
+	text-transform: none;
+}
+
+.front .panel-region-stack3 .panel-col-first h2.pane-title {
+	background-image: url(img/menu-accmini-politik.png);
+	text-transform: none;
+}
+
 .megamini .panel-panel .inside .pane-content .pane-selvbetjening h2.pane-title {
 	background-image: url(img/sb-mini-borger.png);
 	}
