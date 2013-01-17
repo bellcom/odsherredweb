@@ -3,15 +3,7 @@
 #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 220px !important;}
 
 .menu-minipanels .container-12 { width: auto}
-.menu-minipanel-784 {
-	background-image: url(img/megadd-transpbg-politik.png);
-}
 
-.menu-minipanel-784 .panel-display {
-	background-image: url(img/megadd-contentbg-politik.png);
-	background-position: center bottom;
-	background-repeat: no-repeat;
-}
 
 #mini-panel-odsherred_borger {
 	background-image: url(img/megadd-bg-borger.png);
@@ -47,6 +39,26 @@
 }
 
 #mini-panel-odsherred_erhverv .inner {
+	background-image: url(img/megadd-topbg-borger.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#mini-panel-odsherred_politik {
+	background-image: url(img/megadd-transpbg-politik.png);
+	background-repeat: repeat;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: transparent;
+}
+#mini-panel-odsherred_politik .inner-wrapper {
+	background-image: url(img/megadd-contentbg-politik.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	width: 940px;
+}
+
+#mini-panel-odsherred_politik .inner {
 	background-image: url(img/megadd-topbg-borger.png);
 	background-position: center top;
 	background-repeat: no-repeat;
