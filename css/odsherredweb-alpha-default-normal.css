@@ -41,7 +41,8 @@ ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
 }
 
-ul#main-menu li.menu-782 a:hover {
+ul#main-menu li.menu-782 a:hover,
+ul#main-menu li.menu-782 a.hover {
 	background-image: url(img/portalknap-borger-hover.png);
 }
 
@@ -49,7 +50,8 @@ ul#main-menu li.menu-783 a {
 	background-image: url(img/portalknap-erhverv.png);
 }
 
-ul#main-menu li.menu-783 a:hover {
+ul#main-menu li.menu-783 a:hover,
+ul#main-menu li.menu-783 a.hover {
 	background-image: url(img/portalknap-erhverv-hover.png);
 }
 
@@ -57,6 +59,7 @@ ul#main-menu li.menu-784 a {
 	background-image: url(img/portalknap-politik.png);
 }
 
-ul#main-menu li.menu-784 a:hover {
+ul#main-menu li.menu-784 a:hover,
+ul#main-menu li.menu-784 a.hover {
 	background-image: url(img/portalknap-politik-hover.png);
 }
