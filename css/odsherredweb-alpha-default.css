@@ -31,3 +31,8 @@
 	background-position: center top;
 	background-repeat: no-repeat;
 }
+
+.region-menu {
+	height: 64px;
+	margin-bottom: 10px;
+}
