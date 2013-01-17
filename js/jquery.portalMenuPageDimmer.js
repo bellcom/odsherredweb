@@ -17,7 +17,6 @@ $j(document).ready(function($){
       },
       function(){
         $(this).removeClass('hover');
-        $('#page-overlay').hide();
         setValue($(this));
       }
       );
@@ -27,8 +26,9 @@ $j(document).ready(function($){
     $last.addClass('hover');
     $('#page-overlay').show();
   });
-  $(document).on("mouseleave", ".qtip", function(){
-    $('#page-overlay').hide();
+
+  $(document).on("mouseenter", "#page-overlay", function(){
+    $('#page-overlay').fadeOut();
     $last.removeClass('hover');
   });
 });
