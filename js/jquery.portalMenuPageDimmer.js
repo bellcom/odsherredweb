@@ -1,15 +1,8 @@
 $j(document).ready(function($){
   var $last;
-  function setValue(element)
-  {
-      $last = element;
-  }
-  function getValue()
-  {
-    return $last;
-  }
-  $("li.[class^=menu] > .menu-minipanel").each(function(){
-    $(this).hover(
+  function setValue(element){ $last = element; }
+  function getValue(){ return $last; }
+  $("li.[class^=menu]").find('.menu-minipanel').hover(
       function(){
         $(this).addClass('hover');
         $('#page-overlay').fadeIn();
@@ -18,8 +11,7 @@ $j(document).ready(function($){
         $(this).removeClass('hover');
         setValue($(this));
       }
-    );
-  });
+  );
   $(document).on("mouseenter", ".qtip", function(){
     $last = getValue();
     $last.addClass('hover');
