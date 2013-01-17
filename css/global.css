@@ -351,7 +351,7 @@ ul.breadcrumb {
 	display: none
 	}
 
-.qtip-cmstheme { background-color: #fff}
+.qtip-cmstheme { background-color: transparent}
 
 .front #zone-header-wrapper, #block-superfish-2 { display: none}
 
