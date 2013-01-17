@@ -979,7 +979,7 @@ background: #FFF;
 }
 
 #main-menu .hover {
-  z-index: 200;
+  z-index: 6200;
   position: relative;
 }
 
