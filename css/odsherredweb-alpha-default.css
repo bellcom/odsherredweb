@@ -33,20 +33,21 @@
 }
 
 #mini-panel-odsherred_erhverv {
-	background-image: url(img/megadd-bg-erhverv.png);
+	background-image: url(img/megadd-transpbg-erhverv.png);
+	background-repeat: repeat;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	background-color: transparent;
 }
-
 #mini-panel-odsherred_erhverv .inner-wrapper {
 	background-image: url(img/megadd-contentbg-erhverv.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	width: 940px;
 }
 
 #mini-panel-odsherred_erhverv .inner {
-	background-image: url(img/megadd-topbg-erhverv.png);
+	background-image: url(img/megadd-topbg-borger.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 }
