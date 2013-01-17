@@ -39,6 +39,7 @@ scripts[] = js/jquery.backgroundfrontpage.js
 scripts[] = js/jquery.portalMenuPageDimmer.js
 scripts[] = js/jquery.panel-toggle.js
 scripts[] = js/jquery.spotbox-toggle.js
+scripts[] = js/jquery.related-toggle.js
 version = '7.x-3.1'
 project = 'omega'
 datestamp = '1329681647'

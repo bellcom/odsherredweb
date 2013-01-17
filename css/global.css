@@ -1062,3 +1062,72 @@ background: #FFF;
 .pane-tagadelic-view .tagadelic.level3 { font-size: 11px; }
 .pane-tagadelic-view .tagadelic.level2 { font-size: 10px; }
 .pane-tagadelic-view .tagadelic.level1 { font-size: 10px; }
+
+.page-node .panel-region-stack2 {
+  border: 5px solid #f0dd99;
+  background: url('img/lineYellow.png') repeat-x;
+  padding: 8px 0 0 0;
+}
+
+.page-node .panel-region-stack2 .inside {
+  overflow: auto;
+}
+
+.page-node .panel-region-stack2 a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.page-node .panel-region-stack2 .pane-title {
+  font-size: 14px;
+  margin: 0 0 9px 0;
+  font-weight: 900;
+}
+
+.page-node .pane-node-field-reference {
+  width: 233px;
+  float: left;
+  margin: 18px 0 0 17px;
+}
+
+.page-node .pane-node-field-reference .field-item {
+  padding: 0 0 5px 17px;
+  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
+
+}
+
+.page-node .pane-selvbetjening {
+  float: left;
+  margin: 18px 0 0 20px;
+  width: 205px;
+}
+
+.page-node .pane-kle-lonks-boks-panel-pane-1 {
+  float: left;
+  margin: 18px 0 0 20px;
+}
+.page-node .pane-kle-lonks-boks-panel-pane-1 .item-list ul li {
+  margin: 0;
+}
+  
+.page-node .pane-selvbetjening a,
+.page-node .pane-kle-lonks-boks-panel-pane-1 a {
+  background: url('img/ikon-larger-right.png') no-repeat scroll 0 6px;
+  padding: 0 0 0 12px;
+}
+
+.toggle-related .button {
+  width: 31px;
+  height: 31px;
+  background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
+  display: block;
+  position:relative;
+  top: -20px;
+}
+.toggle-related .button.open {
+  background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px;
+}
+
+.toggle-related {
+  position: absolute;
+  right: 10px;
+}
