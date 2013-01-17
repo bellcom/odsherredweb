@@ -788,6 +788,10 @@ ul.breadcrumb {
 	list-style-image:url(img/ikon-blue-larger.png); 
 }
 
+.menu-minipanels .panel-region-kol2 .view-selvbetjening ul li {
+	background-image: url(img/ikon-gul-3omv.png) !important; 
+
+}
 .megamini .view-selvbetjening ul li { 
 	list-style-image:url(img/ikon-gul-3omv.png); 
 	}
@@ -954,13 +958,44 @@ background: #FFF;
 	background-image: url(img/ikon-green-larger.png);
 	}
 
+.menu-minipanels #mini-panel-odsherred_politik ul li { 
+	background-image: url(img/ikon-red-larger.png);
+	}
+
 .menu-minipanels ul li a {
 	color: #2a2a2a;
 	text-decoration: none;
 }
 
-.menu-minipanels .pane-menu-tree h2.pane-title {
+.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title {
 	background-image: url(img/menu-mini-erhverv.png);
+	height: 25px; 
+	padding-bottom: 100px;
+	padding-left: 0;
+	background-position: 0 25px;
+	background-repeat: no-repeat;
+}
+
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title {
+	background-image: url(img/menu-mini-borger.png);
+	height: 25px; 
+	padding-bottom: 100px;
+	padding-left: 0;
+	background-position: 0 25px;
+	background-repeat: no-repeat;
+}
+
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h2.pane-title {
+	background-image: url(img/menu-mini-politik.png);
+	height: 25px; 
+	padding-bottom: 100px;
+	padding-left: 0;
+	background-position: 0 25px;
+	background-repeat: no-repeat;
+}
+
+.menu-minipanels .panel-region-kol2 .pane-selvbetjening h2.pane-title {
+	background-image:url(img/ikon-megadd-sevbetjening.png) ;
 	height: 25px; 
 	padding-bottom: 100px;
 	padding-left: 0;
