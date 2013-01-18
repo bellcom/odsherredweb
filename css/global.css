@@ -1130,6 +1130,7 @@ background: #FFF;
   display: block;
   position:relative;
   top: -20px;
+  cursor: pointer;
 }
 .toggle-related .button.open {
   background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px;
