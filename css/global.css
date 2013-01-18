@@ -1150,3 +1150,5 @@ background: #FFF;
 .view-spotbox-megadd span.titel a { position: absolute;
 	top: 79px; width: 161px; background-image: url(img/spot-overlay-megadd-politik.png); height: 30px; overflow: hidden;
 	padding: 10px; display: block ;color: #FFF; font-size: 12px; font-weight: normal; text-decoration: none;}
+	
+#mini-panel-odsherred_erhverv .view-spotbox-megadd span.titel a {background-image: url(img/spot-overlay-megadd-erhverv.png); }
