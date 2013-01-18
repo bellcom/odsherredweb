@@ -412,6 +412,10 @@ ul.breadcrumb {
 .menu-minipanels .grid-3.panel-region-kol1 .inside { 
 	padding: 20px 10px 20px 30px;
 	}
+	
+.menu-minipanels .grid-3.panel-region-kol3 .inside { 
+	padding: 20px 0 20px 20px;
+	}
 
 .menu-minipanels h2.pane-title { 
 	font-size: 14px; 
@@ -1140,3 +1144,9 @@ background: #FFF;
   position: absolute;
   right: 10px;
 }
+.view-spotbox-megadd span.titel {;
+}
+
+.view-spotbox-megadd span.titel a { position: absolute;
+	top: 79px; width: 161px; background-image: url(img/spot-overlay-megadd-politik.png); height: 30px; overflow: hidden;
+	padding: 10px; display: block ;color: #FFF; font-size: 12px; font-weight: normal; text-decoration: none;}
