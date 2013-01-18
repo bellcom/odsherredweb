@@ -64,6 +64,25 @@ ul#main-menu li.menu-784 a.hover {
 	background-image: url(img/portalknap-politik-hover.png);
 }
 
-.menu-minipanels .panel-region-kol3 { width: 170px !important}
+.menu-minipanels .panel-region-kol1 { width: 200px !important}
+.menu-minipanels .panel-region-kol2 { width: 200px !important}
+.menu-minipanels .panel-region-kol3 { width: 200px !important}
 .menu-minipanels .panel-region-kol4 { width: 265px !important;}
-.menu-minipanels .panel-region-kol4 .inside { padding-left: 10px; padding-right: 10px}
+.menu-minipanels .panel-region-kol4 .inside { padding-left: 20px; padding-right: 10px}
+
+.menu-minipanels .view-megadd-news .views-field-field-lead-image {
+	float: left; 
+	height: 60px; 
+	margin-right: 10px; 
+} 
+
+.menu-minipanels .view-megadd-news .views-field-title, 
+.menu-minipanels .view-megadd-news .views-field-created {
+	margin-left: 90px
+}
+
+.menu-minipanels .view-megadd-news .views-row {
+	clear: both;
+	min-height: 60px;
+	margin-bottom: 10px;
+}
