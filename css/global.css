@@ -271,7 +271,7 @@ ul.breadcrumb {
 	}
 	
 .page-node #region-content .block-inner { 
-	padding: 15px;
+	padding: 9px;
 	}
 	
 #region-sidebar-first .menu-block-wrapper {
@@ -1041,17 +1041,12 @@ background: #FFF;
 .page-node .panel-region-stack2 a {
   color: #2d2d2d;
   text-decoration: none;
+  font-size: 13px;
 }
 .page-node .panel-region-stack2 .pane-title {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 0 9px 0;
   font-weight: 900;
-}
-
-.page-node .pane-node-field-reference {
-  width: 233px;
-  float: left;
-  margin: 18px 0 0 17px;
 }
 
 .page-node .pane-node-field-reference .field-item {
@@ -1062,23 +1057,36 @@ background: #FFF;
 
 .page-node .pane-selvbetjening {
   float: left;
-  margin: 18px 0 0 20px;
-  width: 205px;
+  margin: 16px 0 0 18px;
+  width: 235px;
+}
+
+.page-node .pane-node-field-mediafile {
+  width: 214px;
+  float: left;
+  margin: 16px 0 0 17px;
 }
 
 .page-node .pane-kle-lonks-boks-panel-pane-1 {
   float: left;
-  margin: 18px 0 0 20px;
+  margin: 16px 0 0 20px;
 }
 .page-node .pane-kle-lonks-boks-panel-pane-1 .item-list ul li {
   margin: 0;
 }
   
-.page-node .pane-selvbetjening a,
-.page-node .pane-kle-lonks-boks-panel-pane-1 a {
-  background: url('img/ikon-larger-right.png') no-repeat scroll 0 6px;
+.page-node .pane-kle-lonks-boks-panel-pane-1 a,
+.page-node .pane-node-field-mediafile a {
   padding: 0 0 0 12px;
+  background: url('img/ikon-larger-right.png') no-repeat scroll 0 5px;
 }
+.page-node .pane-selvbetjening a {
+  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
+  padding: 0 0 5px 17px;
+}
+
+
+.page-node .pane-node-field-mediafile img {display: none;}
 
 .toggle-related .button {
   width: 31px;
