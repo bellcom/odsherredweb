@@ -1097,7 +1097,7 @@ background: #FFF;
 .page-node .pane-selvbetjening {
   float: left;
   margin: 16px 0 0 18px;
-  width: 235px;
+  min-width: 235px;
 }
 
 .page-node .pane-node-field-mediafile {
@@ -1173,3 +1173,9 @@ background: #FFF;
 
 .pane-addtoany-addtoany-button {line-height: 12px;}
 .pane-addtoany-addtoany-button a {text-decoration: none; color: #000}
+
+.node-body { font-size: 14px; padding: 5px 0 15px 0}
+
+.node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 0 20px 0; padding-bottom: 10px}
+
+.block-views-redaktoer-info-block { background-color: #dedede; color: #888; margin: 10px;}
