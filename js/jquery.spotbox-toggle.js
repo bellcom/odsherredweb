@@ -1,6 +1,8 @@
 jQuery(document).ready(function($){
-  $('.view-display-id-panel_pane_13').each(function(){
-    var $itemList = $(this).find('.item-list');
+    
+    
+  function addToggleButton(e){
+    var $itemList = $(e).find('.item-list');
 
     if($itemList) {
       var $paneTitle = $itemList.parent().find('.pane-title');
@@ -9,10 +11,13 @@ jQuery(document).ready(function($){
     
       $('.show-links').click(function(e){
         $itemList.toggle();
-        $(this).toggleClass('open');
+        $(e).toggleClass('open');
       });
     
     }
 
-  });
+  };
+  
+  $('.view-display-id-panel_pane_13').each(function(){addToggleButton(this)});
+  $('.view-display-id-panel_pane_14').each(function(){addToggleButton(this)});
 });
