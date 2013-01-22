@@ -43,6 +43,7 @@ scripts[] = js/jquery.related-toggle.js
 version = '7.x-3.1'
 project = 'omega'
 datestamp = '1329681647'
+plugins[panels][layouts] = 'panels/layouts'
 settings[toggle_logo] = '1'
 settings[toggle_name] = '1'
 settings[toggle_slogan] = '1'
