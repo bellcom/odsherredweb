@@ -351,6 +351,9 @@ ul.breadcrumb {
 	width: 480px;
 	}
 
+.front #search-block-form input[type="image"] {
+	margin-right: 0;
+	}
 
 .rel-register-link a { 
 	display: none
