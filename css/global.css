@@ -1202,3 +1202,5 @@ background: #FFF;
 
 .page-search .breadcrumb li { display: none;}
 .page-search .breadcrumb li.depth-1 , .page-search .breadcrumb li.depth-2 { display: list-item;}
+
+#region-sidebar-first h2.block-title { padding-left: 15px;}
