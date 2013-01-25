@@ -1197,3 +1197,4 @@ background: #FFF;
 
 .not-front #region-content .block-without-title { padding: 15px;}
 .not-front #region-content .block-without-title ul { margin-left: 20px;}
+#block-apachesolr-search-sort li { display: inline; margin-left: 10px;}
