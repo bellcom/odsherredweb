@@ -1187,7 +1187,11 @@ background: #FFF;
 
 .node-body { font-size: 14px; padding: 5px 0 15px 0}
 
-.node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 0 20px 0; padding-bottom: 10px}
+.node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 0 20px 0;}
+
+.node-type-contentpage #block-system-main .panel-region-stack2 .pane-content {
+	 padding-bottom: 10px
+}
 
 .block-views-redaktoer-info-block { background-color: #dedede; color: #888; padding: 10px;}
 
@@ -1204,3 +1208,10 @@ background: #FFF;
 .page-search .breadcrumb li.depth-1 , .page-search .breadcrumb li.depth-2 { display: list-item;}
 
 #region-sidebar-first h2.block-title { padding-left: 15px;}
+
+#block-system-main  dt, .admin h3 {
+	font-size: 14px;
+	margin: 0;
+}
+
+#block-system-main .spelling-suggestions
