@@ -258,7 +258,9 @@ ul.breadcrumb {
 	}
 	
 
-#region-sidebar-first .block, .page-node #region-content .block {
+#region-sidebar-first .block, 
+.page-node #region-content .block,
+.page-search #region-content  {
 	background-image: url(img/c-bg.png);
 	}
 	
@@ -1187,3 +1189,9 @@ background: #FFF;
 .node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 0 20px 0; padding-bottom: 10px}
 
 .block-views-redaktoer-info-block { background-color: #dedede; color: #888; padding: 10px;}
+
+.del-udskriv {
+	
+}
+
+#region-content ul { margin-left: 20px;}
