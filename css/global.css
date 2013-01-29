@@ -19,7 +19,7 @@ body  {
 	height: 100%;
 	}
 	
-a { color: #000;
+a:link, a:visited, a { color: #407DAA;
 	}
 .logo-img {
 	margin-top: 15px;
@@ -279,7 +279,7 @@ ul.breadcrumb {
 	}
 	
 .page-node #region-content .block-inner { 
-	padding: 9px;
+	padding: 5px;
 	}
 	
 #region-sidebar-first .menu-block-wrapper {
@@ -1183,11 +1183,10 @@ background: #FFF;
 }
 
 .pane-addtoany-addtoany-button {line-height: 12px;}
-.pane-addtoany-addtoany-button a {text-decoration: none; color: #000}
 
 .node-body { font-size: 14px; padding: 5px 0 15px 0}
 
-.node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 0 20px 0;}
+.node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 5px 20px 5px;}
 
 .node-type-contentpage #block-system-main .panel-region-stack2 .pane-content {
 	 padding-bottom: 10px
@@ -1196,11 +1195,22 @@ background: #FFF;
 .block-views-redaktoer-info-block { background-color: #dedede; color: #888; padding: 10px;}
 
 .del-udskriv {
-	
+	line-height: 1em;
+}
+.del-udskriv a { 
+	text-decoration: none;
+	display: inline-block:
 }
 
-.not-front #region-content .block-without-title { padding: 15px;}
-.not-front #region-content .block-without-title ul { margin-left: 20px;}
+.pane-1.del-udskriv {
+	padding-top: 0;
+	border-left: 2px solid #e4e4e4;
+	padding-left: 10px;
+}
+
+
+.page-search #region-content .block-without-title { padding: 15px;}
+.page-search #region-content .block-without-title ul { margin-left: 20px;}
 #block-apachesolr-search-sort ul { float: right;}
 #block-apachesolr-search-sort li { display: inline; margin-left: 10px;}
 
@@ -1214,4 +1224,14 @@ background: #FFF;
 	margin: 0;
 }
 
-#block-system-main .spelling-suggestions
+.not-front .panel-region-stack1 .panel-pane,
+.not-front .panel-region-stack2 .panel-pane,
+.not-front .panel-region-stack3 .panel-pane {
+	padding: 10px;}
+	
+.no-padding { padding: 0 !important;}
+
+.node-type-contentpage .field-slideshow  { height: auto}
+.node-type-contentpage .field-slideshow-slide { width: 200px; height: auto}
+
+.node-type-contentpage .field-slideshow-slide img { max-width: 100%; height: auto;}
