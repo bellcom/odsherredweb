@@ -1244,3 +1244,5 @@ background: #FFF;
 
 .hovenyhed-portalside a { color: #3e3e3e; text-decoration: none}
 .hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
+
+#region-sidebar-first .block-menu-block .page-taxonomy-term h2.block-title { display: none}
