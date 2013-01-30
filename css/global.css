@@ -1193,7 +1193,11 @@ background: #FFF;
 
 .block-views-redaktoer-info-block { background-color: #dedede; color: #888; padding: 10px;}
 
-.pane-addtoany-addtoany-button, .del-udskriv  {line-height: normal;}
+.pane-addtoany-addtoany-button, .del-udskriv  {
+	line-height: normal;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	}
 
 .del-udskriv a { 
 	text-decoration: none;
