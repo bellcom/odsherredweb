@@ -1244,3 +1244,5 @@ background: #FFF;
 .hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
 
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
+
+.front .view-id-aktuelt a { text-decoration: none}
