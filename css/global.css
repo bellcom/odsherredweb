@@ -1209,7 +1209,9 @@ background: #FFF;
 	border-left: 2px solid #000;
 	padding-left: 10px;
 }
-
+.pane-addtoany-addtoany-button {
+	padding-right: 2px !important;
+}
 
 .page-search #region-content .block-without-title { padding: 15px;}
 .page-search #region-content .block-without-title ul { margin-left: 20px;}
