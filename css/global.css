@@ -1253,3 +1253,6 @@ background: #FFF;
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
 
 .front .view-id-aktuelt a { text-decoration: none}
+
+.tabs ul.primary { margin: 0}
+.tabs ul.primary li a { margin-right: 0;}
