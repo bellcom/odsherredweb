@@ -88,3 +88,34 @@ ul#main-menu li.menu-784 a.hover {
 }
 
 .node-type-contentpage .field-slideshow-slide { width: 690px;}
+
+
+.right-links-block {
+
+	color:#333333;
+
+}
+
+
+.vegas-loading {
+	/* Loading Gif by http://preloaders.net/ */
+	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
+	background:#000 url(.img/359.gif) no-repeat center center;
+	background:rgba(0, 0, 0, 0.7) url(images/359.gif) no-repeat center center;
+	height:32px;
+	left:20px;
+	position:fixed;
+	top:20px;
+	width:32px; 
+	z-index:0;
+}
+
+.vegas-overlay {
+display: none;
+}
+
+.vegas-background {
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+	z-index:-2;
+}
