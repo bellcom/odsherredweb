@@ -1210,4 +1210,32 @@ background: #FFF;
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
 
+<<<<<<< HEAD
 .fedbackogminside { display: none}
+=======
+.slide {
+  height: 152px;
+  top: 50%;
+  z-index: 300;
+}
+.slide_left {
+  position: fixed;
+  left: 0;
+  background: url('img/oplevOdsherred.png');
+  width: 50px;
+}
+.slide_back {
+  position: fixed;
+  left: 0;
+  background: url('img/tilbage_odsherredDK.png');
+  width: 50px;
+  height: 148px;
+}
+
+.slide_right {
+  position: fixed;
+  right: 0;
+  background: url('img/andresiderOdsherred.png');
+  width: 60px;
+}
+>>>>>>> 2eded73e647c6ef891002def6fc1090973a7264e
