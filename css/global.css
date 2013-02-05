@@ -291,54 +291,7 @@ ul.breadcrumb {
 	}
 
 
-.front #search-block-form {
-	padding: 5px;
-	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
 
-}
-
-#search-block-form { 
-	height: 44px;
-	padding: 0 0 0 10px;
-	background-repeat: no-repeat;
-	padding: 5px;
-	}
-
-#search-block-form input[type="submit"] {
-	overflow: visible;
-	padding: 0;
-	margin: 0;
-	width: 49px;
-	height: 45px;
-	outline: 0;
-	border: none;
-	border-color: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	background: transparent url(img/search.png) no-repeat;
-	color: #333;
-	text-shadow: none;
-	font: bold 12px/1.2 Arial, sans-serif;
-	cursor: pointer;
-	-webkit-appearance: none;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding;
-	}
-
-#search-block-form input[type="text"] {
-	height: 47px;
-	width: 554px;
-	font-size: 20px;
-	margin-right: 0;
-	padding-right: 0;
-	border: none;
-	background-image: url(img/search-bg.png);
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-left: 10px;
-	float: left;
-	}
 	
 .front .region-header-first-inner { 
 	padding-left: 80px 
@@ -1256,3 +1209,5 @@ background: #FFF;
 
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
+
+.fedbackogminside { display: none}

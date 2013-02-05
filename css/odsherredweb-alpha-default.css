@@ -4,7 +4,7 @@
 
 .menu-minipanels .container-12 { width: auto}
 
-
+.panels-flexible-region { width: 100%;}
 #mini-panel-odsherred_borger {
 	background-image: url(img/megadd-bg-borger.png);
 	padding-bottom: 5px;
@@ -68,3 +68,40 @@
 	height: 64px;
 	margin-bottom: 10px;
 }
+
+.search-form .form-actions input { margin-right: 0}
+
+.front #search-block-form {
+	padding: 5px;
+	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+
+}
+
+#search-block-form { 
+	height: 44px;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	}
+
+#search-block-form input[type="submit"] {
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	width: 49px;
+	height: 45px;
+	outline: 0;
+	border: none;
+	border-color: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: transparent url(img/search.png) no-repeat;
+	color: #333;
+	text-shadow: none;
+	font: bold 12px/1.2 Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	}
