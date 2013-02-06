@@ -119,3 +119,24 @@ display: none;
 	-ms-interpolation-mode: bicubic;
 	z-index:-2;
 }
+
+
+
+#search-block-form input[type="text"] {
+	height: 47px;
+	width: 554px;
+	font-size: 20px;
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+	background-image: url(img/search-bg.png);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	float: left;
+	}
+
+
+.fedbackogminside { display: inline}
+
+.qtip-cmstheme{ width: 940px !important}

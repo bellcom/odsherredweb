@@ -50,3 +50,72 @@ ul#main-menu li.menu-784 a {
 }
 
 .node-type-contentpage .field-slideshow-slide { width: 510px;}
+
+
+#search-block-form input[type="text"] {
+	width: 400px;
+	}
+	
+.qtip-cmstheme{ width: 700px !important}
+
+.front #search-block-form {
+	padding: 5px;
+	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+
+}
+
+#search-block-form { 
+	height: 44px;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	}
+
+#search-block-form input[type="submit"] {
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	width: 49px;
+	height: 45px;
+	outline: 0;
+	border: none;
+	border-color: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: transparent url(img/search.png) no-repeat;
+	color: #333;
+	text-shadow: none;
+	font: bold 12px/1.2 Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	}
+
+#search-block-form input[type="text"] {
+	height: 47px;
+	width: 400px;
+	font-size: 20px;
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+	background-image: url(img/search-bg.png);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	float: left;
+	}
+	
+.region-menu {
+	height: 53px;}
+	
+#mini-panel-odsherred_borger .inner, #mini-panel-odsherred_erhverv .inner, #mini-panel-odsherred_politik .inner { background-image: none !important; background: #FFF }
+
+.menu-minipanels .grid-3.panel-region-kol1 .inside {
+padding: 10px 5px 10px 15px;
+}
+
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: none}
+
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title { background: none; height: auto}
