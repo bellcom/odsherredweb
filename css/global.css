@@ -59,6 +59,8 @@ h1#page-title {
 	padding-left: 15px;
 	padding-bottom: 0;
 	margin-bottom: 10px;
+	font-size: 39px;
+	font-weight: normal;
 }
 	
 h2 { 
@@ -184,6 +186,11 @@ h2 {
 	color: #FFF;
 	border-image: url(img/footer-border-top.png) 9 0 0 0 repeat;
 	}
+	
+.page-andre-sider #zone-footer-wrapper {
+	border-top: 10px solid #00538f;
+	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;	
+}
 	
 #zone-footer a { 
 	color: #fff; 
@@ -1135,6 +1142,7 @@ background: #FFF;
 	background-image: none !important;
 }
 
+#block-panels-mini-footer-menuer {margin-top: 40px;}
 
 .node-body { font-size: 14px; padding: 5px 0 15px 0}
 

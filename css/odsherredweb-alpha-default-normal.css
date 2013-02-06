@@ -140,3 +140,18 @@ display: none;
 .fedbackogminside { display: inline}
 
 .qtip-cmstheme{ width: 940px !important}
+
+.andre-sider-row {height: 253px;background-color: #FFF; margin-bottom: 20px; }
+.andre-sider-row .views-field { margin: 5px 5px 0; }
+.andre-sider-row img.grid3 { max-width: 210px; height: auto}
+.andre-sider-row .beskrivelse a { color: #4a4a4a; text-decoration: none; font-weight: normal;}
+.andre-sider-row .beskrivelse { background-image: url(img/andresider-listebg.png); background-repeat: no-repeat; margin: 0 5px 5px 5px; background-position: center bottom; height: 120px; overflow: hidden; font-size: 12px;}
+.andre-sider-row .beskrivelse h3 { padding: 0 15px; margin: 0; font-size: 20px;  color: #222;}
+.andre-sider-row .beskrivelse h3 a { color: #222; font-size: 20px;}
+.andre-sider-row .beskrivelse .tekst { padding: 0 15px;}
+.andre-sider-row .beskrivelse .border { background-image: url(img/andresteder-border.png); height: 9px;}
+.andre-sider-row .beskrivelse .border a {text-indent: -9999px; position: absolute; top: 118px; right: 15px; width: 30px; height: 32px; background-image: url(img/andresteder-knap.png)}
+
+.page-andre-sider .view-header { font-size: 23px; font-weight: normal; padding-left: 15px; padding-right: 15px; padding-bottom: 20px; color: #999}
+
+.page-andre-sider h1#page-title { color: #3173a3 }
