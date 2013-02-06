@@ -64,6 +64,13 @@ h1#page-title {
 h2 { 
 	font-size: 20px; 
 	}
+
+h3,
+.search-result h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
 #region-sidebar-first ul.menu li a {
 	color: #1f1f1f;
 	}
@@ -1281,4 +1288,36 @@ background: #FFF;
   right: 0;
   background: url('img/andresiderOdsherred.png');
   width: 60px;
+}
+.search-results {
+  padding: 0 10px;
+}
+
+h3.search-result-title {
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+h3.search-result-title a {
+  color: #272727;
+  text-decoration: none;
+}
+
+h3.search-result-title.tid-4 {
+/*borger*/
+  background: url('img/ikon-green-larger.png') no-repeat;
+}
+h3.search-result-title.tid-5 {
+/*erhverv*/
+  background: url('img/ikon-blue-larger.png') no-repeat;
+}
+h3.search-result-title.tid-6 {
+/*politik*/
+  background: url('img/ikon-red-larger.png') no-repeat;
+}
+
+p.search-result-text {
+  margin: 0;
+  height: 40px;
+  overflow: hidden;
 }
