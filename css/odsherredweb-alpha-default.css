@@ -16,7 +16,11 @@
 	background-image: url(img/megadd-contentbg-borger.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
-}
+	width: 930px;
+	background-size: 100%;
+	margin-left: 5px;
+	background-color: #FFF;
+	}
 
 #mini-panel-odsherred_borger .inner {
 	background-image: url(img/megadd-topbg-borger.png);
@@ -35,7 +39,10 @@
 	background-image: url(img/megadd-contentbg-erhverv.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	width: 940px;
+	width: 930px;
+	background-size: 100%;
+	margin-left: 5px;
+	background-color: #FFF;
 }
 
 #mini-panel-odsherred_erhverv .inner {
@@ -55,7 +62,10 @@
 	background-image: url(img/megadd-contentbg-politik.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	width: 940px;
+	width: 930px;
+	background-size: 100%;
+	margin-left: 5px;
+	background-color: #FFF;
 }
 
 #mini-panel-odsherred_politik .inner {
@@ -63,6 +73,11 @@
 	background-position: center top;
 	background-repeat: no-repeat;
 }
+
+.menu-minipanels .panel-region-kol1, .menu-minipanels .panel-region-kol3, .menu-minipanels .panel-region-kol4 {
+	width: 220px
+}
+.menu-minipanels .panel-region-kol2 { display: block} 
 
 .region-menu {
 	height: 64px;
@@ -74,7 +89,6 @@
 .front #search-block-form {
 	padding: 5px;
 	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
-
 }
 
 #search-block-form { 

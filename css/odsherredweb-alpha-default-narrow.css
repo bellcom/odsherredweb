@@ -37,16 +37,8 @@ ul#main-menu li a {
 	background-repeat: no-repeat;
 	}
  
-ul#main-menu li.menu-782 a {
-	background-image: url(img/portalknap-borger.png);
-}
-
-ul#main-menu li.menu-783 a {
-	background-image: url(img/portalknap-erhverv.png);
-}
-
-ul#main-menu li.menu-784 a {
-	background-image: url(img/portalknap-politik.png);
+ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784 a  {
+	background-size: 100%;
 }
 
 .node-type-contentpage .field-slideshow-slide { width: 510px;}
@@ -108,9 +100,8 @@ ul#main-menu li.menu-784 a {
 	}
 	
 .region-menu {
-	height: 53px;}
-	
-#mini-panel-odsherred_borger .inner, #mini-panel-odsherred_erhverv .inner, #mini-panel-odsherred_politik .inner { background-image: none !important; background: #FFF }
+	height: 41px;}
+
 
 .menu-minipanels .grid-3.panel-region-kol1 .inside {
 padding: 10px 5px 10px 15px;
@@ -118,4 +109,15 @@ padding: 10px 5px 10px 15px;
 
 .menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: none}
 
-.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title { background: none; height: auto}
+#mini-panel-odsherred_erhverv .inner-wrapper, #mini-panel-odsherred_borger .inner-wrapper, #mini-panel-odsherred_politik .inner-wrapper {
+	width: 690px;
+}
+
+.menu-minipanels .panel-region-kol1, .menu-minipanels .panel-region-kol4 {
+	width: 202px !important
+}
+
+ .menu-minipanels .panel-region-kol3 {
+	width: 245px !important
+}
+.menu-minipanels .panel-region-kol2 { display: none} 
