@@ -37,16 +37,87 @@ ul#main-menu li a {
 	background-repeat: no-repeat;
 	}
  
-ul#main-menu li.menu-782 a {
-	background-image: url(img/portalknap-borger.png);
-}
-
-ul#main-menu li.menu-783 a {
-	background-image: url(img/portalknap-erhverv.png);
-}
-
-ul#main-menu li.menu-784 a {
-	background-image: url(img/portalknap-politik.png);
+ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784 a  {
+	background-size: 100%;
 }
 
 .node-type-contentpage .field-slideshow-slide { width: 510px;}
+
+
+#search-block-form input[type="text"] {
+	width: 400px;
+	}
+	
+.qtip-cmstheme{ width: 700px !important}
+
+.front #search-block-form {
+	padding: 5px;
+	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+
+}
+
+#search-block-form { 
+	height: 44px;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	}
+
+#search-block-form input[type="submit"] {
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	width: 49px;
+	height: 45px;
+	outline: 0;
+	border: none;
+	border-color: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: transparent url(img/search.png) no-repeat;
+	color: #333;
+	text-shadow: none;
+	font: bold 12px/1.2 Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	}
+
+#search-block-form input[type="text"] {
+	height: 47px;
+	width: 400px;
+	font-size: 20px;
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+	background-image: url(img/search-bg.png);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	float: left;
+	}
+	
+.region-menu {
+	height: 41px;}
+
+
+.menu-minipanels .grid-3.panel-region-kol1 .inside {
+padding: 10px 5px 10px 15px;
+}
+
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: none}
+
+#mini-panel-odsherred_erhverv .inner-wrapper, #mini-panel-odsherred_borger .inner-wrapper, #mini-panel-odsherred_politik .inner-wrapper {
+	width: 690px;
+}
+
+.menu-minipanels .panel-region-kol1, .menu-minipanels .panel-region-kol4 {
+	width: 202px !important
+}
+
+ .menu-minipanels .panel-region-kol3 {
+	width: 245px !important
+}
+.menu-minipanels .panel-region-kol2 { display: none} 
