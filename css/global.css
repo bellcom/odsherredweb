@@ -1257,18 +1257,18 @@ background: #FFF;
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
 
-.slide {
+.slider {
   height: 152px;
   top: 50%;
   z-index: 300;
 }
-.slide_left {
+.slider_left  {
   position: fixed;
   left: 0;
   background: url('img/oplevOdsherred.png');
   width: 50px;
 }
-.slide_back {
+.slider_back.slider_left  {
   position: fixed;
   left: 0;
   background: url('img/tilbage_odsherredDK.png');
@@ -1276,9 +1276,16 @@ background: #FFF;
   height: 148px;
 }
 
-.slide_right {
+.slider_right {
   position: fixed;
   right: 0;
   background: url('img/andresiderOdsherred.png');
   width: 60px;
+}
+
+.slider i {
+  height: 148px;
+  width: 60px;
+  display: block;
+
 }
