@@ -480,14 +480,14 @@ ul.breadcrumb {
     font-size: 50px;
     }
 
-.Borger span {
+.term-4 span {
     background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
     }
 
-.Politik-amp-planer span {
+.term-6 span {
     background: none repeat scroll 0 0 rgba(197, 56, 56, 0.8);
     }
-.Erhverv span{
+.term-5 span{
     background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
     }
 
@@ -1226,18 +1226,19 @@ background: #FFF;
 .tabs ul.primary li a { margin-right: 0;}
 
 .fedbackogminside { display: none}
-.slide {
+
+.slider {
   height: 152px;
   top: 50%;
   z-index: 300;
 }
-.slide_left {
+.slider_left  {
   position: fixed;
   left: 0;
   background: url('img/oplevOdsherred.png');
   width: 50px;
 }
-.slide_back {
+.slider_back.slider_left  {
   position: fixed;
   left: 0;
   background: url('img/tilbage_odsherredDK.png');
@@ -1245,11 +1246,17 @@ background: #FFF;
   height: 148px;
 }
 
-.slide_right {
+.slider_right {
   position: fixed;
   right: 0;
   background: url('img/andresiderOdsherred.png');
   width: 60px;
+}
+
+.slider i {
+  height: 148px;
+  width: 60px;
+  display: block;
 }
 .search-results {
   padding: 0 10px;
