@@ -1274,15 +1274,15 @@ h3.search-result-title a {
 
 h3.search-result-title.tid-4 {
 /*borger*/
-  background: url('img/bigarrow-green.png') no-repeat;
+  background: url('img/bigarrow-green.png') no-repeat scroll 2px 5px;
 }
 h3.search-result-title.tid-5 {
 /*erhverv*/
-  background: url('img/bigarrow-blue.png') no-repeat;
+  background: url('img/bigarrow-blue.png') no-repeat scroll 2px 5px;
 }
 h3.search-result-title.tid-6 {
 /*politik*/
-  background: url('img/bigarrow-red.png') no-repeat;
+  background: url('img/bigarrow-red.png') no-repeat scroll 2px 5px;
 }
 
 p.search-result-text {
