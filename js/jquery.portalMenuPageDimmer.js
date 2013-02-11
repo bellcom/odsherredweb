@@ -17,6 +17,10 @@ $j(document).ready(function($){
     $last.addClass('hover');
     $('#page-overlay').show();
   });
+  $(document).on("click", "#page-overlay", function(){
+    $('#page-overlay').fadeOut();
+    $last.removeClass('hover');
+  });
   $(document).on("mouseenter", "#page-overlay", function(){
     $('#page-overlay').fadeOut();
     $last.removeClass('hover');

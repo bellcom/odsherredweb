@@ -15,6 +15,27 @@ function odsherredweb_page_alter(&$page){
   $page['content']['overlay']['#markup'] = '<div id="page-overlay" style="display:none;"></div>';
 }
 
+/**
+ * implements hook_preprocess_page()
+ *
+ **/
+
+function odsherredweb_preprocess_page(&$variables, $hook) {
+  // Add the site structure term id to the page div
+  $node = node_load(arg(1));
+
+  error_log(__FILE__.':'.__LINE__. print_r($node, 1)); // tth@bellcom.dk debugging
+  
+  $termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
+  $termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
+  if(!empty($termParents))
+  {
+    $termIdParent = 'tid-'.key($termParents);  
+  }
+
+  $variables['attributes_array']['class'] = $termIdParent . ' ' . $termId;
+}
+
 function odsherredweb_image_style($variables) {
   // Determine the dimensions of the styled image.
   $dimensions = array(

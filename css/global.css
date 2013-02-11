@@ -13,7 +13,7 @@ body  {
 	background-color: #eeece7;
 	background-image: url(img/bg-forloeb.png);
 	background-repeat: repeat-x;
-	color: #474545;
+	color: #272727;
 	font-size: 12px; 
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	height: 100%;
@@ -1092,8 +1092,7 @@ background: #FFF;
   margin: 0;
 }
   
-.page-node .pane-kle-lonks-boks-panel-pane-1 a,
-.page-node .pane-node-field-mediafile a {
+.panel-region-stack2 a {
   padding: 0 0 0 12px;
   background: url('img/ikon-larger-right.png') no-repeat scroll 0 5px;
 }
@@ -1175,7 +1174,7 @@ background: #FFF;
 
 .pane-1.del-udskriv {
 	padding-top: 0;
-	border-left: 2px solid #000;
+	border-left: 2px solid #e4e4e4;
 	padding-left: 10px;
 }
 .pane-addtoany-addtoany-button {
@@ -1274,19 +1273,61 @@ h3.search-result-title a {
 
 h3.search-result-title.tid-4 {
 /*borger*/
-  background: url('img/bigarrow-green.png') no-repeat scroll 2px 5px;
+  background: url('img/bigarrow-green.png') no-repeat;
 }
 h3.search-result-title.tid-5 {
 /*erhverv*/
-  background: url('img/bigarrow-blue.png') no-repeat scroll 2px 5px;
+  background: url('img/bigarrow-blue.png') no-repeat;
 }
 h3.search-result-title.tid-6 {
 /*politik*/
-  background: url('img/bigarrow-red.png') no-repeat scroll 2px 5px;
+  background: url('img/bigarrow-red.png') no-repeat;
 }
 
 p.search-result-text {
   margin: 0;
   height: 40px;
   overflow: hidden;
+}
+
+
+.field-name-field-additional-info {
+  margin: 10px 10px 0 10px;
+  width: 170px;
+  float: left;
+}
+.panel-region-stack2 h3 {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.panel-pane.pane-custom.pane-2 {
+  float: left;
+  padding: 0 0 0 20px;
+}
+
+.field-name-field-resume-long {
+  font-style: italic;
+  color: #666;
+  font-size: 15px;
+}
+
+.sidetitel {
+  font-weight: bold;
+  font-size: 23px;
+}
+/*rød*/
+.tid-4 .nyhedsbillede .pane-content {
+  background: url('img/lineGreen.png') repeat-x scroll 0% 100%;
+  padding: 0 0 9px 0;
+}
+/*blå*/
+.tid-5 .nyhedsbillede .pane-content {
+  background: url('img/lineBlue.png') repeat-x scroll 0% 100%;
+  padding: 0 0 9px 0;
+}
+/*grøn*/
+.tid-6 .nyhedsbillede .pane-content {
+  background: url('img/lineRed.png') repeat-x scroll 0% 100%;
+  padding: 0 0 9px 0;
 }
