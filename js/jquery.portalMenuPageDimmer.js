@@ -1,4 +1,5 @@
 $j(document).ready(function($){
+  $('body').append('<div id="page-overlay" style="display : none;">');
   var $last;
   function setValue(element){ $last = element; }
   function getValue(){ return $last; }
