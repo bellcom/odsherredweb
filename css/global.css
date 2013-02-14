@@ -1585,9 +1585,6 @@ p.search-result-text {
   margin: 0 0 10px;
   font-size: 16px;
 }
-.pane-menu-presseservice .pane-title {
-  border-bottom: 1px dotted #FFF;
-}
 .pane-menu-presseservice ul li {
   list-style: none;
   width: 120px;

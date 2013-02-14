@@ -6,9 +6,11 @@ jQuery(document).ready(function($) {
 
     var i = 0;
     $('.background-images > div').each(function(){
-      backgrounds[i] = {src: $(this).html(), fade:1500};
+      backgrounds[i] = {src: $(this).html(), fade:2000};
       i++;
     });
+
+    console.log(backgrounds);
 
     if(backgrounds[0] !== undefined)
     {
@@ -28,6 +30,10 @@ jQuery(document).ready(function($) {
       Drupal.viewsSlideshowPagerFields.goToSlide = function (options) {
         $.vegas('jump', options['slideNum']);
       }
+      Drupal.viewsSlideshowPager.transitionBegin = function (options) {
+        $.vegas('jump', options['slideNum']);
+      }
+
     }
     $('<div class="slideshow-previous"><i class="previous-arrow">').insertBefore('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_0');
     $('<div class="slideshow-next"><i class="next-arrow">').insertAfter('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_2');
