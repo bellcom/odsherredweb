@@ -1573,6 +1573,7 @@ p.search-result-text {
 }
 #quicktabs-nyheder .views-field.views-field-field-resume-long {
   margin: 0 0 0;
+  min-height: 20px;
 }
 .pane-menu-presseservice {
   background: url('img/presseservice.png');
