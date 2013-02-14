@@ -1498,6 +1498,7 @@ p.search-result-text {
 }
 .most-read .views-field.views-field-field-resume-long {
   margin: 0 0 0;
+  min-height: 20px;
 }
 .most-read .views-row {
   margin: 0 0 20px;
