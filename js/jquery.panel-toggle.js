@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-  $("[class*=quicktabs] > .pane-content").hide();
+  $("[class*=quicktabs].toggle > .pane-content").hide();
   $('<div class="toggle-panel"></div>').insertAfter("[class*=quicktabs] > .pane-title");
   $('.toggle-panel').click(function(e){
     var $thisDiv = $(this);

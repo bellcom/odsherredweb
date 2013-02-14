@@ -20,14 +20,17 @@ function odsherredweb_preprocess_page(&$variables, $hook) {
   // Add the site structure term id to the page div
   $node = node_load(arg(1));
 
-  $termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
-  $termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
-  if(!empty($termParents))
+  if(is_object($node) && isset($node->field_site_structure))
   {
-    $termIdParent = 'tid-'.key($termParents);  
-  }
+    $termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
+    $termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
+    if(!empty($termParents))
+    {
+      $termIdParent = 'tid-'.key($termParents);  
+    }
 
-  $variables['attributes_array']['class'] = $termIdParent . ' ' . $termId;
+    $variables['attributes_array']['class'] = $termIdParent . ' ' . $termId;
+  }
 }
 
 function odsherredweb_image_style($variables) {

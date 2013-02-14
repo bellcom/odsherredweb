@@ -62,11 +62,14 @@
  */
 
 $node = node_load($variables['result']['node']->entity_id);
-$termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
-$termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
-if(!empty($termParents))
+if(is_object($node) && isset($node->field_site_structure))
 {
-  $termIdParent = 'tid-'.key($termParents);  
+  $termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
+  $termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
+  if(!empty($termParents))
+  {
+    $termIdParent = 'tid-'.key($termParents);  
+  }
 }
 ?>
 
