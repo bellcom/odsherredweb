@@ -274,7 +274,7 @@ ul.breadcrumb {
 	
 
 #region-sidebar-first .block, 
-.page-node #region-content .block,
+.page-node .panel-node,
 .page-search #region-content  {
 	background-image: url(img/c-bg.png);
 	}
@@ -892,7 +892,7 @@ background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
 height: 58px;
 padding: 5px 8px 0;
 margin: 0;
-background: #FFF;
+background: url('img/andresider-listebg.png');
 }
 .spotbox .goto {
   width: 31px;
