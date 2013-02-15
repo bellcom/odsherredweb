@@ -1517,7 +1517,7 @@ p.search-result-text {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   background: #d9d9d9;
-  box-shadow: inset 0 2px 5px #666;
+  box-shadow: inset 0 1px 6px #bbb;
   display: block;
   float: left;
 }
@@ -1535,6 +1535,7 @@ p.search-result-text {
   background: #3174a3;
   padding: 11px 14px 5px;
   margin: 0;
+  box-shadow: inset 0 1px 6px #275c82;
 }
 
 #quicktabs-nyheder ul li.first{

@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
   var pathArray = window.location.pathname.split( '/' );
-  //if(pathArray[1] == ""){
+  if(pathArray[1] === ""){
 
     var backgrounds = [];
 
@@ -9,8 +9,6 @@ jQuery(document).ready(function($) {
       backgrounds[i] = {src: $(this).html(), fade:2000};
       i++;
     });
-
-    console.log(backgrounds);
 
     if(backgrounds[0] !== undefined)
     {
@@ -21,17 +19,28 @@ jQuery(document).ready(function($) {
         backgrounds: backgrounds,
       })('overlay');
 
+      Drupal.viewsSlideshowControls = Drupal.viewsSlideshowControls || {};
+
       Drupal.viewsSlideshowControls.play = function (options) {
         $.vegas('pause');
       }
       Drupal.viewsSlideshowControls.pause = function (options) {
         $.vegas('pause');
       }
+      Drupal.viewsSlideshowPagerFields = Drupal.viewsSlideshowPagerFields || {};
+      
       Drupal.viewsSlideshowPagerFields.goToSlide = function (options) {
         $.vegas('jump', options['slideNum']);
       }
-      Drupal.viewsSlideshowPager.transitionBegin = function (options) {
+      
+      Drupal.viewsSlideshowPagerFields.transitionBegin = function (options) {
         $.vegas('jump', options['slideNum']);
+        //
+        // Remove active class from pagers
+        $('[id^="views_slideshow_pager_field_item_bottom_' + options.slideshowID + '"]').removeClass('active');
+        
+        // Add active class to active pager.
+        $('#views_slideshow_pager_field_item_bottom_' + options.slideshowID + '_' + options.slideNum).addClass('active');
       }
 
     }
@@ -45,5 +54,5 @@ jQuery(document).ready(function($) {
       $('.views_slideshow_controls_text_next > a').click();
     });
 
-  //}
+  }
 });
