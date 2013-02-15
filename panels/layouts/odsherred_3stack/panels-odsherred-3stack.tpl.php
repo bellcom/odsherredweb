@@ -18,3 +18,7 @@
   </div>
 
 </div>
+<div class="panel-panel panel-region-stack4">
+  <div class="inside"><?php print $content['stack4']; ?></div>
+</div>
+

@@ -1,6 +1,4 @@
 jQuery(document).ready(function($){
-    
-    
   function addToggleButton(e){
     var $itemList = $(e).find('.item-list');
 
@@ -11,13 +9,10 @@ jQuery(document).ready(function($){
     
       $('.show-links').click(function(e){
         $itemList.toggle();
-        $(e).toggleClass('open');
+        $(this).toggleClass('open');
       });
-    
     }
-
-  };
+  }
   
-  $('.view-display-id-panel_pane_13').each(function(){addToggleButton(this)});
-  $('.view-display-id-panel_pane_14').each(function(){addToggleButton(this)});
+  $('.view-id-spotboxe').each(function(){addToggleButton(this);});
 });

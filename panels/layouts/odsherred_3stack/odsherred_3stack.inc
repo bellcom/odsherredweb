@@ -14,5 +14,6 @@ $plugin = array(
     'stack1' => t('Top'),
     'stack2' => t('Midt'),
     'stack3' => t('Bund'),
+    'stack4' => t('Udenfor stack'),
   ),
 );

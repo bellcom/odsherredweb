@@ -292,10 +292,14 @@ ul.breadcrumb {
 	padding-top: 20px;
 	}
 	
-.page-node #region-content .block-inner { 
-	padding: 5px;
-	}
-	
+/*.page-node #region-content .block-inner { */
+	/*padding: 5px;*/
+	/*}*/
+.page-node .panel-node {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
 #region-sidebar-first .menu-block-wrapper {
 	padding: 10px;
 	}
@@ -875,13 +879,13 @@ background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
 .spotbox .border.selvbetjening {
   background: url('img/lineYellow.png');
 }
-.spotbox .border.Borger {
+.spotbox .border.term-4 {
   background: url('img/lineGreen.png');
 }
-.spotbox .border.Erhverv {
+.spotbox .border.term-5 {
   background: url('img/lineBlue.png');
 }
-.spotbox .border.Politik {
+.spotbox .border.term-6 {
   background: url('img/lineRed.png');
 }
 .spotbox .text {
@@ -896,9 +900,9 @@ background: #FFF;
   display: block;
   position: absolute;
 }
-.spotbox .goto.Borger { background: url('img/spotbox-sprite.png') no-repeat scroll -74px -3px; }
-.spotbox .goto.Erhverv { background: url('img/spotbox-sprite.png') no-repeat scroll -111px -3px; }
-.spotbox .goto.Politik { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
+.spotbox .goto.term-4 { background: url('img/spotbox-sprite.png') no-repeat scroll -74px -3px; }
+.spotbox .goto.term-5 { background: url('img/spotbox-sprite.png') no-repeat scroll -111px -3px; }
+.spotbox .goto.term-6 { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
 
 .spotbox .show-links-wrapper,
 .spotbox .goto-wrapper {
@@ -1073,8 +1077,8 @@ background: #FFF;
 
 .page-node .pane-selvbetjening {
   float: left;
-  width: 200px;
-  margin: 0 50px 0 0;
+  width: 205px;
+  margin: 0 45px 0 0;
 }
 
 .page-node .pane-node-field-mediafile {

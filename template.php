@@ -24,6 +24,7 @@ function odsherredweb_preprocess_page(&$variables, $hook) {
   {
     $termParents = taxonomy_get_parents($node->field_site_structure[LANGUAGE_NONE][0]['tid']);
     $termId = 'tid-'.$node->field_site_structure[LANGUAGE_NONE][0]['tid'];
+    $termIdParent = "";
     if(!empty($termParents))
     {
       $termIdParent = 'tid-'.key($termParents);  
