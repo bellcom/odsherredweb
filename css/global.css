@@ -1061,9 +1061,8 @@ background: #FFF;
   font-size: 13px;
 }
 .page-node .panel-region-stack2 .pane-title {
-  font-size: 15px;
+  font-size: 17px;
   margin: 0 0 9px 0;
-  font-weight: 900;
 }
 
 .page-node .pane-node-field-reference .field-item {
@@ -1074,20 +1073,24 @@ background: #FFF;
 
 .page-node .pane-selvbetjening {
   float: left;
-  margin: 16px 0 0 18px;
-  min-width: 235px;
+  width: 200px;
+  margin: 0 50px 0 0;
 }
 
 .page-node .pane-node-field-mediafile {
-  width: 214px;
+  width: 167px;
   float: left;
-  margin: 16px 0 0 17px;
+  margin: 0 43px 0 0;
 }
 
 .page-node .pane-kle-lonks-boks-panel-pane-1 {
   float: left;
-  margin: 16px 0 0 20px;
+  width: 170px;
 }
+.node-type-news.page-node .pane-kle-lonks-boks-panel-pane-1 {
+  margin: 0 60px 0 0;
+}
+
 .page-node .pane-kle-lonks-boks-panel-pane-1 .item-list ul li {
   margin: 0;
 }
@@ -1197,7 +1200,6 @@ background: #FFF;
 }
 
 .not-front .panel-region-stack1 .panel-pane,
-.not-front .panel-region-stack2 .panel-pane,
 .not-front .panel-region-stack3 .panel-pane {
 	padding: 10px;}
 	
@@ -1292,18 +1294,22 @@ p.search-result-text {
 
 
 .field-name-field-additional-info {
-  margin: 10px 10px 0 10px;
   width: 170px;
+  margin: 0 60px 0 0;
   float: left;
 }
+.not-front .panel-region-stack2 .inside {
+  padding: 20px;
+}
+
 .panel-region-stack2 h3 {
   font-size: 17px;
   font-weight: 300;
 }
 
-.panel-pane.pane-custom.pane-2 {
+.panel-region-stack2 .panel-pane.pane-custom.pane-2 {
   float: left;
-  padding: 0 0 0 20px;
+  width: 170px;
 }
 
 .field-name-field-resume-long {
@@ -1315,8 +1321,23 @@ p.search-result-text {
 .sidetitel {
   font-weight: bold;
   font-size: 23px;
+  clear: left;
+}
+.node-date {
+  float: left;
+} 
+.node-date p {
+  margin: 0;
+  color: #5c5c5c;
+  font-size: 13px;
+}
+.panel-region-stack1 .node-date.panel-pane{
+  padding: 0 0 0 10px;
 }
 
+.panel-region-stack1 .sidetitel.panel-pane{
+  padding: 2px 10px 10px 10px;
+}
 .tid-4 .views-field-field-lead-image,
 .tid-4 .nyhedsbillede .pane-content {
   background: url('img/lineGreen.png') repeat-x scroll 0% 100%;
