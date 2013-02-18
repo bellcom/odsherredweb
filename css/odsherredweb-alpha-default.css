@@ -119,3 +119,11 @@
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding;
 	}
+	
+#node_contentpage_form_group_hidden, #edit-field-rotate-publish { display: none}
+.logged-in .field-group-htabs-wrapper { background-color: #FFF;}
+
+.form-item-field-termref-kle-und { 
+	padding: 1em;
+	border: 1px solid #ccc; 
+	background-color: #FFF;}
