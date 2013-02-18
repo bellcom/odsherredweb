@@ -127,3 +127,23 @@
 	padding: 1em;
 	border: 1px solid #ccc; 
 	background-color: #FFF;}
+	
+.node ol, .node ul {
+	padding-left: 1.2em;
+}
+
+.node ol li, .node ul li {
+margin-left: 1.2em;
+}
+
+div.clearfix {
+	background-color: transparent;
+}
+
+
+.node-type-borger-dk-article .node-borger-dk-article { background-color: #FFF; padding: 1em}
+
+.panel-region-stack2 .pane-node-field-os2web-selfservice li { list-style: none;}
+
+.field-name-body li { margin-left: 1em}
+.field-name-body .microArticle li p { margin: 0;}
