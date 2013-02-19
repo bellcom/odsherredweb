@@ -1212,7 +1212,7 @@ background: url('img/andresider-listebg.png');
 
 .not-front .panel-region-stack1 .panel-pane,
 .not-front .panel-region-stack3 .panel-pane {
-	padding: 10px;}
+	padding: 10px 5px 10px 10px;}
 	
 .no-padding { padding: 0 !important;}
 
