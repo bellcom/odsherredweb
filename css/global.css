@@ -1640,3 +1640,5 @@ p.search-result-text {
   padding: 12px;
 }
 /*<<-- news-page*/
+
+.page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
