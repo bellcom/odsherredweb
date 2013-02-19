@@ -565,7 +565,7 @@ ul.breadcrumb {
 	text-transform: none;
 	}
 */
-.page-node #block-system-main .panel-region-stack1 img { max-width: 50%; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
+.page-node #block-system-main .panel-region-stack1 img { max-width: 315px; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
 
 .page-node #block-system-main .panel-region-stack1,
 .page-node #block-system-main .panel-region-stack2,
