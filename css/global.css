@@ -1330,8 +1330,8 @@ p.search-result-text {
 }
 
 .sidetitel {
-  font-weight: bold;
-  font-size: 23px;
+  font-weight: normal;
+  font-size: 25px;
   clear: left;
 }
 .node-date {
