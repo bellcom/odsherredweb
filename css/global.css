@@ -565,6 +565,13 @@ ul.breadcrumb {
 	text-transform: none;
 	}
 */
+.page-node #block-system-main .panel-region-stack1 img { max-width: 50%; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
+
+.page-node #block-system-main .panel-region-stack1,
+.page-node #block-system-main .panel-region-stack2,
+.page-node #block-system-main .panel-region-stack3 { 
+	clear: both
+	}
 
 .front .panel-region-stack1 .panel-col-first h2.pane-title {
 	background-image: url(img/menu-accmini-borger.png);
