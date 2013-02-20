@@ -485,14 +485,14 @@ ul.breadcrumb {
     }
 
 .term-4 span {
-    background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
+    background: url('img/green-transparent.png');
     }
 
 .term-6 span {
-    background: none repeat scroll 0 0 rgba(197, 56, 56, 0.8);
+    background: url('img/red-transparent.png');
     }
 .term-5 span{
-    background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+    background: url('img/blue-transparent.png');
     }
 
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content a{
@@ -565,6 +565,13 @@ ul.breadcrumb {
 	text-transform: none;
 	}
 */
+.page-node #block-system-main .panel-region-stack1 img { max-width: 315px; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
+
+.page-node #block-system-main .panel-region-stack1,
+.page-node #block-system-main .panel-region-stack2,
+.page-node #block-system-main .panel-region-stack3 { 
+	clear: both
+	}
 
 .front .panel-region-stack1 .panel-col-first h2.pane-title {
 	background-image: url(img/menu-accmini-borger.png);
@@ -1205,7 +1212,7 @@ background: url('img/andresider-listebg.png');
 
 .not-front .panel-region-stack1 .panel-pane,
 .not-front .panel-region-stack3 .panel-pane {
-	padding: 10px;}
+	padding: 10px 5px 10px 10px;}
 	
 .no-padding { padding: 0 !important;}
 
@@ -1225,7 +1232,7 @@ background: url('img/andresider-listebg.png');
 
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
 
-.front .view-id-aktuelt a { text-decoration: none}
+.front .view-id-aktuelt a { text-decoration: none; color: #FFF;}
 
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
@@ -1323,8 +1330,8 @@ p.search-result-text {
 }
 
 .sidetitel {
-  font-weight: bold;
-  font-size: 23px;
+  font-weight: normal;
+  font-size: 25px;
   clear: left;
 }
 .node-date {
@@ -1674,3 +1681,5 @@ color: #004f88;
 
 
 
+
+.page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
