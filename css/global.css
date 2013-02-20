@@ -26,7 +26,8 @@ a:link, a:visited, a { color: #407DAA;
 	margin-left: 5px;
 	}
 
-.not-front.page-node #section-content {
+.not-front.page-node #section-content,
+.page-a-aa-index #section-content {
 	background-image: url(img/tpl_bg.png);
 	background-position: center bottom;
 	padding-bottom: 50px;
