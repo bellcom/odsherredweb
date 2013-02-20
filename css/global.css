@@ -1633,3 +1633,44 @@ p.search-result-text {
   padding: 12px;
 }
 /*<<-- news-page*/
+/* search page -->> */
+ul.facetapi-date-range {
+  position: absolute;
+  background: url('img/inputFILTERpil.png') no-repeat scroll left top #FFF;
+  width: 201px;
+  padding: 8px 0 4px;
+}
+
+ul.facetapi-date-range li.leaf{
+  display:none;
+}
+
+ul.facetapi-date-range:hover li{
+  display:block;
+}
+.facet-date-label {
+  color: #004f88;
+}
+
+#region-content .block-facetapi {
+width: 230px;
+float: left;
+}
+
+.page-search .form-type-textfield label {
+display: none;
+}
+.page-search .form-item-retain-filters { display: none; }
+
+.page-search #edit-keys {
+background: url('img/inputFILTER.png');
+border: none;
+height: 32px;
+width: 184px;
+font-size: 12px;
+color: #004f88;
+}
+/* <<-- search page */
+
+
+
