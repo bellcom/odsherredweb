@@ -89,7 +89,7 @@
 .front #search-block-form {
 	padding: 5px;
 	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
-}
+	}
 
 #search-block-form { 
 	height: 44px;
@@ -120,26 +120,35 @@
 	-webkit-background-clip: padding;
 	}
 	
-#node_contentpage_form_group_hidden, #edit-field-rotate-publish { display: none}
-.logged-in .field-group-htabs-wrapper { background-color: #FFF;}
+#node_contentpage_form_group_hidden, #edit-field-rotate-publish { 
+	display: none
+	}
+	
+.logged-in .field-group-htabs-wrapper { 
+	background-color: #FFF;
+	}
 
 .form-item-field-termref-kle-und { 
 	padding: 1em;
 	border: 1px solid #ccc; 
-	background-color: #FFF;}
+	background-color: #FFF;
+	}
 	
 .node ol, .node ul {
 	padding-left: 1.2em;
-}
+	}
 
 .node ol li, .node ul li {
 margin-left: 1.2em;
-}
+	}
 
 div.clearfix {
 	background-color: transparent;
-}
+	}
 
+.logged-in.page-node .vertical-tabs {
+	background-color: #FFF;
+	}
 
 .node-type-borger-dk-article .node-borger-dk-article { background-color: #FFF; padding: 1em}
 
@@ -147,3 +156,12 @@ div.clearfix {
 
 .field-name-body li { margin-left: 1em}
 .field-name-body .microArticle li p { margin: 0;}
+
+.hvidbg {
+	background-image: url(img/c-bg.png);
+	padding: 25px;
+	}
+	
+.page-a-aa-index .view-header {
+	border-bottom: solid 1px #CCC;
+}
