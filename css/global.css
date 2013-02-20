@@ -902,6 +902,10 @@ padding: 5px 8px 0;
 margin: 0;
 background: url('img/andresider-listebg.png');
 }
+.spotbox .text a{
+  color: #272727;
+  text-decoration: none;
+}
 .spotbox .goto {
   width: 31px;
   height: 31px;
@@ -1681,6 +1685,8 @@ color: #004f88;
 /* <<-- search page */
 
 
-
+.spotbox .ext {
+  padding: 0;
+}
 
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
