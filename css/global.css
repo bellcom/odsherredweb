@@ -485,14 +485,14 @@ ul.breadcrumb {
     }
 
 .term-4 span {
-    background: none repeat scroll 0 0 rgba(95, 157, 65, 0.8);
+    background: url('img/green-transparent.png');
     }
 
 .term-6 span {
-    background: none repeat scroll 0 0 rgba(197, 56, 56, 0.8);
+    background: url('img/red-transparent.png');
     }
 .term-5 span{
-    background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+    background: url('img/blue-transparent.png');
     }
 
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content a{
@@ -1232,7 +1232,7 @@ background: url('img/andresider-listebg.png');
 
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
 
-.front .view-id-aktuelt a { text-decoration: none}
+.front .view-id-aktuelt a { text-decoration: none; color: #FFF;}
 
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
@@ -1640,5 +1640,46 @@ p.search-result-text {
   padding: 12px;
 }
 /*<<-- news-page*/
+/* search page -->> */
+ul.facetapi-date-range {
+  position: absolute;
+  background: url('img/inputFILTERpil.png') no-repeat scroll left top #FFF;
+  width: 201px;
+  padding: 8px 0 4px;
+}
+
+ul.facetapi-date-range li.leaf{
+  display:none;
+}
+
+ul.facetapi-date-range:hover li{
+  display:block;
+}
+.facet-date-label {
+  color: #004f88;
+}
+
+#region-content .block-facetapi {
+width: 230px;
+float: left;
+}
+
+.page-search .form-type-textfield label {
+display: none;
+}
+.page-search .form-item-retain-filters { display: none; }
+
+.page-search #edit-keys {
+background: url('img/inputFILTER.png');
+border: none;
+height: 32px;
+width: 184px;
+font-size: 12px;
+color: #004f88;
+}
+/* <<-- search page */
+
+
+
 
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
