@@ -1018,7 +1018,7 @@ background: url('img/andresider-listebg.png');
 
 .gaatilforside {
 	position: absolute;
-	width: 486px;
+	width: 486px !important;
 	display: block;
 }
 
