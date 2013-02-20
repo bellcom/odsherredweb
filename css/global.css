@@ -1685,6 +1685,8 @@ color: #004f88;
 /* <<-- search page */
 
 
-
+.spotbox .ext {
+  padding: 0;
+}
 
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
