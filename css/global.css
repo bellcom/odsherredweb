@@ -566,7 +566,7 @@ ul.breadcrumb {
 	text-transform: none;
 	}
 */
-.page-node #block-system-main .panel-region-stack1 img { max-width: 315px; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
+.page-node #block-system-main .panel-region-stack1 .field-name-field-resume-long img { max-width: 315px; float: right; margin-left: 20px; height: auto; margin-bottom: 20px;}
 
 .page-node #block-system-main .panel-region-stack1,
 .page-node #block-system-main .panel-region-stack2,
@@ -1018,7 +1018,7 @@ background: url('img/andresider-listebg.png');
 
 .gaatilforside {
 	position: absolute;
-	width: 486px;
+	width: 486px !important;
 	display: block;
 }
 
@@ -1237,7 +1237,7 @@ background: url('img/andresider-listebg.png');
 
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
 
-.front .view-id-aktuelt a { text-decoration: none; color: #FFF;}
+.front .view-id-aktuelt.view-display-id-panel_pane_3 a { text-decoration: none; color: #FFF;}
 
 .tabs ul.primary { margin: 0}
 .tabs ul.primary li a { margin-right: 0;}
