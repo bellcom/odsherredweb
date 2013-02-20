@@ -1,7 +1,5 @@
 jQuery(document).ready(function($){
-  console.log('search');
   if($('.facetapi-date-range').find('.facetapi-active').length === 0){
-    console.log('no filter');
     $('.facetapi-date-range').prepend('<li><span class="facet-date-label">Tidspunkt:</span></li>');
   }
   else {
@@ -13,7 +11,6 @@ jQuery(document).ready(function($){
 
     $('.facetapi-date-range').append('<li class="leaf"><a href="'+url+'">Se alle</a></li>');
 
-    console.log(url);
     
   }
 });
