@@ -154,6 +154,7 @@ div.clearfix {
 .field-name-body li { margin-left: 1em}
 .field-name-body .microArticle li p { margin: 0;}
 
+.page-sitemap #block-system-main,
 .hvidbg {
 	background-image: url(img/c-bg.png);
 	padding: 25px;
