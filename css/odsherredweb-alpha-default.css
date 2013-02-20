@@ -166,6 +166,6 @@ div.clearfix {
 	border-bottom: solid 1px #CCC;
 }
 
-.page-a-aa-index .view-header a:link { color: #333; text-decoration: none; font-size: 18px; font-weight: normal;}
+.page-a-aa-index .view-header a:link, .page-a-aa-index .view-header a:visited { color: #333; text-decoration: none; font-size: 18px; font-weight: normal;}
 .page-a-aa-index .view-header a:hover { color: #000; text-decoration: underline; font-weight: bold;}
 .page-a-aa-index .view-header a:active { color: #000; text-decoration: underline; font-weight: bold;}
