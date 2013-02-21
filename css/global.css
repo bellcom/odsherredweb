@@ -572,7 +572,8 @@ ul.breadcrumb {
 .page-node #block-system-main .panel-region-stack1,
 .page-node #block-system-main .panel-region-stack2,
 .page-node #block-system-main .panel-region-stack3 { 
-	clear: both
+	clear: both;
+	padding: 5px;
 	}
 
 .front .panel-region-stack1 .panel-col-first h2.pane-title {
@@ -1695,3 +1696,4 @@ color: #004f88;
 }
 
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
+.front .view-spotbox-megadd img { max-width: 100%; height: auto;} 
