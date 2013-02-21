@@ -1,4 +1,17 @@
 jQuery(document).ready(function($){
+
+
+  if($('.block-sort ul').find('.active').length === 0) {
+
+    $('.block-sort ul').prepend('<span class="solr-sort-label">Sorter efter:</span>');
+  } else
+  {
+    var activeSortLiHtml = $('.block-sort ul').find('.active').parent().html();
+    $('.block-sort ul').find('.active').parent().remove();
+    
+    $('.block-sort ul').prepend('<span class="solr-sort-label">Sorter efter:</span>'+activeSortLiHtml);
+  }
+
   if($('.facetapi-date-range').find('.facetapi-active').length === 0){
     $('.facetapi-date-range').prepend('<li><span class="facet-date-label">Tidspunkt:</span></li>');
   }
