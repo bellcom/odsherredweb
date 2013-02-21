@@ -1690,4 +1690,8 @@ color: #004f88;
   padding: 0;
 }
 
+.feedback-link {
+  display: none;
+}
+
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
