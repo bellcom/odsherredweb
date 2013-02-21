@@ -1648,28 +1648,81 @@ p.search-result-text {
   padding: 12px;
 }
 /*<<-- news-page*/
+
 /* search page -->> */
+.block-sort ul,
 ul.facetapi-date-range {
   position: absolute;
   background: url('img/inputFILTERpil.png') no-repeat scroll left top #FFF;
   width: 201px;
   padding: 8px 0 4px;
+  min-height: 32px;
 }
 
+.block-sort ul li,
 ul.facetapi-date-range li.leaf{
   display:none;
 }
 
+.block-sort ul li,
+ul.facetapi-date-range li{
+ margin: 0 0 0 10px;
+ clear: left;
+}
+
+.block-sort ul:hover li,
 ul.facetapi-date-range:hover li{
   display:block;
 }
+
+.block-sort ul:hover,
+ul.facetapi-date-range:hover{
+  box-shadow:2px 8px 6px -2px #333;
+}
+.block-sort img {
+  float: right;
+  margin-right: 34px;
+}
+.solr-sort-label,
 .facet-date-label {
   color: #004f88;
+  display: block;
+  float: left;
+  margin: 0 2px 10px;
 }
 
-#region-content .block-facetapi {
-width: 230px;
-float: left;
+.solr-sort-label {
+  margin-left: 10px;
+}
+
+.block-sort a.active {
+ color: #272727;
+ text-decoration: none;
+}
+
+.page-search #region-content .block-sort {
+  margin: 0 0 0 20px;
+}
+.page-search #region-content .block-facetapi {
+  margin: 0 14px 0 14px;
+}
+.page-search #region-content .block-sort,
+.page-search #region-content .block-facetapi {
+  padding: 15px 0 0 0;
+  width: 201px;
+  float: left;
+  height: 32px;
+}
+
+.page-search input[type="submit"] {
+  border: none;
+  background: url('img/inputSOG.png');
+  text-indent: 300000px;
+  height: 32px;
+  width: 41px;
+  border-radius: 0;
+  position: relative;
+  left: -3px;
 }
 
 .page-search .form-type-textfield label {
@@ -1684,6 +1737,15 @@ height: 32px;
 width: 184px;
 font-size: 12px;
 color: #004f88;
+line-height: 28px;
+}
+
+.search-result {
+  margin: 0 0 35px;
+}
+.search-results.apachesolr_search-results {
+  border-top: 1px dotted #ddd;
+  padding: 27px 0 0 0;
 }
 /* <<-- search page */
 
