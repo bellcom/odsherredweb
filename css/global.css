@@ -572,7 +572,8 @@ ul.breadcrumb {
 .page-node #block-system-main .panel-region-stack1,
 .page-node #block-system-main .panel-region-stack2,
 .page-node #block-system-main .panel-region-stack3 { 
-	clear: both
+	clear: both;
+	padding: 5px;
 	}
 
 .front .panel-region-stack1 .panel-col-first h2.pane-title {
