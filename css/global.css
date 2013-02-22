@@ -1276,39 +1276,6 @@ background: url('img/andresider-listebg.png');
   width: 60px;
   display: block;
 }
-.search-results {
-  padding: 0 10px;
-}
-
-h3.search-result-title {
-  font-size: 14px;
-  padding: 0 0 0 15px;
-}
-
-h3.search-result-title a {
-  color: #272727;
-  text-decoration: none;
-}
-
-h3.search-result-title.tid-4 {
-/*borger*/
-  background: url('img/bigarrow-green.png') no-repeat;
-}
-h3.search-result-title.tid-5 {
-/*erhverv*/
-  background: url('img/bigarrow-blue.png') no-repeat;
-}
-h3.search-result-title.tid-6 {
-/*politik*/
-  background: url('img/bigarrow-red.png') no-repeat;
-}
-
-p.search-result-text {
-  margin: 0;
-  height: 40px;
-  overflow: hidden;
-}
-
 
 .field-name-field-additional-info {
   width: 170px;
@@ -1705,7 +1672,10 @@ ul.facetapi-date-range:hover{
   float: left;
   margin: 0 2px 0;
 }
-ul:hover .solr-sort-label,
+ul:hover .solr-sort-label {
+  margin: 0 2px 10px 10px;
+}
+
 ul:hover .facet-date-label {
   margin: 0 2px 10px;
 }
@@ -1766,6 +1736,87 @@ line-height: 28px;
   border-top: 1px dotted #ddd;
   padding: 27px 0 0 0;
 }
+.page-search ul.primary {
+  border: none;
+  margin: 10px 0 0 6px;
+}
+.page-search ul.primary li.active a {
+font-size: 29px;
+border: none;
+padding: 0;
+}
+.page-search ul.primary li.active {
+display: block;
+}
+.page-search ul.primary li {
+  display: none;
+}
+.page-search .block-facetapi ul {
+  margin: 0;
+}
+ul.custom-facet {
+  padding: 0 6px;
+}
+ul.custom-facet li{
+  list-style: none;
+  background: url('img/ikon-larger-right.png') no-repeat scroll 1px 12px;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 6px 0 6px 12px;
+  font-size: 14px;
+}
+ul.custom-facet li.all{
+  font-weight: 900;
+}
+ul.custom-facet li.tid-4{
+  background: url('img/ikon-green-larger.png') no-repeat scroll 1px 12px;
+}
+ ul.custom-facet li.tid-5{
+  background: url('img/ikon-blue-larger.png') no-repeat scroll 1px 12px;
+}
+ul.custom-facet li.tid-6{
+  background: url('img/ikon-red-larger.png') no-repeat scroll 1px 12px;
+}
+.custom-facet .count {
+  float: right;
+  color: #6f6f6f;
+  margin: 0 4px;
+  font-size: 12px;
+}
+.search-results {
+  padding: 0 10px;
+}
+
+h3.search-result-title {
+  background: url('img/bigarrow-black.png') no-repeat scroll 2px 5px;
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+h3.search-result-title a {
+  color: #272727;
+  text-decoration: none;
+}
+
+h3.search-result-title.tid-4 {
+/*borger*/
+  background: url('img/bigarrow-green.png') no-repeat scroll 2px 5px;
+}
+h3.search-result-title.tid-5 {
+/*erhverv*/
+  background: url('img/bigarrow-blue.png') no-repeat scroll 2px 5px;
+}
+h3.search-result-title.tid-6 {
+/*politik*/
+  background: url('img/bigarrow-red.png') no-repeat scroll 2px 5px;
+}
+
+p.search-result-text {
+  margin: 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+
 /* <<-- search page */
 
 
