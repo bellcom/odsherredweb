@@ -155,3 +155,5 @@ display: none;
 .page-andre-sider .view-header { font-size: 23px; font-weight: normal; padding-left: 15px; padding-right: 15px; padding-bottom: 20px; color: #999}
 
 .page-andre-sider h1#page-title { color: #3173a3 }
+
+.imagefield-crop-cropbox { clear: both; margin-top: 20px;}
