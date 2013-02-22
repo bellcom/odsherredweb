@@ -57,11 +57,10 @@ function odsherredweb_image_style($variables) {
 
 /**
  * Implements hook_form_alter().
- *
- * tekst i søgefelt
  */
 function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#attributes']['placeholder'] = t('Hvad kan vi hjælpe med?');
   }
+
 }
