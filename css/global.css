@@ -1204,9 +1204,6 @@ background: url('img/andresider-listebg.png');
 }
 
 .page-search #region-content .block-without-title { padding: 15px;}
-.page-search #region-content .block-without-title ul { margin-left: 20px;}
-#block-apachesolr-search-sort ul { float: right;}
-#block-apachesolr-search-sort li { display: inline; margin-left: 10px;}
 
 .page-search .breadcrumb li { display: none;}
 .page-search .breadcrumb li.depth-1 , .page-search .breadcrumb li.depth-2 { display: list-item;}
