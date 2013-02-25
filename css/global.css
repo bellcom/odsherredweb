@@ -684,6 +684,7 @@ ul.breadcrumb {
 	font-size: 14px;
 	padding-top: 2px;
 	padding-left: 0;
+	position: absolute;
 	}
 	
 .megamini ul.quicktabs-tabs li { 
