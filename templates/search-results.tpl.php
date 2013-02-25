@@ -22,7 +22,6 @@
  */
 ?>
 <?php if ($search_results): 
-error_log(print_r($variables, 1));
 global $pager_total_items;
 ?>
 <p class="note"><?php print t('Your search returned %total result(s) found', array('%total' => $pager_total_items[0])) ; ?></p>  
