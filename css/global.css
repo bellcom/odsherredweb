@@ -841,7 +841,7 @@ ul.breadcrumb {
   }
 
 .toggle-panel.open {
-  background: url('img/plus.png') no-repeat scroll 97% 15px;
+  background: url('img/minus.png') no-repeat scroll 97% 15px;
 }
 /* <-- Toggle panels on frontpage*/
 
