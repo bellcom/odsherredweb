@@ -340,6 +340,12 @@ ul.breadcrumb {
 
 .front #zone-header-wrapper, #block-superfish-2 { display: none}
 
+#feedback-status-message {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #333333;
+    padding: 20px;
+}
+
 #block-feedback-form {
 	display: none;
 	position: absolute;
