@@ -154,7 +154,7 @@ div.clearfix {
 
 .panel-region-stack2 .pane-node-field-os2web-selfservice li { list-style: none;}
 
-.field-name-body li { margin-left: 1.7em}
+.field-name-body li, .field-type-text-long li, .field-type-text-with-summary li { margin-left: 1.7em}
 .field-name-body .microArticle li p { margin: 0;}
 
 .page-sitemap #block-system-main,
