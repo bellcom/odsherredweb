@@ -44,15 +44,17 @@ jQuery(document).ready(function($) {
       }
 
     }
-    $('<div class="slideshow-previous"><i class="previous-arrow">').insertBefore('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_0');
-    $('<div class="slideshow-next"><i class="next-arrow">').insertAfter('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_2');
+    if($('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_0').length > 0)
+    {
+      $('<div class="slideshow-previous"><i class="previous-arrow"></i></div>').insertBefore('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_0');
+      $('<div class="slideshow-next"><i class="next-arrow"></i></div>').insertAfter('#views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_2');
 
-    $('.slideshow-previous').click(function(e){
-      $('.views_slideshow_controls_text_previous > a').click();
-    });
-    $('.slideshow-next').click(function(e){
-      $('.views_slideshow_controls_text_next > a').click();
-    });
-
+      $('.slideshow-previous').click(function(e){
+        $('.views_slideshow_controls_text_previous > a').click();
+      });
+      $('.slideshow-next').click(function(e){
+        $('.views_slideshow_controls_text_next > a').click();
+      });
+    }
   }
 });
