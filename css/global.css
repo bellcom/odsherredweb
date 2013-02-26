@@ -481,21 +481,29 @@ ul.breadcrumb {
 }
 .views-field-field-resume-long .field-content {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 26px;
 }
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content {
-    font-size: 50px;
-    line-height: 58px;
+    font-size: 41px;
+    line-height: 45px;
     }
 
-.term-4 span {
+#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .text-container{
+  font-size: 50px;
+}
+#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-field-resume-long .text-container {
+    font-size: 20px;
+}
+
+.term-4 span.field-content {
     background: url('img/green-transparent.png');
     }
 
-.term-6 span {
+.term-6 span.field-content {
     background: url('img/red-transparent.png');
     }
-.term-5 span{
+.term-5 span.field-content {
     background: url('img/blue-transparent.png');
     }
 
