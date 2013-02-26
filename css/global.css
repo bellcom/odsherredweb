@@ -1239,10 +1239,21 @@ background: url('img/andresider-listebg.png');
 .view-id-sitestuktur .views-field-name { position: absolute;}
 .view-id-sitestuktur .views-field-name a { display: block; height: 24px; width: 179px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
 
-.hovenyhed-portalside { background-image: url(img/c-bg.png); padding: 25px 5px 25px 20px; height: 262px;  margin-bottom: 20px; font-size: 13px; }
+.hovenyhed-portalside { 
+  background-image: url(img/c-bg.png); 
+  height: 262px;  
+  margin-bottom: 20px; 
+  font-size: 13px; 
+  padding: 25px 5px 25px 20px; 
+}
 .hovenyhed-portalside .views-field-field-lead-image { float: right; width: 455px; height: 265px; }
 
-.hovenyhed-portalside a { color: #3e3e3e; text-decoration: none}
+.hovenyhed-portalside a { 
+  color: #3e3e3e; 
+  text-decoration: none;
+  width: 207px;
+  display: block;
+}
 .hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
 
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}

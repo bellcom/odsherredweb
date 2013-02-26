@@ -35,4 +35,4 @@
     <?php print $field->content; ?>
   <?php print $field->wrapper_suffix; ?>
 <?php endforeach; ?>
-<span>
+</span>
