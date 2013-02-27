@@ -62,5 +62,42 @@ function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#attributes']['placeholder'] = t('Hvad kan vi hjælpe med?');
   }
+  if( $form_id == 'contentpage_node_form') {
+    foreach( $form['field_billede'][LANGUAGE_NONE] as $key => $value)
+    {
+      if(is_numeric($key)){
+        $form['field_billede'][LANGUAGE_NONE][$key]['#validate'] = array('odsherredweb_image_alt_text_required_validate');
+        $form['field_billede'][LANGUAGE_NONE][$key]['#element_validate'] = array('odsherredweb_image_alt_text_required_validate');
+      }
+    }
+
+  }
 
 }
+/**
+ * Custom quick and dirty form validation
+ *
+ * if the alternative text field is empty, we return an error
+ */
+function odsherredweb_image_alt_text_required_validate(&$form, &$form_state, $form_id){
+  if(!empty($form_state['input']['field_billede'][LANGUAGE_NONE]))
+  {
+    foreach( $form_state['input']['field_billede'][LANGUAGE_NONE] as $key => $value) {
+
+      if(isset($value['alt'])){
+        if(empty($value['alt'])){
+          form_set_error('', 'Alternativ tekst er obligatorisk');
+        }
+      }
+      // uncomment if title has to be required as well
+      //if(!isset($value['title'])){
+        //if(empty($value['title'])){
+        //form_set_error('', 'title skal indtastes');
+        //}
+      //}
+    
+    } 
+  } 
+}
+
+
