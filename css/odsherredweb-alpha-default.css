@@ -207,30 +207,6 @@ h3,
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
-
-#zone-footer-wrapper { 
-	border-top: 10px solid #68b63c; 
-	background-image:  url(img/footer-bg.png) ;
-	color: #FFF;
-	border-image: url(img/footer-border-top.png) 9 0 0 0 repeat;
-	}
-	
-.page-andre-sider #zone-footer-wrapper {
-	border-top: 10px solid #00538f;
-	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;	
-}
-	
-#zone-footer a { 
-	color: #fff; 
-	text-decoration: none;
-	}
-	
-#zone-footer li { 
-	margin-left: 0; 
-	padding-left: 0; 
-	list-style: none;
-	}
-
 .panels-flexible-region-new-center { 
 	width: 100%;
 	}
