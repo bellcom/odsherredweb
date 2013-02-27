@@ -1679,8 +1679,8 @@ list-style: none;
 
 .node-type-news #region-sidebar-first h2.block-title {
   color: #FFF;
-  background: url(news-node-sidebar-bg.png);
-  padding: 3px 15px;
+  background: url(img/news-node-sidebar-bg.png);
+  padding: 3px 15px 7px;
 }
 /*<<-- news-page*/
 
