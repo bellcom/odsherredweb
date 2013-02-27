@@ -115,7 +115,29 @@ h3,
 #region-sidebar-first li.active-trail a {
 	color: #000:
 }
-
+/*arrow*/
+.portal-politik-og-planer #region-sidebar-first ul.menu li,
+.politiksider #region-sidebar-first ul.menu li {
+	background-image:  url(img/ikon-red-larger.png);
+}
+.portal-erhverv #region-sidebar-first ul.menu li,
+.erhvervssider #region-sidebar-first ul.menu li {
+	background-image:  url(img/ikon-blue-larger.png);
+}
+/*dot*/
+.politiksider #region-sidebar-first ul.menu li ul li {
+	background-image:  url(img/ikon-red-dot.png);
+}
+.erhvervssider #region-sidebar-first ul.menu li ul li {
+	background-image:  url(img/ikon-blue-dot.png);
+}
+/*down*/
+.politiksider #region-sidebar-first ul.menu li.expanded {
+	background-image: url(img/ikon-red-down.png);
+}
+.erhvervssider #region-sidebar-first ul.menu li.expanded {
+	background-image: url(img/ikon-blue-down.png);
+}
 #region-branding { 
 	height: 170px;
 	}
