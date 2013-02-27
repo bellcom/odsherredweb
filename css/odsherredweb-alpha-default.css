@@ -113,11 +113,11 @@ h3,
 	color: #000:
 }
 /*arrow*/
-.portal-politik-og-planer #region-sidebar-first ul.menu li,
+.page-taxonomy-term-6 #region-sidebar-first ul.menu li,
 .politiksider #region-sidebar-first ul.menu li {
 	background-image:  url(img/ikon-red-larger.png);
 }
-.portal-erhverv #region-sidebar-first ul.menu li,
+.page-taxonomy-term-5 #region-sidebar-first ul.menu li,
 .erhvervssider #region-sidebar-first ul.menu li {
 	background-image:  url(img/ikon-blue-larger.png);
 }
