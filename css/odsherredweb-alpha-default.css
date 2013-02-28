@@ -1396,6 +1396,9 @@ background: url('img/andresider-listebg.png');
 .list-1-top .views-field-title a {
   font-size: 41px;
   line-height: 41px;
+}
+
+.list-1-top .views-field-title {
   padding: 0 0 0 15px;
 }
 
@@ -1414,12 +1417,16 @@ background: url('img/andresider-listebg.png');
 .list-2-left .views-field-title a {
   font-size: 18px;
   font-weight: bold;
+}
+
+.list-2-left .views-field-title {
   padding: 0 0 0 14px;
 }
 
 .list-2-left .views-field-field-resume-long .field-content {
   padding: 0 0 0 14px;
   height: 63px;
+  line-height: 20px;
 }
 
 .list-3-right {
@@ -1429,13 +1436,15 @@ background: url('img/andresider-listebg.png');
 
 .list-3-right .views-field-title a {
   font-size: 14px;
+}
+
+.list-3-right .views-field-title {
   padding: 0 0 0 11px;
 }
 
 .list-3-right .views-field-field-resume-long .field-content {
   padding: 0 0 0 11px;
   height: 39px;
-
 }
 
 .list-3-right .views-field.views-field-field-resume-long {
