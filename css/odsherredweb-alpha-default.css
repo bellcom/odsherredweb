@@ -289,15 +289,6 @@ ul.breadcrumb {
 	padding-top: 20px;
 	}
 	
-/*.page-node #region-content .block-inner { */
-	/*padding: 5px;*/
-	/*}*/
-/* Forstyrrer megaDD
-.page-node .panel-node {
-  padding: 5px;
-  margin: 0 0 10px 0;
-}*/
-
 #region-sidebar-first .menu-block-wrapper {
 	padding: 10px;
 	}
@@ -1361,6 +1352,43 @@ background: url('img/andresider-listebg.png');
   padding: 0 0 9px 0;
 }
 
+/*borger.dk article -->>*/
+.node-type-os2web-borger-dk-article .panel-node {
+  padding: 5px;
+}
+
+.pane-node-field-os2web-borger-dk-header {
+  float: left;
+  width: 435px;
+  font-size: 14px;
+}
+
+.node-type-os2web-borger-dk-article ul li {
+  margin: 0;
+  list-style: none;
+}
+
+.node-type-os2web-borger-dk-article .pane-node-field-os2web-borger-dk-recommend, 
+.node-type-os2web-borger-dk-article .pane-node-field-os2web-borger-dk-shortlist{
+  background-image: url(img/c-bg.png);
+  padding: 20px;
+}
+.pane-node-field-os2web-borger-dk-selfservi {
+  width: 360px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+.pane-node-field-os2web-borger-dk-selfservi h3 {
+  margin: 0 0 9px;
+}
+h2.mArticle {
+  background-image: url("../sites/all/modules/os2web_borger_dk/images/foldOut.png");
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+/*<<-- borger.dk article*/
 
 /*news-page -->>*/
 .news-page-list .views-row{
