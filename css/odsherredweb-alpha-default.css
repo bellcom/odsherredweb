@@ -2051,8 +2051,7 @@ div.clearfix {
 
 .field-name-body li, .field-type-text-long li, .field-type-text-with-summary li { 
   margin-left: 1.7em; 
-  line-height: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .field-name-body .microArticle li p { margin: 0;}
 
