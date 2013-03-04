@@ -2327,4 +2327,5 @@ div.field-items div.field-item.even img {
 .field-type-text-long ul li { 
 	margin-left: 1.7em;
 	margin-bottom: 10px;
+	list-style-type: disc;
 	}
