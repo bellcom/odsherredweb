@@ -2316,6 +2316,6 @@ div.field-items div.field-item.even img {
 	font-size: 25px;
 }
 
-.node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 10px; margin-left: 10px;}
+.node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 20px; margin-left: 10px;}
 
-.node-type-os2web-borger-dk-article #region-content { background-image: url(img/c-bg.png);}
+.node-type-os2web-borger-dk-article #region-content .region-content-inner{ background-image: url(img/c-bg.png); padding: 10px;}
