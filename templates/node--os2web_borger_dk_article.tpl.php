@@ -145,7 +145,7 @@
       print "</div></div></div>";
     }
     if (!empty($content['field_os2web_borger_dk_recommend'])) {
-      print " <div class='panel-panel panel-region-stack4";
+      print " <div class='panel-panel panel-region-stack4'";
       print "<div class= 'inside'>";
       print "<div class='panel-pane pane-entity-field pane-node-field_os2web-borger-dk-recommend'>";
       print render($content['field_os2web_borger_dk_recommend']);
