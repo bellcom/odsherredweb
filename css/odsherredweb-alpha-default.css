@@ -2326,7 +2326,10 @@ div.field-items div.field-item.even img {
 	padding-left: 0;
 	}
 	
-.field-type-text-long ul li { 
+.panel-region-stack3 .field-type-text-long ul li, 
+.panel-region-stack3 .field-type-text-with-summary ul li, 
+.panel-region-stack4 .field-type-text-long ul li, 
+.panel-region-stack4 .field-type-text-with-summary ul li { 
 	margin-left: 1.7em;
 	margin-bottom: 10px;
 	list-style-type: disc; 
