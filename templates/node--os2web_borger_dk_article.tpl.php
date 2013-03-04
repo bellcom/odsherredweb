@@ -97,20 +97,18 @@
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
   <?php
-    if (!empty($content['field_os2web_borger_dk_header'])) {
-      print "<div class='borger_dk_header'>";
-      print render($content['field_os2web_borger_dk_header']);
-      print "</div>";
-      hide($content['field_os2web_borger_dk_header']);
-    }
-
-  ?>
-    <?php
     if (!empty($content['field_billede'])) {
       print "<div class='billede'>";
       print render($content['field_billede']);
       print "</div>";
       hide($content['field_billede']);
+    }
+    
+      if (!empty($content['field_os2web_borger_dk_header'])) {
+      print "<div class='borger_dk_header'>";
+      print render($content['field_os2web_borger_dk_header']);
+      print "</div>";
+      hide($content['field_os2web_borger_dk_header']);
     }
 
   ?>

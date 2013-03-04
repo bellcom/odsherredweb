@@ -2315,3 +2315,16 @@ div.field-items div.field-item.even img {
 .node-type-os2web-borger-dk-article h1#page-title {
 	font-size: 25px;
 }
+
+.node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 20px; margin-left: 10px;}
+
+.node-type-os2web-borger-dk-article #region-content .region-content-inner{ background-image: url(img/c-bg.png); padding: 10px;}
+
+.field-type-text-long ul { 
+	padding-left: 0;
+	}
+	
+.field-type-text-long ul li { 
+	margin-left: 1.7em;
+	margin-bottom: 10px;
+	}
