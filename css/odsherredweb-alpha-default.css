@@ -2315,3 +2315,5 @@ div.field-items div.field-item.even img {
 .node-type-os2web-borger-dk-article h1#page-title {
 	font-size: 25px;
 }
+
+.node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 10px; margin-left: 10px;}
