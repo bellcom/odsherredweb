@@ -105,6 +105,16 @@
     }
 
   ?>
+    <?php
+    if (!empty($content['field_billede'])) {
+      print "<div class='billede'>";
+      print render($content['field_billede']);
+      print "</div>";
+      hide($content['field_billede']);
+    }
+
+  ?>
+  
   <div class="content clearfix"<?php print $content_attributes; ?>>
   <?php
     if (!empty($content['field_os2web_borger_dk_selfservi'])) {
