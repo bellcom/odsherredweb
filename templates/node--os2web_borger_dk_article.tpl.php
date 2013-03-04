@@ -98,7 +98,7 @@
   <div class="content clearfix"<?php print $content_attributes; ?>>
   <?php
     if (!empty($content['field_os2web_borger_dk_header'])) {
-      print "<div class='panel-panel panel-node-title sidetitel'>";
+      print "<div class='borger_dk_header'>";
       print render($content['field_os2web_borger_dk_header']);
       print "</div>";
       hide($content['field_os2web_borger_dk_header']);
