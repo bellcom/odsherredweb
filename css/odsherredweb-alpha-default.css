@@ -1174,7 +1174,7 @@ background: url('img/andresider-listebg.png');
 
 #block-panels-mini-footer-menuer {margin-top: 40px;}
 
-.node-body { font-size: 14px; padding: 5px 0 15px 0}
+.node-body, #block-system-main .field-type-text-long { font-size: 14px; padding: 5px 0 15px 0}
 
 .node-type-contentpage #block-system-main .panel-region-stack2 { margin: 0 5px 20px 5px;}
 
@@ -2335,4 +2335,4 @@ div.field-items div.field-item.even img {
 
 .node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-byline { text-align: right;}
 
-.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px;}
+/*.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px;}*/
