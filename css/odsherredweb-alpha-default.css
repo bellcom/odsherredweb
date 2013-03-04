@@ -2307,3 +2307,7 @@ td ul.links {
   font-size: 10px;
   color: #6a6a6a;
 }
+div.field-items div.field-item.even img {
+	height: auto;
+	position: relative;
+	width: auto;}
