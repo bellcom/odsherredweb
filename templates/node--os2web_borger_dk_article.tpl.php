@@ -120,7 +120,7 @@
     if (!empty($content['field_os2web_borger_dk_selfservi'])) {
       print "<div class='panel-panel panel-region-stack2 gul-boks'>
              <div class='toggle-related'><i class='button bum'></i></div>
-              <div class='nside'>";
+              <div class='inside'>";
       print render($content['field_os2web_borger_dk_selfservi']);
       print '</div>
             </div>';
