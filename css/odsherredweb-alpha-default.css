@@ -2320,6 +2320,8 @@ div.field-items div.field-item.even img {
 
 .node-type-os2web-borger-dk-article #region-content .region-content-inner{ background-image: url(img/c-bg.png); padding: 10px;}
 
+.node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 15px;}
+
 .field-type-text-long ul { 
 	padding-left: 0;
 	}
@@ -2329,3 +2331,5 @@ div.field-items div.field-item.even img {
 	margin-bottom: 10px;
 	list-style-type: disc; 
 	}
+
+
