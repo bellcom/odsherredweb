@@ -146,7 +146,23 @@
       }
       print "</div></div></div>";
     }
-       // End of the node view
+    if (!empty($content['field_os2web_borger_dk_recommend'])) {
+      print " <div class='panel-panel panel-region-stack4";
+      print "<div class= 'inside'>";
+      print "<div class='panel-pane pane-entity-field pane-node-field_os2web-borger-dk-recommend'>";
+      print render($content['field_os2web_borger_dk_recommend']);
+      print "</div>";
+      print "<div class='panel-separator'></div>";
+      hide($content['field_os2web_borger_dk_recommend']);
+      if (!empty($content['field_os2web_borger_dk_shortlist'])) {
+        print "<div class='panel-pane pane-entity-field pane-node-field_os2web-borger-dk-recommend'> ";
+        print render($content['field_os2web_borger_dk_shortlist']);
+        hide($content['field_os2web_borger_dk_shortlist']);
+        print "</div>";
+      }
+      print "</div></div></div>";
+    }
+
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
