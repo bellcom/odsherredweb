@@ -2352,7 +2352,7 @@ div.field-items div.field-item.even img {
 
 .node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-byline { text-align: right;}
 
-.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px;}
+.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px; font-style: italic;}
 
 sup {
 	vertical-align: super;
