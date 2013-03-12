@@ -597,6 +597,10 @@ ul.breadcrumb {
 	background-image: url(img/sb-mini-borger.png);
 	}
 
+.megamini .panel-panel .inside .pane-content .pane-menu-megadd-borger-oss h2.pane-title {
+	background-image: url(img/oss-mini-borger.png);
+	}
+
 .megamini .panel-region-stack1,
 .megamini .panel-region-stack2,
 .megamini .panel-region-stack3 {
@@ -1012,7 +1016,7 @@ background: url('img/andresider-listebg.png');
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;}	
 
 #page-overlay {
   width: 100%;
