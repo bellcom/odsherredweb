@@ -234,3 +234,13 @@ td ul.links {
   font-size: 10px;
   color: #6a6a6a;
 }
+
+sup {
+	vertical-align: super;
+	font-size: 65%
+}
+
+sub {
+	vertical-align: sub;
+	font-size: 65%
+}
