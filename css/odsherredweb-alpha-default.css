@@ -813,6 +813,8 @@ top: 0;
 
 .menu-minipanels .panel-region-kol2 .view-selvbetjening ul li {
 	background-image: url(img/ikon-gul-3omv.png) !important; 
+	background-position: 0px 2px;
+	padding-left: 13px;
 
 }
 .megamini .view-selvbetjening ul li { 
