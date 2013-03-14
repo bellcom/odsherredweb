@@ -790,6 +790,12 @@ top: 0;
 	background-position: 0 5px;
 	}
 	
+.menu-minipanels ul li {
+	margin-left: 15px;
+	line-height: 13px;
+	margin-bottom: 5px; 
+}
+
 .megamini ul li { 
 	list-style-image:url(img/ikon-green-larger.png); 
 	margin-left: 15px;
