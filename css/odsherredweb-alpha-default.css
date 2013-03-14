@@ -353,6 +353,7 @@ z-index: 10;
 margin: 84px -486px;
 height: 220px;
 overflow-x: hidden;
+top: 0;
 }
 
 .grid-9 .views-row-1.grid-3, 
