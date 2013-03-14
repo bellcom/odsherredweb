@@ -332,7 +332,7 @@ ul.breadcrumb {
     padding: 20px;
 }
 
-#block-feedback-form {
+/*#block-feedback-form {
 	display: none;
 	position: absolute;
 	bottom: 0;
@@ -342,6 +342,18 @@ ul.breadcrumb {
 	top: 0;
 	margin-right: 0;
 	}
+*/
+#block-feedback-form {
+display: none;
+position: absolute;
+bottom: 50%;
+right: 50%;
+overflow: auto;
+z-index: 10;
+margin: 84px -486px;
+height: 220px;
+overflow-x: hidden;
+}
 
 .grid-9 .views-row-1.grid-3, 
 .grid-9 .views-row-4.grid-3, 
