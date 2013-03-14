@@ -1198,7 +1198,7 @@ background: url('img/andresider-listebg.png');
 	background-image: none !important;
 }
 
-#block-panels-mini-footer-menuer {margin-top: 40px;}
+#block-panels-mini-footer-menuer {margin-top: 40px; margin-bottom: 30px;}
 
 .node-body, #block-system-main .field-type-text-long { font-size: 14px; padding: 5px 0 15px 0}
 
