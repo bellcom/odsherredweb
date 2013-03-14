@@ -2376,3 +2376,17 @@ sub {
 	font-size: 65%
 }
 
+
+
+#edit-search-block-form--2 ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+#edit-search-block-form--2 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+#edit-search-block-form--2 ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+#edit-search-block-form--2 :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+}
