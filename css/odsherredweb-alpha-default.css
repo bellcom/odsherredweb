@@ -1926,7 +1926,7 @@ p.search-result-text {
   display: none;
 }
 
-.page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme { display: none !important;}
+.page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme, .page-node-add .qtip-cmstheme { display: none !important;}
 .front .view-spotbox-megadd img { max-width: 100%; height: auto;} 
 
 #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 220px !important;}
