@@ -497,6 +497,11 @@ top: 0;
     font-size: 23px;
     line-height: 26px;
 }
+
+.view-news-page-views .views-field-field-resume-long .field-content {
+    line-height: 20px;
+}
+
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content {
     font-size: 41px;
     line-height: 45px;
@@ -1142,9 +1147,10 @@ background: url('img/andresider-listebg.png');
 }
 
 .page-node .pane-node-field-mediafile {
-  width: 167px;
+  min-width: 167px;
   float: left;
   margin: 0 43px 0 0;
+  overflow: hidden;
 }
 
 .page-node .pane-kle-lonks-boks-panel-pane-1 {
@@ -1453,6 +1459,7 @@ h2.mArticle {
   color: #3e3e3e;
   font-size: 12px;
   overflow: hidden;
+  line-height: 16px;
 }
 
 .page-nyheder .views-field-title a {
@@ -1493,12 +1500,13 @@ h2.mArticle {
 
 .list-2-left .views-field-title {
   padding: 0 0 0 14px;
+  line-height: 17px;
 }
 
 .list-2-left .views-field-field-resume-long .field-content {
   padding: 0 0 0 14px;
   height: 63px;
-  line-height: 20px;
+  line-height: 16px;
 }
 
 .list-3-right {
@@ -1516,7 +1524,8 @@ h2.mArticle {
 
 .list-3-right .views-field-field-resume-long .field-content {
   padding: 0 0 0 11px;
-  height: 39px;
+  height: 35px;
+  line-height: 16px;
 }
 
 .list-3-right .views-field.views-field-field-resume-long {
@@ -1536,10 +1545,12 @@ h2.mArticle {
 
 .list-8-bottom .views-field-title a {
   font-size: 14px;
+  line-height: 16px;
 }
 
 .list-8-bottom .views-field-field-resume-long .field-content {
   padding: 0 0 0 8px;
+  height: 50px;
 }
 
 .list-8-bottom .views-row {
@@ -2409,3 +2420,5 @@ sub {
 }
 
 .microArticle p { margin-bottom: 5px;}
+
+.block-facetapi h2.block-title { color: #FFF; background-color: #0460AA}
