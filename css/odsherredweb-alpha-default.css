@@ -2397,3 +2397,5 @@ sub {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #999;
 }
+
+.field-name-field-alternativt-billede { margin-bottom: 15px; margin-left: 10px;}
