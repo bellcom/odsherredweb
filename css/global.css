@@ -3,11 +3,10 @@
 
 
 #zone-footer-wrapper { 
-	border-top: 10px solid #68b63c; 
 	background-image:  url(img/footer-bg.png) ;
 	color: #FFF;
-	border-image: url(img/footer-border-top.png) 9 0 0 0 repeat;
-	}
+	border-top: 10px solid #00538f;
+	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;		}
 	
 .page-andre-sider #zone-footer-wrapper {
 	border-top: 10px solid #00538f;

@@ -13,6 +13,7 @@ body  {
 	color: #272727;
 	font-size: 12px; 
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;	
 	}
 	
 a:link, a:visited, a { color: #407DAA;
@@ -65,7 +66,15 @@ h2 {
 	font-size: 20px; 
 	}
 
-h3,
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	}
+	
+h4 {
+	font-size: 15px;
+	}
+	
 .search-result h3 {
   font-size: 14px;
   font-weight: bold;
@@ -350,7 +359,7 @@ right: 50%;
 overflow: auto;
 z-index: 10;
 margin: 84px -486px;
-height: 264px;
+height: 300px;
 overflow-x: hidden;
 top: 0;
 }
@@ -488,6 +497,11 @@ top: 0;
     font-size: 23px;
     line-height: 26px;
 }
+
+.view-news-page-views .views-field-field-resume-long .field-content {
+    line-height: 20px;
+}
+
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .field-content {
     font-size: 41px;
     line-height: 45px;
@@ -1133,9 +1147,10 @@ background: url('img/andresider-listebg.png');
 }
 
 .page-node .pane-node-field-mediafile {
-  width: 167px;
+  min-width: 167px;
   float: left;
   margin: 0 43px 0 0;
+  overflow: hidden;
 }
 
 .page-node .pane-kle-lonks-boks-panel-pane-1 {
@@ -1153,8 +1168,9 @@ background: url('img/andresider-listebg.png');
 .not-front .panel-region-stack2 a {
   padding: 0 0 0 12px;
   background: url('img/ikon-larger-right.png') no-repeat scroll 0 5px;
+  display: block;
 }
-.page-node .pane-selvbetjening a {
+.page-node .panel-region-stack2 .pane-selvbetjening a {
   background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
   padding: 0 0 5px 17px;
 }
@@ -1443,6 +1459,7 @@ h2.mArticle {
   color: #3e3e3e;
   font-size: 12px;
   overflow: hidden;
+  line-height: 16px;
 }
 
 .page-nyheder .views-field-title a {
@@ -1483,12 +1500,13 @@ h2.mArticle {
 
 .list-2-left .views-field-title {
   padding: 0 0 0 14px;
+  line-height: 17px;
 }
 
 .list-2-left .views-field-field-resume-long .field-content {
   padding: 0 0 0 14px;
   height: 63px;
-  line-height: 20px;
+  line-height: 16px;
 }
 
 .list-3-right {
@@ -1506,7 +1524,8 @@ h2.mArticle {
 
 .list-3-right .views-field-field-resume-long .field-content {
   padding: 0 0 0 11px;
-  height: 39px;
+  height: 35px;
+  line-height: 16px;
 }
 
 .list-3-right .views-field.views-field-field-resume-long {
@@ -1526,10 +1545,12 @@ h2.mArticle {
 
 .list-8-bottom .views-field-title a {
   font-size: 14px;
+  line-height: 16px;
 }
 
 .list-8-bottom .views-field-field-resume-long .field-content {
   padding: 0 0 0 8px;
+  height: 50px;
 }
 
 .list-8-bottom .views-row {
@@ -1630,7 +1651,7 @@ h2.mArticle {
 
 #quicktabs-nyheder ul li.active {
   background: #3174a3;
-  padding: 11px 14px 5px;
+  padding: 11px 14px 5px 12px;
   margin: 0;
   box-shadow: inset 0 1px 6px #275c82;
 }
@@ -2372,7 +2393,7 @@ div.field-items div.field-item.even img {
 
 .node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-byline { text-align: right;}
 
-.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px; font-style: italic;}
+.node-type-os2web-borger-dk-article .field-name-field-os2web-borger-dk-header { padding: 10px 15px !important; font-style: italic;}
 
 sup {
 	vertical-align: super;
@@ -2399,3 +2420,7 @@ sub {
 }
 
 .field-name-field-alternativt-billede { margin-bottom: 15px; margin-left: 10px;}
+
+.microArticle p { margin-bottom: 5px;}
+
+.block-facetapi h2.block-title { color: #FFF; background-color: #0460AA}
