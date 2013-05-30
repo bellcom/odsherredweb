@@ -80,6 +80,14 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
+
+<div class="topborgerdk">
+<div class="node-print"><a href="/print/<?php print $node->nid; ?>" target="_blank" title="Undskriv">Udskriv</a></div>
+<?php print render($region['preface_first']); ?>
+</div>
+
+    <h1 class="title" id="page-title"><?php print $title; ?></h1>
+
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
