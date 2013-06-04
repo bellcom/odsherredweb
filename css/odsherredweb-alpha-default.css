@@ -123,6 +123,8 @@ h4 {
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block}
+
 
 #region-sidebar-first li.active-trail a {
 	color: #000:
@@ -870,7 +872,8 @@ top: 0;
 	color: #000;
 	text-decoration: none;
 }
-.megamini .panel-region-stack3 .panel-panel .views-field-field-newstypedato { padding-left: 10px;}
+.megamini .panel-region-stack3 .panel-panel .views-field-field-newstypedato,
+.menu-minipanels .views-field-field-newstypedato { padding-left: 10px;}
 
 .megamini .panel-region-stack3 .views-field-title a {
 	background-image:url(img/ikon-red-larger.png); 
@@ -1846,7 +1849,7 @@ list-style: none;
 
 /* search page -->> */
 .block-sort ul,
-ul.facetapi-date-range {
+ul.facetapi-facet-changed {
   position: relative;
   background: url('img/inputFILTERpil.png') no-repeat scroll left top #FFF;
   width: 201px;
@@ -1856,23 +1859,24 @@ ul.facetapi-date-range {
 }
 
 .block-sort ul li,
-ul.facetapi-date-range li.leaf{
+ul.facetapi-facet-changed li.leaf{
   display:none;
 }
 
 .block-sort ul li,
-ul.facetapi-date-range li{
+ul.facetapi-facet-changed li{
  margin: 0 0 0 10px;
  clear: left;
+ list-style: none;
 }
 
 .block-sort ul:hover li,
-ul.facetapi-date-range:hover li{
+ul.facetapi-facet-changed:hover li{
   display:block;
 }
 
 .block-sort ul:hover,
-ul.facetapi-date-range:hover{
+ul.facetapi-facet-changed:hover{
   box-shadow:2px 8px 6px -2px #333;
 }
 .block-sort img {
@@ -2319,6 +2323,8 @@ div.clearfix {
   color:#454545;
 }
 
+#block-facetapi-lt2dfnd8cmmzglvno9fmhxre08mqpgtj { padding-left: 10px; padding-bottom: 10px; padding-top: 10px;}
+
 /* Add default border radius to list items & links */
 .pager {
   background:transparent;
@@ -2564,3 +2570,5 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
    overflow: hidden;
    background: url(new_arrow.png) no-repeat right #ddd;
 */
+.views-field-field-newstypedato
+

@@ -1,0 +1,8 @@
+#messages,
+#section-header,
+#region-sidebar-first,
+#section-footer,
+#toolbar,
+ul.action-links,
+div.tabs
+ { display: none}
