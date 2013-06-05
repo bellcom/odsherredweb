@@ -39,10 +39,15 @@ a:link, a:visited, a { color: #407DAA;
 	background-repeat: repeat-x;
 	}
 	
-.bluenwhite #section-header {
-	background-image: url( img/bluenwhite.png); 
+.bluenwhite #page_1 {
+	background-image: url( img/bluenwhite.png); background-repeat: repeat-x; 
 	}
-		
+body.bluenwhite { background-image: none;}
+
+#page_1 #zone-content {
+	padding-top: 0; }
+
+
 #zone-branding { 
 	background-color: transparent;
 	background-image: url(img/top-u-logo.png);
@@ -2542,7 +2547,7 @@ sub {
 
 .page-nyheder {}
 .view-subsites-og-sites .view-content .views-row-1 { clear: both}
-.view-subsites-og-sites h3 { font-size: 32px;}
+.view-subsites-og-sites h3 { font-size: 32px; clear: both; padding-top: 20px;}
 .view-subsites-og-sites .view-content .views-row h3 { padding: 5px; margin-bottom: 20px; background-color: #FFF; font-size: 14px; background-image: url(img/subsname.png); border-left: 5px solid #FFF;border-right: 5px solid #FFF;border-bottom: 5px solid #FFF;}
 .view-subsites-og-sites .view-content .views-row h3 a { text-decoration: none; color: #FFF}
 .view-id-andre_sider form { }
@@ -2558,10 +2563,10 @@ sub {
    -webkit-appearance: none;
    }
    
-select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 1px solid #ccc; }
-select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margin-right: 40px;  border: 1px solid #ccc;
+select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 0px solid #ccc; background-image: url(img/choose-subsitesite.png); background-repeat: no-repeat; height: 38px; width: 282px }
+select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px 
 }
-.view-subsites-og-sites .attachment { padding-left: 522px;}
+.view-subsites-og-sites .attachment { padding-left: 335px;}
 
 .page-subsites-og-sites #region-branding { height: 135px}
 
@@ -2570,5 +2575,5 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
    overflow: hidden;
    background: url(new_arrow.png) no-repeat right #ddd;
 */
-.views-field-field-newstypedato
-
+.site-liste {
+	}
