@@ -2604,10 +2604,13 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 
 .page-andre-sider .view-header { font-size: 23px; font-weight: normal; padding-left: 15px; padding-right: 15px; padding-bottom: 20px; color: #999}
 
-.page-andre-sider select#edit-jump, .page-andre-sider select#edit-jump--2  { float: right;  }
-.page-andre-sider select#edit-jump { margin-top: 0; margin-right:20px }
-.page-andre-sider select#edit-jump--2 { margin-top: 20px; margin-right:0px }
-.page-andre-sider h1#page-title { color: #3173a3 }
+.view-id-andre_sider.view-display-id-page select#edit-jump, 
+.view-id-andre_sider.view-display-id-page select#edit-jump--2  { float: right;  }
+.view-id-andre_sider.view-display-id-page select#edit-jump { margin-top: 20px ; margin-right:20px !important }
+.page-andre-sider .view-id-andre_sider.view-display-id-page select#edit-jump { margin-top: 0px !important; }
+
+.view-id-andre_sider.view-display-id-page select#edit-jump--2 { margin-top: 20px; margin-right:0px }
+.view-id-andre_sider.view-display-id-page h1#page-title { color: #3173a3 }
 
 .imagefield-crop-cropbox { clear: both; padding: 25px;}
 
@@ -2626,3 +2629,5 @@ ul.searchcloud li a {
 	
 #mini-panel-odsherred_erhverv .view-id-nyheder_udbud,
 #mini-panel-odsherred_politik .view-id-nyheder_hoeringer { height: 150px;}
+
+.ctools-jump-menu-hide { display: none}
