@@ -131,6 +131,7 @@ h4 {
 .menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block}
 
 
+
 #region-sidebar-first li.active-trail a {
 	color: #000:
 }
@@ -801,14 +802,17 @@ top: 0;
 
 .col2-1-3 .panel-region-col1 { 
 	width: 316px;
+	float: left;
 	}
 
 .col2-1-3 .panel-region-col2 { 
 	width: 170px;
 	margin-left: 10px;
+	float: left;
 	}
 
-
+.megamini .view-id-aktuelt .billede {
+	position: absolute;}
 .megamini .view-id-aktuelt .overlay {
 	position: absolute;
 	top: 159px;	
@@ -2644,3 +2648,5 @@ ul.searchcloud li a {
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-field-newstypedato { float: left; width: 30px; padding: 0 10px; }
 
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-row { border-bottom: 1px dotted #ccc; padding-bottom: 5px; clear: both; min-height: 40px;}
+
+.view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-title { margin-left: 50px;}

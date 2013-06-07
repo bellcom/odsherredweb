@@ -4,5 +4,6 @@
 #section-footer,
 #toolbar,
 ul.action-links,
-div.tabs
+div.tabs,
+.del-udskriv
  { display: none}
