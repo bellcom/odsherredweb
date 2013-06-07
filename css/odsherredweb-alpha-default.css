@@ -865,7 +865,7 @@ top: 0;
 	text-decoration: none;
 }
 .megamini .panel-region-stack3 .panel-panel .views-row a {
-	background:url(img/ikon-red-larger.png) no-repeat left center !important;
+	background:url(img/ikon-red-larger.png) no-repeat left 5px !important;
 	display: block; 
 }
 
@@ -1123,7 +1123,8 @@ background: url('img/andresider-listebg.png');
 .front .pane-nyheder-hoeringer-panel-pane-1 h2.pane-title,
 .front .pane-nyheder-udbud-panel-pane-1 h2.pane-title {
 	color: #000 !important;
-	padding: 0 0 10px !important;
+	padding: 0 0 0px !important;
+	margin-bottom: 10px !important;
 	text-transform: none !important;
 	font-weight: bold;
 	font-size: 14px !important;
@@ -2598,3 +2599,19 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 .page-andre-sider h1#page-title { color: #3173a3 }
 
 .imagefield-crop-cropbox { clear: both; padding: 25px;}
+
+#searchcloud { background: url('img/tagwall-erhverv.png'); padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: 224px; margin-bottom: 15px;}
+#searchcloud h2.pane-title { margin-bottom: 15px; color: #FFF;}
+ul.searchcloud li { 
+	display: block;
+	float: left;
+	line-height: 10px;
+	padding: 0 10px 0 0 !important;}
+	
+ul.searchcloud li a {
+	color: #FFF;
+	background: url('img/less-than-gray.png') no-repeat scroll right;
+	padding: 0 10px 0 0;}
+	
+#mini-panel-odsherred_erhverv .view-id-nyheder_udbud,
+#mini-panel-odsherred_politik .view-id-nyheder_hoeringer { height: 150px;}
