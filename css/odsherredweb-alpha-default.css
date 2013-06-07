@@ -458,6 +458,13 @@ top: 0;
 	color: #FFF;
 	}
 
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title { 
+	margin-bottom: 5px;
+	border-bottom: 5px #CC4446 solid; padding-bottom: 3px;
+	}
+
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 .inside { padding-right: 0 !important}
 
 /*Slideshow backgground on the frontpage */
 #views_slideshow_pager_field_item_bottom_aktuelt-panel_pane_3_0 .views-slideshow-pager-field-item {
@@ -2631,3 +2638,9 @@ ul.searchcloud li a {
 #mini-panel-odsherred_politik .view-id-nyheder_hoeringer { height: 150px;}
 
 .ctools-jump-menu-hide { display: none}
+
+.view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .dag { color: #CF494A; font-size: 16px;}
+
+.view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-field-newstypedato { float: left; width: 30px; padding: 0 10px; }
+
+.view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-row { border-bottom: 1px dotted #ccc; padding-bottom: 5px; clear: both; min-height: 40px;}
