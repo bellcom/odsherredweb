@@ -2132,7 +2132,18 @@ p.search-result-text {
 .menu-minipanels .panel-region-kol1, .menu-minipanels .panel-region-kol3, .menu-minipanels .panel-region-kol4 {
 	width: 220px
 }
-.menu-minipanels .panel-region-kol2 { display: block} 
+.menu-minipanels .panel-region-kol2,
+.menu-minipanels .panel-region-kol3 { 
+	display: block;
+	background-image: url(img/megakolonner.png);
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+	min-height: 342px;} 
+	
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 {
+	background-image: url(img/megakolonne-feather.png);
+	}	
+
 
 .region-menu {
 	height: 64px;
