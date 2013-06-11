@@ -35,6 +35,7 @@ zones[footer] = 'Footer'
 css[global.css][name] = 'Grund design'
 css[global.css][description] = 'Her er grund farverne.'
 css[global.css][options][weight] = '10'
+stylesheets[print][] = css/print.css
 scripts[0] = 'js/jquery.backgroundfrontpage.js'
 scripts[1] = 'js/jquery.portalMenuPageDimmer.js'
 scripts[2] = 'js/jquery.panel-toggle.js'
