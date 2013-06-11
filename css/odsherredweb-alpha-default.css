@@ -812,7 +812,7 @@ top: 0;
 	}
 	
 .front .col2-1-3 .panel-region-col2 { float: right }
-.front .panel-region-top-right .view-aktuelt { position: absolute; }
+.front .panel-region-top-right .view-aktuelt { position: absolute;  width: 180px;}
 .front .panel-region-top-right .quicktabs-tabpage { height: 265px; }
 
 .megamini .view-id-aktuelt .billede {
