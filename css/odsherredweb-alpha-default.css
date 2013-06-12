@@ -27,6 +27,7 @@ a:link, a:visited, a { color: #407DAA;
 .page-a-aa-index #section-content,
 .page-nyheder #section-content,
 .page-search #section-content,
+.page-andre-sider #section-content,
 .bluenwhite #section-content {
 	background-image: url(img/tpl_bg.png);
 	background-position: center bottom;
@@ -38,12 +39,15 @@ a:link, a:visited, a { color: #407DAA;
 	background-image: url( img/top-blue.png); 
 	background-repeat: repeat-x;
 	}
-	
+
+.page-andre-sider #page_1,
 .bluenwhite #page_1 {
 	background-image: url( img/bluenwhite.png); background-repeat: repeat-x; 
 	}
+body.page-andre-sider,
 body.bluenwhite { background-image: none;}
 
+body.page-andre-sider #page_1 #zone-content,
 body.bluenwhite #page_1 #zone-content {
 	padding-top: 0; }
 
@@ -160,6 +164,10 @@ h4 {
 }
 #region-branding { 
 	height: 170px;
+	}
+	
+.page-andre-sider #region-branding { 
+	height: 140px;
 	}
 	
 #region-user-first { 
@@ -2658,3 +2666,5 @@ ul.searchcloud li a {
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-row { border-bottom: 1px dotted #ccc; padding-bottom: 5px; clear: both; min-height: 40px;}
 
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-title { margin-left: 50px;}
+
+.page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
