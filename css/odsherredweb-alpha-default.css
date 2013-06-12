@@ -2629,8 +2629,12 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 
 .imagefield-crop-cropbox { clear: both; padding: 25px;}
 
-#searchcloud { background: url('img/tagwall-erhverv.png'); padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: 224px; margin-bottom: 15px;}
-#searchcloud h2.pane-title { margin-bottom: 15px; color: #FFF;}
+.searchcloudblok {; padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: 224px; margin-bottom: 15px;}
+#searchcloud-erhverv { background: url('img/tagwall-erhverv.png')}
+#searchcloud-borger { background: url('img/tagwall-borger.png')}
+
+.searchcloudblok h2.pane-title { margin-bottom: 15px; color: #FFF;}
+
 ul.searchcloud li { 
 	display: block;
 	float: left;
