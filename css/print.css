@@ -1,3 +1,5 @@
+body {font-family: 'Trebuchet MS', Helvetica, sans-serif;}
+
 #messages,
 #section-header,
 #region-sidebar-first,
@@ -5,5 +7,7 @@
 #toolbar,
 ul.action-links,
 div.tabs,
-.del-udskriv
+.del-udskriv,
+h2.node-title,
+.field-name-field-mediafile
  { display: none}
