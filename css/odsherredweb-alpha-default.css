@@ -2684,3 +2684,5 @@ ul.searchcloud li a {
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-title { margin-left: 50px;}
 
 .page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
+
+#node_news_form_group_hidden { display: none}
