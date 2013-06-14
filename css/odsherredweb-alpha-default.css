@@ -1020,6 +1020,15 @@ top: 0;
   right: 3px;
   float: right;
   }
+  
+.pane-quicktabs-borger .toggle-panel {
+	top: -48px;}
+
+.pane-quicktabs-erhverv .toggle-panel {
+	top: -45px;}
+	
+.pane-quicktabs-politik .toggle-panel {
+	top: -46px;}
 
 .toggle-panel.open {
   background: url('img/minus.png') no-repeat scroll 97% 15px;
