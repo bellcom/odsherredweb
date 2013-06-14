@@ -180,9 +180,12 @@ h4 {
 
 #region-header-second { 
 	height: 30px;
+	padding-bottom: 18px;
+	}
+.font #region-header-second { 
 	padding-bottom: 30px;
 	}
-
+	
 #region-user-first ul.menu , 
 #region-header-second ul.menu { 
 	text-align: right
@@ -335,19 +338,68 @@ ul.breadcrumb {
 	padding-left: 80px 
 	}
 
+
+
+#search-block-form { 
+	height: 44px;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	padding: 0px;
+	}
+
 .front #search-block-form {
-
+	padding: 5px;
 	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+	}
 
-}	
-
-.front #search-block-form input[type="text"] {
-	width: 480px;
+#search-block-form input[type="text"] {
+	height: 44px;
+	line-height: 44px;
+	width: 571px;
+	font-size: 20px;
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+	background-image: url(img/search-bg.png);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	float: left;
+	background-position: 0;
+	}
+.page-odherred-forside #search-block-form input[type="text"] {
+	width: 481px !important; 
 	}
 
 .front #search-block-form input[type="image"] {
 	margin-right: 0;
 	}
+
+.search-form .form-actions input { margin-right: 0}
+
+
+#search-block-form input[type="submit"] {
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	width: 48px;
+	height: 45px;
+	outline: 0;
+	border: none;
+	border-color: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: transparent url(img/search.png) no-repeat;
+	color: #333;
+	text-shadow: none;
+	font: bold 12px/1.2 Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	}
+
 
 .rel-register-link a { 
 	display: none
@@ -968,6 +1020,15 @@ top: 0;
   right: 3px;
   float: right;
   }
+  
+.pane-quicktabs-borger .toggle-panel {
+	top: -48px;}
+
+.pane-quicktabs-erhverv .toggle-panel {
+	top: -45px;}
+	
+.pane-quicktabs-politik .toggle-panel {
+	top: -46px;}
 
 .toggle-panel.open {
   background: url('img/minus.png') no-repeat scroll 97% 15px;
@@ -1958,7 +2019,6 @@ ul:hover .facet-date-label {
   width: 41px;
   border-radius: 0;
   position: relative;
-  left: -3px;
 }
 
 .page-search .form-type-textfield label {
@@ -2173,42 +2233,7 @@ p.search-result-text {
 	margin-bottom: 10px;
 }
 
-.search-form .form-actions input { margin-right: 0}
 
-.front #search-block-form {
-	padding: 5px;
-	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
-	}
-
-#search-block-form { 
-	height: 44px;
-	padding: 0 0 0 10px;
-	background-repeat: no-repeat;
-	padding: 5px;
-	}
-
-#search-block-form input[type="submit"] {
-	overflow: visible;
-	padding: 0;
-	margin: 0;
-	width: 49px;
-	height: 45px;
-	outline: 0;
-	border: none;
-	border-color: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	background: transparent url(img/search.png) no-repeat;
-	color: #333;
-	text-shadow: none;
-	font: bold 12px/1.2 Arial, sans-serif;
-	cursor: pointer;
-	-webkit-appearance: none;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding;
-	}
-	
 #node_contentpage_form_group_hidden, #edit-field-rotate-publish { 
 	display: none
 	}
@@ -2668,3 +2693,5 @@ ul.searchcloud li a {
 .view-id-nyheder_moedekalender.view-display-id-panel_pane_2 .views-field-title { margin-left: 50px;}
 
 .page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
+
+#node_news_form_group_hidden { display: none}
