@@ -122,7 +122,9 @@
   ?>
   
   <div class="content clearfix"<?php print $content_attributes; ?>>
-  <?php
+  
+ <?php
+          
     if (!empty($content['field_os2web_borger_dk_selfservi'])) {
       print "<div class='panel-panel panel-region-stack2 gul-boks'>
              <div class='toggle-related'><i class='button bum'></i></div>
@@ -136,6 +138,15 @@
   ?>
   <div class="content clearfix"<?php print $content_attributes; ?>>
   <?php
+  
+  if (!empty($content['field_os2web_borger_dk_pre_text'])) {
+      print "<div class='borger_dk_pre-text'>";
+      print render($content['field_os2web_borger_dk_pre_text']);
+      print "</div>";
+      hide($content['field_os2web_borger_dk_pre_text']);
+    }
+    
+
     if (!empty($content['body'])) {
       print "<div class='panel-panel panel-region-stack3'>
                 <div class='inside'>

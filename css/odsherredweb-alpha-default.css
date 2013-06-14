@@ -1,4 +1,9 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+html {
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
+	}
+
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
 	-moz-box-shadow:none;
 	-webkit-box-shadow: none;
@@ -2265,6 +2270,8 @@ div.clearfix {
 	}
 
 .node-type-borger-dk-article .node-borger-dk-article { background-color: #FFF; padding: 1em}
+
+#block-system-main .field-type-text-long.field-name-field-os2web-borger-dk-pre-text {padding: 10px}
 
 .panel-region-stack2 .pane-node-field-os2web-selfservice li { list-style: none;}
 
