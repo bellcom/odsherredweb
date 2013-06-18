@@ -1,4 +1,9 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+html {
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
+	}
+
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
 	-moz-box-shadow:none;
 	-webkit-box-shadow: none;
@@ -939,10 +944,6 @@ top: 0;
 	color: #000;
 	text-decoration: none;
 }
-.megamini .panel-region-stack3 .panel-panel .views-row a {
-	background:url(img/ikon-red-larger.png) no-repeat left 5px !important;
-	display: block; 
-}
 
 #mini-panel-odsherred_politik .pane-nyheder-hoeringer-panel-pane-1 .views-row a,
 #mini-panel-odsherred_politik .pane-nyheder-moedekalender-panel-pane-1 .views-row a {
@@ -955,11 +956,6 @@ top: 0;
 .megamini .panel-region-stack3 .panel-panel .views-field-field-newstypedato,
 .menu-minipanels .views-field-field-newstypedato { padding-left: 10px;}
 
-.megamini .panel-region-stack3 .views-field-title a {
-	background-image:url(img/ikon-red-larger.png); 
-	display: block;
-	padding-left: 10px;
-}
 
 .megamini .panel-region-stack2 ul li {
 	list-style-image:url(img/ikon-blue-larger.png); 
@@ -1487,7 +1483,8 @@ background: url('img/andresider-listebg.png');
 .slider_left  {
   position: fixed;
   left: 0;
-  background: url('img/oplevOdsherred.png');
+/*  background: url('img/oplevOdsherred.png');*/
+  background: url('img/odsherredkalenderen.png');
   width: 50px;
 }
 .slider_back.slider_left  {
@@ -2265,6 +2262,8 @@ div.clearfix {
 	}
 
 .node-type-borger-dk-article .node-borger-dk-article { background-color: #FFF; padding: 1em}
+
+#block-system-main .field-type-text-long.field-name-field-os2web-borger-dk-pre-text {padding: 10px}
 
 .panel-region-stack2 .pane-node-field-os2web-selfservice li { list-style: none;}
 
