@@ -944,10 +944,6 @@ top: 0;
 	color: #000;
 	text-decoration: none;
 }
-.megamini .panel-region-stack3 .panel-panel .views-row a {
-	background:url(img/ikon-red-larger.png) no-repeat left 5px !important;
-	display: block; 
-}
 
 #mini-panel-odsherred_politik .pane-nyheder-hoeringer-panel-pane-1 .views-row a,
 #mini-panel-odsherred_politik .pane-nyheder-moedekalender-panel-pane-1 .views-row a {
@@ -960,11 +956,6 @@ top: 0;
 .megamini .panel-region-stack3 .panel-panel .views-field-field-newstypedato,
 .menu-minipanels .views-field-field-newstypedato { padding-left: 10px;}
 
-.megamini .panel-region-stack3 .views-field-title a {
-	background-image:url(img/ikon-red-larger.png); 
-	display: block;
-	padding-left: 10px;
-}
 
 .megamini .panel-region-stack2 ul li {
 	list-style-image:url(img/ikon-blue-larger.png); 
