@@ -1483,7 +1483,8 @@ background: url('img/andresider-listebg.png');
 .slider_left  {
   position: fixed;
   left: 0;
-  background: url('img/oplevOdsherred.png');
+/*  background: url('img/oplevOdsherred.png');*/
+  background: url('img/odsherredkalenderen.png');
   width: 50px;
 }
 .slider_back.slider_left  {
