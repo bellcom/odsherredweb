@@ -501,10 +501,11 @@ top: 0;
 	padding: 20px;
 	}
 
-.menu-minipanels .grid-3.panel-region-kol1 .inside { 
-	padding: 20px 10px 20px 30px;
+.menu-minipanels .grid-3.panel-region-kol1 .inside,
+.menu-minipanels .grid-3.panel-region-kol2 .inside { 
+	padding: 20px 0px 20px 30px;
 	}
-	
+		
 .menu-minipanels .grid-3.panel-region-kol3 .inside { 
 	padding: 20px 0 20px 20px;
 	}
@@ -1300,11 +1301,17 @@ background: url('img/andresider-listebg.png');
 
 }
 
-.page-node .pane-selvbetjening {
+.page-node .panel-region-stack2 .pane-selvbetjening {
   float: left;
   width: 205px;
   margin: 0 45px 0 0;
 }
+
+.page-node .panel-region-stack2 .pane-selvbetjening a {
+  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
+  padding: 0 0 5px 17px;
+}
+
 
 .page-node .pane-node-field-mediafile {
   min-width: 167px;
@@ -1329,10 +1336,6 @@ background: url('img/andresider-listebg.png');
   padding: 0 0 0 12px;
   background: url('img/ikon-larger-right.png') no-repeat scroll 0 5px;
   display: block;
-}
-.page-node .panel-region-stack2 .pane-selvbetjening a {
-  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
-  padding: 0 0 5px 17px;
 }
 
 
@@ -2693,4 +2696,4 @@ ul.searchcloud li a {
 
 .page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
 
-#node_news_form_group_hidden { display: none}
+#node_news_form_group_hidden { display: none}}
