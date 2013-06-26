@@ -137,7 +137,7 @@ h4 {
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
-.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block}
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block; position: absolute}
 
 
 
