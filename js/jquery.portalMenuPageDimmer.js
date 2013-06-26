@@ -1,12 +1,22 @@
 $j(document).ready(function($){
   $('body').append('<div id="page-overlay" style="display : none;">');
-  var $last;
+  var $last,
+      browser = true;
+
+  if ( $.browser.msie ) {
+    if( $.browser.version === "8.0" || $.browser.version === "7.0" ) {
+      browser = false; 
+    }
+  }
+
   function setValue(element){ $last = element; }
   function getValue(){ return $last; }
   $("li.[class^=menu]").find('.menu-minipanel').hover(
       function(){
         $(this).addClass('hover');
-        $('#page-overlay').fadeIn();
+        if( browser ) {
+          $('#page-overlay').fadeIn();
+        }
       },
       function(){
         $(this).removeClass('hover');
@@ -31,4 +41,5 @@ $j(document).ready(function($){
     $last.removeClass('hover');
     $('.qtip').hide();
   });
+
 });
