@@ -96,7 +96,6 @@ ul#main-menu li.menu-784 a.hover {
 
 }
 
-
 .vegas-loading {
 	/* Loading Gif by http://preloaders.net/ */
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
@@ -108,10 +107,10 @@ ul#main-menu li.menu-784 a.hover {
 	top:20px;
 	width:32px; 
 	z-index:0;
+	display: none;
 }
 
 .vegas-overlay {
-display: none;
 }
 
 .vegas-background {

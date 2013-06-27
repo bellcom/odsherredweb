@@ -137,7 +137,7 @@ h4 {
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
-.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block}
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block; position: absolute}
 
 
 
@@ -353,8 +353,9 @@ ul.breadcrumb {
 	}
 
 .front #search-block-form {
-	padding: 5px;
-	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
+	padding: 5px; 
+	background-image: url(img/blue-transparent.png);
+	background-repeat: repeat;
 	}
 
 #search-block-form input[type="text"] {
@@ -1486,8 +1487,11 @@ background: url('img/andresider-listebg.png');
 .slider_left  {
   position: fixed;
   left: 0;
-/*  background: url('img/oplevOdsherred.png');*/
+/*
+  background: url('img/oplevOdsherred.png');
   background: url('img/odsherredkalenderen.png');
+*/
+  background: url('img/vejen_til-swipe.png');
   width: 50px;
 }
 .slider_back.slider_left  {
@@ -2697,3 +2701,8 @@ ul.searchcloud li a {
 .page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
 
 #node_news_form_group_hidden { display: none}}
+
+.vegas-loading { background-color: transparent; display: none}
+
+#sliding-popup .popup-content #popup-text { width: 51%;}
+#sliding-popup .popup-content #popup-buttons { width: 39%; padding-top: 35px; padding-right: 10px;}
