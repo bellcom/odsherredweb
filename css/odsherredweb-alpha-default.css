@@ -1004,7 +1004,8 @@ top: 0;
 	}
 	
 .fedbackogminside a.minside { 
-	background-image: url(img/ikon-minside.png);
+/*	background-image: url(img/ikon-minside.png);*/
+	background-image: url(img/minside.png);
 	}
 
 /*Toggle panels on frontpage --> */
