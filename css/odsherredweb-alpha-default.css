@@ -138,7 +138,7 @@ h4 {
 	margin-top: 5px;
 }
 .menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block; position: absolute}
-
+.menu-minipanels .view-spotbox-megadd.view-display-id-panel_pane_2 { position: relative }
 
 
 #region-sidebar-first li.active-trail a {
