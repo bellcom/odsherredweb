@@ -84,9 +84,6 @@ if(is_object($node) && !empty($node->field_site_structure))
   <p class="search-result-text">
     <?php print $snippet; ?>
   </p>
-  <footer>
-    <a href="<?php print $url; ?>"><?php print $url; ?></a>
-  </footer>
 </article>
 
 
