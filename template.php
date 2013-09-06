@@ -74,10 +74,13 @@ function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
+/**
+ * Implements hook_form_validate().
+ */
 function odswerredweb_content_node_form_validate($form, &$form_state){
   global $user;
 
-  if(!user_access('administer site configuration') && !in_array('Administrator', $user->roles) && !in_array('Webmaster', $user->roles) && !in_array('Webredaktør', $user->roles)){
+  if(!user_access('administer site configuration') && !in_array('Administrator', $user->roles) && !in_array('Webmaster', $user->roles)){
     //drupal_set_message(print_r($form_state['input']['field_termref_sted']['und']['value_field'], TRUE));
     $sted_input = explode(' ', $form_state['input']['field_termref_sted']['und']['value_field']);
 
@@ -85,7 +88,6 @@ function odswerredweb_content_node_form_validate($form, &$form_state){
       $sted = str_replace('"', "", $sted);
       if (empty($sted))
 	continue;
-      //drupal_set_message(print_r($sted, TRUE));
       $sted_term = taxonomy_get_term_by_name($sted,'egennavne_stednavne');
       if (empty($sted_term)){
 	form_set_error('field_termref_sted', $sted . ': ' . t('Du kan kun væge de eksisterende navne'));
@@ -99,7 +101,6 @@ function odswerredweb_content_node_form_validate($form, &$form_state){
       $org = str_replace('"', "", $org);
       if (empty($org))
 	continue;
-      //drupal_set_message(print_r($org, TRUE));
       $org_term = taxonomy_get_term_by_name($org,'organisation');
       if (empty($org_term)){
 	form_set_error('field_organization', $org . ': ' . t('Du kan kun vælge de eksisterende organisationer'));
@@ -113,10 +114,23 @@ function odswerredweb_content_node_form_validate($form, &$form_state){
       $politics = str_replace('"', "", $politics);
       if (empty($politics))
 	continue;
-      //drupal_set_message(print_r($politics, TRUE));
       $politics_term = taxonomy_get_term_by_name($politics,'politik');
       if (empty($politics_term)){
 	form_set_error('field_politics', $politics . ': ' . t('Du kan kun vælge de eksisterende politikker'));
+      }
+    }
+    
+    if (!in_array('Webredaktør', $user->roles)){
+      $stikord_input = explode(' ', $form_state['input']['field_editortags']['und']['value_field']);
+
+      foreach($stikord_input as $stikord){
+	$stikord = str_replace('"', "", $stikord);
+	if (empty($stikord))
+	  continue;
+	$stikord_term = taxonomy_get_term_by_name($stikord,'redaktoertags');
+	if (empty($$stikord_term)){
+	  form_set_error('field_editortags', $stikord . ': ' . t('Du kan kun vælge de eksisterende stikorde'));
+	}
       }
     }
   }
