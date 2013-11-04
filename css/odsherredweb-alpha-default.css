@@ -2707,7 +2707,7 @@ ul.searchcloud li a {
 
 #node_news_form_group_hidden { display: none}}
 
-.vegas-loading { background-color: transparent; display: none}
+.vegas-loading { background-color: transparent; display: none; visibility: hidden}
 
 #sliding-popup .popup-content #popup-text { width: 51%;}
 #sliding-popup .popup-content #popup-buttons { width: 39%; padding-top: 35px; padding-right: 10px;}

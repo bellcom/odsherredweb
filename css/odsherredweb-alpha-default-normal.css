@@ -99,8 +99,7 @@ ul#main-menu li.menu-784 a.hover {
 .vegas-loading {
 	/* Loading Gif by http://preloaders.net/ */
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
-	background:#000 url(.img/359.gif) no-repeat center center;
-	background:rgba(0, 0, 0, 0.7) url(images/359.gif) no-repeat center center;
+	background: hidden;
 	height:32px;
 	left:20px;
 	position:fixed;
