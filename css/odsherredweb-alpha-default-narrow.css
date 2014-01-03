@@ -151,3 +151,8 @@ aside#region-sidebar-first.grid-3.region.region-sidebar-first { overflow: hidden
 .responsive-layout-narrow #region-user-first a, .responsive-layout-narrow #region-header-second a {
 	padding-left: 5px; margin-left: 5px;
 }
+.responsive-layout-narrow .hovenyhed-portalside { height: 149px; padding: 5px 5px 5px 5px; }
+.responsive-layout-narrow .hovenyhed-portalside a { width: 240px;}
+.responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image { width: 255px; height: auto;}
+.responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image img { max-width: 100%; height: auto}
+.responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image a { width: 100%;}
