@@ -53,14 +53,12 @@ ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784
 .front #search-block-form {
 	padding: 5px;
 	background: none repeat scroll 0 0 rgba(61, 142, 199, 0.8);
-
 }
 
 #search-block-form { 
 	height: 44px;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 0;
 	background-repeat: no-repeat;
-	padding: 5px;
 	}
 
 #search-block-form input[type="submit"] {
@@ -86,8 +84,8 @@ ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784
 	}
 
 #search-block-form input[type="text"] {
-	height: 47px;
-	width: 400px;
+	height: 44px;
+	width: 411px;
 	font-size: 20px;
 	margin-right: 0;
 	padding-right: 0;
@@ -97,7 +95,10 @@ ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784
 	border-bottom-left-radius: 5px;
 	padding-left: 10px;
 	float: left;
+	background-position: 0px 0px;
 	}
+.front #search-block-form input[type="text"] {
+	width: 320px}
 	
 .region-menu {
 	height: 41px;}
@@ -116,8 +117,37 @@ padding: 10px 5px 10px 15px;
 .menu-minipanels .panel-region-kol1, .menu-minipanels .panel-region-kol4 {
 	width: 202px !important
 }
-
+.gaatilforside {
+	position: absolute;
+	width: 372px !important;
+	display: block; }
+	
+.responsive-layout-narrow .megamini .block-inner ul li { font-size: 10px; line-height: 10px; margin-bottom: 2px;}
  .menu-minipanels .panel-region-kol3 {
 	width: 245px !important
 }
 .menu-minipanels .panel-region-kol2 { display: none} 
+.responsive-layout-narrow #toolbar { display: none; }
+/* Skjulte menupunkter*/
+
+.responsive-layout-narrow li.menu-mlid-881706 { display: none !important;}
+
+.pane-quicktabs-nyheder, .page-nyheder .panel-region-lead .relative-container {
+	display: none;
+    }
+.list-2-left, .list-3-right { width: 220px;}
+
+.responsive-layout-narrow .page-odherred-forside #search-block-form input[type="text"] {width: 100%; 
+margin-right: -49px}
+.responsive-layout-narrow #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .text-container{
+  font-size: 32px;
+}
+aside#region-sidebar-first.grid-3.region.region-sidebar-first { overflow: hidden;}
+
+.responsive-layout-narrow .spotbox .text {font-size: 11px;}
+.responsive-layout-narrow .spotwrapper { height: 177px;}
+.responsive-layout-narrow .grid-3 .spotwrapper h2.pane-title { font-size: 12px;}
+
+.responsive-layout-narrow #region-user-first a, .responsive-layout-narrow #region-header-second a {
+	padding-left: 5px; margin-left: 5px;
+}

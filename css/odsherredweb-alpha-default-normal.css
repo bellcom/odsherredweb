@@ -95,6 +95,22 @@ ul#main-menu li.menu-784 a.hover {
 	color:#333333;
 
 }
+.page-odherred-forside #search-block-form input[type="text"] {
+	width: 481px !important; 
+	}
+
+#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .text-container{
+  font-size: 50px;
+}
+.gaatilforside {
+	position: absolute;
+	width: 486px !important;
+	display: block;
+}
+.megamini .panel-panel .inside .pane-content h2.pane-title { 
+	font-size: 12px; 
+	width: 131px;
+	}
 
 .vegas-loading {
 	/* Loading Gif by http://preloaders.net/ */
@@ -118,8 +134,9 @@ ul#main-menu li.menu-784 a.hover {
 	z-index:-2;
 } 
 
-
 .fedbackogminside { display: inline}
 
 .qtip-cmstheme{ width: 940px !important}
-
+ .pane-quicktabs-nyheder, .page-nyheder .panel-region-lead .relative-container {
+	display: block;
+    }

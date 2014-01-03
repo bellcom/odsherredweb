@@ -1,18 +1,15 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 html {
 	overflow: -moz-scrollbars-vertical; 
-	overflow-y: scroll;
-	}
+	overflow-y: scroll;}
 
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
 	-moz-box-shadow:none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	z-index: 1;
-	}
+	z-index: 1;}
 
-body  {
-	background-color: #eeece7;
+body  {background-color: #eeece7;
 	background-image: url(img/bg-forloeb.png);
 	background-repeat: repeat-x;
 	color: #272727;
@@ -27,7 +24,7 @@ a:link, a:visited, a { color: #407DAA;
 	margin-top: 15px;
 	margin-left: 5px;
 	}
-
+ 
 .not-front.page-node #section-content,
 .page-a-aa-index #section-content,
 .page-nyheder #section-content,
@@ -370,12 +367,8 @@ ul.breadcrumb {
 	border-bottom-left-radius: 5px;
 	padding-left: 10px;
 	float: left;
-	background-position: 0;
+	background-position: 0px 0px; 
 	}
-.page-odherred-forside #search-block-form input[type="text"] {
-	width: 481px !important; 
-	}
-
 .front #search-block-form input[type="image"] {
 	margin-right: 0;
 	}
@@ -481,7 +474,7 @@ top: 0;
 .grid-12 .views-row-24.grid-3 { margin-right: 0;}
 	
 .spotbox-row img { 
-	width: 100%
+	width: 100%; height: auto;
 	}
 
 .spotbox-row .spotbox_right img { 
@@ -510,13 +503,13 @@ top: 0;
 	padding: 20px 0 20px 20px;
 	}
 
-.menu-minipanels h2.pane-title { 
+.menu-minipanels h2.pane-title, .menu-minipanels h3.pane-title { 
 	font-size: 14px; 
 	font-weight: bold;
 	margin-bottom: 5px;
 	}
 	
-.grid-3 .spotwrapper h2.pane-title {
+.grid-3 .spotwrapper h2.pane-title, .grid-3 .spotwrapper h3.pane-title {
 	background-image: url(img/spot-title-yellow.png);
 	height: 19px;
 	font-size: 14px;
@@ -526,7 +519,9 @@ top: 0;
 	}
 
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title { 
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h3.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h3.pane-title { 
 	margin-bottom: 5px;
 	border-bottom: 5px #CC4446 solid; padding-bottom: 3px;
 	}
@@ -587,7 +582,8 @@ top: 0;
 }
 
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 .views-slideshow-controls-text.views_slideshow_controls_text,
 .background-images {display: none}
@@ -609,9 +605,7 @@ top: 0;
     line-height: 45px;
     }
 
-#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .text-container{
-  font-size: 50px;
-}
+
 #views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-field-resume-long .text-container {
     font-size: 20px;
 }
@@ -671,7 +665,8 @@ top: 0;
 	border-top-right-radius:  5px;
     }
 
-.megamini .panel-panel .inside  h2.pane-title { 
+.megamini .panel-panel .inside  h2.pane-title,
+.megamini .panel-panel .inside  h3.pane-title { 
 	padding: 10px 10px 10px 50px; 
 	color: #FFF;
 	height: 31px; margin: 0;
@@ -679,15 +674,16 @@ top: 0;
 	}
 	
 	
-.megamini .panel-panel .inside .pane-content h2.pane-title { 
+.megamini .panel-panel .inside .pane-content h2.pane-title,
+.megamini .panel-panel .inside .pane-content h3.pane-title { 
 	padding: 50px 10px 10px 10px; 
-	font-size: 12px; 
+	font-size: 10px; 
 	color: #FFF; 
 	height: 24px;
 	background-repeat: no-repeat;
-	width: 131px;
 	}
 	
+.megamini .panel-panel .inside .pane-content h2.pane-title a,
 .megamini .panel-panel .inside .pane-content h2.pane-title a {
 	color: #FFF;
 	}
@@ -706,26 +702,31 @@ top: 0;
 	padding: 5px;
 	}
 
-.front .panel-region-stack1 .panel-col-first h2.pane-title {
+.front .panel-region-stack1 .panel-col-first h2.pane-title,
+.front .panel-region-stack1 .panel-col-first h3.pane-title {
 	background-image: url(img/menu-accmini-borger.png);
 	text-transform: none;
 }
 
-.front .panel-region-stack2 .panel-col-first h2.pane-title {
+.front .panel-region-stack2 .panel-col-first h2.pane-title,
+.front .panel-region-stack2 .panel-col-first h3.pane-title {
 	background-image: url(img/menu-accmini-erhverv.png);
 	text-transform: none;
 }
 
-.front .panel-region-stack3 .panel-col-first h2.pane-title {
+.front .panel-region-stack3 .panel-col-first h2.pane-title,
+.front .panel-region-stack3 .panel-col-first h3.pane-title {
 	background-image: url(img/menu-accmini-politik.png);
 	text-transform: none;
 }
 
-.megamini .panel-panel .inside .pane-content .pane-selvbetjening h2.pane-title {
+.megamini .panel-panel .inside .pane-content .pane-selvbetjening h2.pane-title,
+.megamini .panel-panel .inside .pane-content .pane-selvbetjening h3.pane-title {
 	background-image: url(img/sb-mini-borger.png);
 	}
 
-.megamini .panel-panel .inside .pane-content .pane-menu-megadd-borger-oss h2.pane-title {
+.megamini .panel-panel .inside .pane-content .pane-menu-megadd-borger-oss h2.pane-title,
+.megamini .panel-panel .inside .pane-content .pane-menu-megadd-borger-oss h3.pane-title {
 	background-image: url(img/oss-mini-borger.png);
 	}
 
@@ -748,17 +749,20 @@ top: 0;
     background: url('img/red-transparent.png');
     }
 
-.megamini .panel-region-stack1  h2.pane-title { 
+.megamini .panel-region-stack1  h2.pane-title,
+.megamini .panel-region-stack1  h3.pane-title { 
 	background-image: url(img/minibar-borger.png);
 	background-repeat: no-repeat;
 	}
 
-.megamini .panel-region-stack2  h2.pane-title { 
+.megamini .panel-region-stack2  h2.pane-title,
+.megamini .panel-region-stack2  h3.pane-title { 
 	background-image: url(img/minibar-erhverv.png);
 	background-repeat: no-repeat;
 	}
 
-.megamini .panel-region-stack3  h2.pane-title { 
+.megamini .panel-region-stack3  h2.pane-title,
+.megamini .panel-region-stack3  h3.pane-title { 
 	background-image: url(img/minibar-politik.png);
 	background-repeat: no-repeat;
 	}
@@ -840,7 +844,8 @@ top: 0;
 	text-decoration: none;
 	}
 	
-#mini-panel-forside_mini_borger h2 { 
+#mini-panel-forside_mini_borger h2,
+#mini-panel-forside_mini_borger h3 { 
 	background-color: green;
 	}
 
@@ -1156,7 +1161,8 @@ background: url('img/andresider-listebg.png');
 	text-decoration: none;
 }
 
-.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title {
+.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title
+.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-erhverv.png);
 	height: 25px; 
 	padding-bottom: 100px;
@@ -1165,7 +1171,8 @@ background: url('img/andresider-listebg.png');
 	background-repeat: no-repeat;
 }
 
-.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title {
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-borger.png);
 	height: 25px; 
 	padding-bottom: 100px;
@@ -1174,7 +1181,8 @@ background: url('img/andresider-listebg.png');
 	background-repeat: no-repeat;
 }
 
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h2.pane-title {
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-politik.png);
 	height: 25px; 
 	padding-bottom: 100px;
@@ -1183,7 +1191,8 @@ background: url('img/andresider-listebg.png');
 	background-repeat: no-repeat;
 }
 
-.menu-minipanels .panel-region-kol2 .pane-selvbetjening h2.pane-title {
+.menu-minipanels .panel-region-kol2 .pane-selvbetjening h2.pane-title,
+.menu-minipanels .panel-region-kol2 .pane-selvbetjening h3.pane-title {
 	background-image:url(img/ikon-megadd-sevbetjening.png) ;
 	height: 25px; 
 	padding-bottom: 100px;
@@ -1192,7 +1201,8 @@ background: url('img/andresider-listebg.png');
 	background-repeat: no-repeat;
 }
 
-.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol3 h2.pane-title {
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol3 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_borger .panel-region-kol3 h3.pane-title {
 	background-image: url(img/ossmddbg.png);
 	height: 25px; 
 	padding-bottom: 100px;
@@ -1202,7 +1212,10 @@ background: url('img/andresider-listebg.png');
 
 .front .pane-nyheder-moedekalender-panel-pane-1 h2.pane-title,
 .front .pane-nyheder-hoeringer-panel-pane-1 h2.pane-title,
-.front .pane-nyheder-udbud-panel-pane-1 h2.pane-title {
+.front .pane-nyheder-udbud-panel-pane-1 h2.pane-title,
+.front .pane-nyheder-moedekalender-panel-pane-1 h3.pane-title,
+.front .pane-nyheder-hoeringer-panel-pane-1 h3.pane-title,
+.front .pane-nyheder-udbud-panel-pane-1 h3.pane-title {
 	color: #000 !important;
 	padding: 0 0 0px !important;
 	margin-bottom: 10px !important;
@@ -1230,11 +1243,7 @@ background: url('img/andresider-listebg.png');
   position: relative;
 }
 
-.gaatilforside {
-	position: absolute;
-	width: 486px !important;
-	display: block;
-}
+
 
 .gaatilforside a { font-weight: normal !important; font-size: 14px;}
 
@@ -1434,7 +1443,7 @@ background: url('img/andresider-listebg.png');
 .page-search .breadcrumb li { display: none;}
 .page-search .breadcrumb li.depth-1 , .page-search .breadcrumb li.depth-2 { display: list-item;}
 
-#region-sidebar-first h2.block-title { padding-left: 15px;}
+#region-sidebar-first h2.block-title, #region-sidebar-first h3.block-title { padding-left: 15px;}
 
 #block-system-main  dt, .admin h3 {
 	font-size: 14px;
@@ -1472,7 +1481,7 @@ background: url('img/andresider-listebg.png');
 }
 .hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
 
-.page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title { display: none}
+.page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title, .page-taxonomy-term  #region-sidebar-first .block-menu-block h3.block-title { display: none}
 
 .front .view-id-aktuelt.view-display-id-panel_pane_3 a { text-decoration: none; color: #FFF;}
 
@@ -1647,8 +1656,9 @@ h2.mArticle {
 }
 
 .list-1-top {
-  width: 620px;
+  width:100%;
 }
+img.news_page_1_top, img.news_page_2_left, img.news_page_3_right { max-width: 100%; height: auto;}
 
 .list-1-top .views-field-title a {
   font-size: 41px;
@@ -1888,7 +1898,8 @@ h2.mArticle {
   overflow: auto;
   margin: 0 0 10px;
 }
-.pane-menu-presseservice h2 {
+.pane-menu-presseservice h2,
+.pane-menu-presseservice h3 {
   margin: 0 0 10px;
   font-size: 16px;
 }
@@ -1929,14 +1940,18 @@ list-style: none;
 }
 
 .node-type-news #region-sidebar-first h2.block-title,
-.din-kommune #region-sidebar-first h2.block-title {
+.din-kommune #region-sidebar-first h2.block-title,
+.node-type-news #region-sidebar-first h3.block-title,
+.din-kommune #region-sidebar-first h3.block-title {
   color: #FFF;
   background: url(img/news-node-sidebar-bg.png);
   padding: 3px 15px 7px;
 }
 
 .node-type-news #region-sidebar-first h2.block-title a,
-.din-kommune #region-sidebar-first h2.block-title a {
+.din-kommune #region-sidebar-first h2.block-title a,
+.node-type-news #region-sidebar-first h3.block-title a,
+.din-kommune #region-sidebar-first h3.block-title a {
   color: #FFF;
 }
 
@@ -2596,7 +2611,7 @@ sub {
 
 .microArticle p { margin-bottom: 5px;}
 
-.block-facetapi h2.block-title { color: #FFF; background-color: #0460AA}
+.block-facetapi h2.block-title, .block-facetapi h3.block-title { color: #FFF; background-color: #0460AA}
 
 
 .page-subsites-og-sites .region-content { margin-bottom: 25px;}
@@ -2611,7 +2626,7 @@ sub {
 .node-print { float: right}
 .node-print a { text-decoration: none; padding-right: 25px; border-right: 2px solid #e4e4e4}
 
-.node-type-news .block-block-11 h2.block-title { display: none}
+.node-type-news .block-block-11 h2.block-title, .node-type-news .block-block-11 h3.block-title { display: none}
 
 .page-nyheder {}
 .view-subsites-og-sites .view-content .views-row-1 { clear: both}
@@ -2674,7 +2689,7 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 #searchcloud-erhverv { background: url('img/tagwall-erhverv.png')}
 #searchcloud-borger { background: url('img/tagwall-borger.png')}
 
-.searchcloudblok h2.pane-title { margin-bottom: 15px; color: #FFF;}
+.searchcloudblok h2.pane-title, .searchcloudblok h3.pane-title { margin-bottom: 15px; color: #FFF;}
 
 #mini-panel-odsherred_borger ul.searchcloud li ,
 ul.searchcloud li { 
@@ -2711,3 +2726,4 @@ ul.searchcloud li a {
 
 #sliding-popup .popup-content #popup-text { width: 51%;}
 #sliding-popup .popup-content #popup-buttons { width: 39%; padding-top: 35px; padding-right: 10px;}
+
