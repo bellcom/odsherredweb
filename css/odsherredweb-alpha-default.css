@@ -121,7 +121,10 @@ h4 {
 	background-image: url(img/ikon-green-down.png);
 	background-position: left 8px;
 	}
-
+#region-sidebar-first ul.menu li.collapsed {
+	background-image: url(img/ikon-green-larger.png);
+	background-position: left 4px;
+	}
 #region-sidebar-first ul.menu li ul li {
 	border-bottom: none;
 	padding: 0 0 2px 12px;
@@ -130,13 +133,9 @@ h4 {
 	background-image: url(img/ikon-green-dot.png);
 	background-position: left 6px;
 }
-
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
-
-
-
 #region-sidebar-first li.active-trail a {
 	color: #000:
 }
@@ -2561,8 +2560,8 @@ div.field-items div.field-item.even img {
 .node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 20px; margin-left: 10px;}
 
 .node-type-os2web-borger-dk-article #region-content .region-content-inner{ background-image: url(img/c-bg.png); padding: 10px;}
-
-.node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px;}
+.panel-region-stack4 { margin-top: 10px;}
+.node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px; }
 
 .field-type-text-long ul { 
 	padding-left: 0;
