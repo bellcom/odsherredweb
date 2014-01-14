@@ -483,14 +483,7 @@ top: 0;
 	margin-bottom: 5px;
 	}
 	
-.grid-3 .spotwrapper h2.pane-title, .grid-3 .spotwrapper h3.pane-title {
-	background-image: url(img/spot-title-yellow.png);
-	height: 19px;
-	font-size: 14px;
-	padding: 5px 10px;
-	margin: 0;
-	color: #FFF;
-	}
+
 
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,

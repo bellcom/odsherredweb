@@ -45,6 +45,9 @@ a:link, a:visited, a { color: #407DAA;
 	list-style: none; }
 	
 body.responsive-layout-mobile { padding-top: 0 !important}
+.responsive-layout-mobile #region-sidebar-first,
+.responsive-layout-mobile #region-content { margin: 0;}
+
 .responsive-layout-mobile li.expanded, 
 .responsive-layout-mobile li.collapsed,
 .responsive-layout-mobile li.leaf { padding: 0 0 0 0;}
@@ -56,6 +59,7 @@ body.responsive-layout-mobile { padding-top: 0 !important}
 .responsive-layout-mobile .vegas-overlay,
 .responsive-layout-mobile .vegas-loading,
 .responsive-layout-mobile .background-images,
+.responsive-layout-mobile span.ext,
 .responsive-layout-mobile .goto-wrapper,
 .responsive-layout-mobile #region-branding,
 .responsive-layout-mobile #region-user-first, 
@@ -75,10 +79,10 @@ body.responsive-layout-mobile { padding-top: 0 !important}
 .responsive-layout-mobile .view-spotboxe .views-row.views-row-even .spotwrapper { margin-left: 5px; display: block;}
 .responsive-layout-mobile h2.pane-title { font-size: 16px;}
 .responsive-layout-mobile #region-sidebar-first li { display: block !important; float: none; margin: 0 !important; list-style: none; }
-.responsive-layout-mobile #region-sidebar-first li a { text-decoration: none; display: block;font-size: 1.15em; border-bottom: 1px solid #333; line-height: 1.8em; padding: 0 5px; }
+.responsive-layout-mobile #region-sidebar-first li a { text-decoration: none; display: block;font-size: 1.4em; border-bottom: 1px solid #333; line-height: 1.8em; padding: 0 5px; }
 .responsive-layout-mobile #region-sidebar-first .breadcrumb li a { border-bottom: none }
 
-.responsive-layout-mobile #region-sidebar-first li a.active { background-color: #000; color: #FFF; font-size: 1.35em; line-height: 1.4em}
+.responsive-layout-mobile #region-sidebar-first li a.active { background-color: #000; color: #FFF; font-size: 1.8em; line-height: 1.8em}
 .responsive-layout-mobile #region-sidebar-first #breadcrumb li {
 	display: list-item !important;
 	list-style-position: inside !important;
@@ -97,11 +101,17 @@ body.responsive-layout-mobile { padding-top: 0 !important}
 
 .responsive-layout-mobile #region-sidebar-first .block-menu-block h2.block-title,
 .responsive-layout-mobile #region-sidebar-first #breadcrumb li.depth-1.odd.first { display: none !important}
-.responsive-layout-mobile #region-sidebar-first #breadcrumb a { color: #333; font-size: 10px;}
-#block-menu-menu-mobil-top li { width: 33%; padding: 0 0 0 0; margin: 0 5px 0 0 ; float: left !important; display: block; border: none; }
-#block-menu-menu-mobil-top li a { display: block; float: left; background-color: blue; color: #FFF; padding: 5%; width: 90%}
-#block-menu-menu-mobil-top li.first a { background-color: green;}
-#block-menu-menu-mobil-top li.last a { background-color: red; }
+.responsive-layout-mobile #region-sidebar-first #breadcrumb a { color: #333; font-size: 1.25em;}
+
+.responsive-layout-mobile .hovenyhed-portalside { padding: 25px 0 15px;}
+.responsive-layout-mobile .hovenyhed-portalside a { text-decoration: none; color: #333; display: block; }
+
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li { width: 33%; padding: 0 0 0 0; margin: 0 5px 0 0 ; float: left !important; display: block; border: none; font-size: 1.8em; line-height: 2em; border: none !important; font-size: 100%; text-align: center }
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li a { display: block; float: left; background-color: #3887C5; color: #FFF; padding: 5%; width: 90%; border: none !important;}
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li.first { width: 34%} 
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li.first a { background-color: #56AE30;}
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li.last a { background-color: #C63838; }
+.responsive-layout-mobile #region-sidebar-first #block-menu-menu-mobil-top li a.active { color: #FFF; font-size: 1.8em;}
 
 .spotbox-row img { 
 	width: 100%; height: auto;
@@ -119,7 +129,8 @@ body.responsive-layout-mobile { padding-top: 0 !important}
 	margin-bottom: 10px;
 	background-image: url(img/c-bg.png);
 	}
-	
+.responsive-layout-mobile .spotwrapper { padding: 0;}
+
 .show-links {
   background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px ;
   height: 31px;
@@ -214,3 +225,14 @@ background: url('img/andresider-listebg.png');
   height: 106px;  
 }
 /* <-- spotbox portal */
+
+.spotwrapper h2.pane-title, .spotwrapper h3.pane-title {
+	background-image: url(img/spot-title-yellow.png);
+	height: 19px;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0;
+	color: #FFF;
+	}
+	
+.responsive-layout-mobile .alpha, .responsive-layout-mobile .omega { margin: 0 0}
