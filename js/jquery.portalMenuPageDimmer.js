@@ -9,6 +9,7 @@ $j(document).ready(function($){
     }
   }
   $('.js-menu-minipanel-toggle').click(function(){
+    $(this).parent().find('.portal-link').addClass('hover');
     return false
   });
 });

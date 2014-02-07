@@ -293,18 +293,23 @@ ul#main-menu li.menu-784 a {
 
 #page_1 ul#main-menu li a.menu-minipanel, 
 #page_1  ul#main-menu li a.menu-minipanel:hover {
-background-image: url('img/plus.png');
-background-repeat: no-repeat;
-background-size: initial;
-width:20px;
-height:20px;
-display: block;
-position: absolute;
-top: 24px;
-right: 20px;
-background-position: 50% 50%;
-padding: 0;
-margin: 0;
+  background-image: url('img/plus.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  width:20px;
+  height:20px;
+  display: block;
+  position: absolute;
+  top: 24px;
+  right: 23px;
+  background-position: 50% 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#page_1 ul#main-menu li.first a.menu-minipanel, 
+#page_1  ul#main-menu li.first a.menu-minipanel:hover {
+  right: 22px;
 }
 
 #page_1 ul#main-menu li a.menu-minipanel.qtip-hover, 
@@ -353,11 +358,7 @@ ul.breadcrumb {
 	
 #breadcrumb {
 	padding: 10px
-	}
-
-
-
-	
+}
 .front .region-header-first-inner { 
 	padding-left: 80px 
 	}
@@ -425,7 +426,7 @@ ul.breadcrumb {
 	display: none
 	}
 
-.qtip-cmstheme { background-color: transparent}
+.qtip-cmstheme { background-color: transparent; margin-top: 3px;}
 
 .front #zone-header-wrapper, #block-superfish-2 { display: none}
 
@@ -1149,13 +1150,6 @@ top: 0;
   top: 0;
   z-index: 100;
 }
-
-#main-menu .hover {
-  z-index: 6200;
-  position: relative;
-}
-
-
 
 .gaatilforside a { font-weight: normal !important; font-size: 14px;}
 
