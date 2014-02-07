@@ -69,7 +69,6 @@ ul#main-menu li.menu-782 a, ul#main-menu li.menu-783 a, ul#main-menu li.menu-784
 	height: 45px;
 	outline: 0;
 	border: none;
-	border-color: none;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -156,3 +155,11 @@ aside#region-sidebar-first.grid-3.region.region-sidebar-first { overflow: hidden
 .responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image { width: 255px; height: auto;}
 .responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image img { max-width: 100%; height: auto}
 .responsive-layout-narrow .hovenyhed-portalside .views-field-field-lead-image a { width: 100%;}
+
+.mobile-logo,
+.navbar-toggle,
+#block-menu-menu-mobil-footer,
+#block-menu-menu-mobil-forside,
+#block-menu-menu-mobil-top { display: none !important;}
+
+.responsive-layout-narrow .view-id-sitestuktur .views-field-name a { display: block; height: auto; width: auto; padding-left: 28px; padding-top: 3px; font-size: 14px;}

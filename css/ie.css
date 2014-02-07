@@ -1,0 +1,11 @@
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+.comment-links ul li a {
+  /* IE7 */
+  *padding-top: 2px;
+  *padding-bottom: 0px;
+}

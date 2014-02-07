@@ -45,9 +45,19 @@ body.bluenwhite #page_1 #zone-content {
 	background-repeat: no-repeat;
 	}
 
-:focus {background-color: #dedede !important; color: #333 !important; outline-style: auto;
-outline-width: 5px;
-outline-color: -webkit-focus-ring-color;}
+a:focus, 
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 1 px red dotted;
+    outline : red dotted 1px;
+    background-color: #dedede !important; color: #333 !important; 
+    outline-style: auto;
+    outline-width: 5px;
+    outline-color: -webkit-focus-ring-color;}
 
 textarea:focus, input[type="text"]:focus {
     background-color: pink;
@@ -127,8 +137,7 @@ h4 {
 	margin-top: 5px;
 }
 #region-sidebar-first li.active-trail a {
-	color: #000:
-}
+	color: #000}
 /*arrow*/
 .page-taxonomy-term-6 #region-sidebar-first ul.menu li,
 .politiksider #region-sidebar-first ul.menu li {
@@ -152,6 +161,15 @@ h4 {
 .erhvervssider #region-sidebar-first ul.menu li.expanded {
 	background-image: url(img/ikon-blue-down.png);
 }
+/*left*/
+.politiksider #region-sidebar-first ul.menu li.collapsed {
+	background-image: url(img/ikon-red-larger.png);
+}
+.erhvervssider #region-sidebar-first ul.menu li.collapsed {
+	background-image: url(img/ikon-blue-larger.png);
+}
+
+
 #region-branding { 
 	height: 170px;
 	}
@@ -223,12 +241,6 @@ h4 {
    bottom:0px;
    height:40px;
    width:100%;
-}
-
-/* IE 6 */
-* html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
 .panels-flexible-region-new-center { 
@@ -373,7 +385,6 @@ ul.breadcrumb {
 	height: 45px;
 	outline: 0;
 	border: none;
-	border-color: none;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -640,6 +651,7 @@ top: 0;
 	color: #FFF;
 	height: 31px; margin: 0;
 	text-transform: uppercase;
+	font-size: 20px;
 	}
 	
 	
@@ -657,8 +669,8 @@ top: 0;
 	color: #FFF;
 	}
 	
-.megamini h3.pane-title a { color: #FFF}
-	
+.megamini h3.pane-title a { color: #FFF; font-size: 20px;}
+.front h3.pane-titel { font-size: 20px;}
 /*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
 	text-transform: none;
@@ -1295,7 +1307,7 @@ top: 0;
 
 .del-udskriv a { 
 	text-decoration: none;
-	display: inline-block:
+	display: inline-block;
 }
 
 .pane-1.del-udskriv {
@@ -1339,10 +1351,10 @@ top: 0;
 .node-type-contentpage .field-slideshow-slide img { max-width: 100%; height: auto;}
 
 .view-id-sitestuktur .views-field-name { position: absolute;}
-.view-id-sitestuktur .views-field-name a { display: block; height: 24px; width: 179px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
+.view-id-sitestuktur .views-field-name a { display: block; height: 24px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
 
 .hovenyhed-portalside { 
-  background-image: url(img/c-bg.png); 
+  background-color: #FFF; 
   height: 262px;  
   margin-bottom: 20px; 
   font-size: 13px; 
@@ -1356,8 +1368,11 @@ top: 0;
   width: 207px;
   display: block;
 }
-.hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
 
+.hovenyhed-portalside .views-field-field-lead-image a { width: auto}
+
+.hovenyhed-portalside h3 a { color: #2d2d2d; font-size: 20px; font-weight: normal;}
+.page-taxonomy-term  #region-sidebar-first {background-color: #FFF;}
 .page-taxonomy-term  #region-sidebar-first .block-menu-block h2.block-title, .page-taxonomy-term  #region-sidebar-first .block-menu-block h3.block-title { display: none}
 
 .front .view-id-aktuelt.view-display-id-panel_pane_3 a { text-decoration: none; color: #FFF;}
@@ -2261,7 +2276,7 @@ div.clearfix {
   border: none;
   border-color: #ddd #bbb #999;
   color: #333;
-  font: bold 12px/1.2 inherit;
+  font: bold 12px/1.2em;
   outline: 0;
 }
 
@@ -2410,10 +2425,6 @@ td ul.links {
   padding: 4px 10px 3px;
   text-shadow: #fff 0 1px 1px;
   width: auto;
-
-  /* IE7 */
-  *padding-top: 2px;
-  *padding-bottom: 0px;
 }
 
 .node-links ul li a:hover,
@@ -2562,7 +2573,7 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 
 .imagefield-crop-cropbox { clear: both; padding: 25px;}
 
-.searchcloudblok {; padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: 224px; margin-bottom: 15px;}
+.searchcloudblok {; padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: auto; margin-bottom: 15px;}
 #searchcloud-erhverv { background: url('img/tagwall-erhverv.png')}
 #searchcloud-borger { background: url('img/tagwall-borger.png')}
 
@@ -2597,7 +2608,7 @@ ul.searchcloud li a {
 
 .page-andre-sider .view-andre-sider .andre-sider-row { margin-top: 20px;}
 
-#node_news_form_group_hidden { display: none}}
+#node_news_form_group_hidden { display: none}
 
 .vegas-loading { background-color: transparent; display: none; visibility: hidden}
 

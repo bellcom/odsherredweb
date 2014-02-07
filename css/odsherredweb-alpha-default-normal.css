@@ -115,7 +115,7 @@ ul#main-menu li.menu-784 a.hover {
 .vegas-loading {
 	/* Loading Gif by http://preloaders.net/ */
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
-	background: hidden;
+	background: none;
 	height:32px;
 	left:20px;
 	position:fixed;
@@ -129,7 +129,6 @@ ul#main-menu li.menu-784 a.hover {
 }
 
 .vegas-background {
-	image-rendering: optimizeQuality;
 	-ms-interpolation-mode: bicubic;
 	z-index:-2;
 } 
