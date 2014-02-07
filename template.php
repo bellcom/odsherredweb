@@ -114,3 +114,20 @@ function odsherredweb_preprocess_node(&$variables) {
     }
   }
 }
+
+/**
+ * implements theme_links__system_main_menu()
+ */
+function odsherredweb_links__system_main_menu($variables) {
+  $html = '<ul id="main-menu" class="links inline clearfix main-menu">';
+  
+  //<li class="menu-782 active-trail first active"><a href="/borger" title="" class="active-trail active menu-minipanel menu-minipanel-782 minipanel-processed qtip-hover hover" tabindex="17">Borger</a></li><li class="menu-783"><a href="/erhverv" title="" class="menu-minipanel menu-minipanel-783 minipanel-processed" tabindex="18">Erhverv</a></li><li class="menu-784 last"><a href="/politik" title="" class="menu-minipanel menu-minipanel-784 minipanel-processed" tabindex="19">Politik</a></li></ul>
+
+  $items = array('first', '', 'last');
+
+  foreach( array_shift($variables) as $key => $link) {
+    error_log(print_r($key, 1));
+    $html .= '<li class="' . $key . ' ' . array_shift($items) .  '"><a href="' . $link['href'] . '" title="' . $link['title']. '">' . $link['title']. '</a><a href="" class="js-menu-minipanel-toggle '._menu_minipanels_include($link['minipanel'], $link['menu_minipanels_hover']) .'"></a> </li>';
+  }
+  return $html;
+}

@@ -257,6 +257,7 @@ ul#main-menu li {
 	float: none; 
 	margin-left: 10px;
 	margin-right: 10px;
+	position:relative;
 	padding: 0;}
 
 ul#main-menu li.first {
@@ -289,7 +290,28 @@ ul#main-menu li.menu-783 a {
 ul#main-menu li.menu-784 a {
 	background-image: url(img/portalknap-politik.png);
 	}
-	
+
+#page_1 ul#main-menu li a.menu-minipanel, 
+#page_1  ul#main-menu li a.menu-minipanel:hover {
+background-image: url('img/plus.png');
+background-repeat: no-repeat;
+background-size: initial;
+width:20px;
+height:20px;
+display: block;
+position: absolute;
+top: 24px;
+right: 20px;
+background-position: 50% 50%;
+padding: 0;
+margin: 0;
+}
+
+#page_1 ul#main-menu li a.menu-minipanel.qtip-hover, 
+#page_1 ul#main-menu li a.menu-minipanel.qtip-hover:hover {
+  background-image: url('img/minus.png');
+}
+
 .breadcrumb ul {
 	}
 	
@@ -670,6 +692,7 @@ top: 0;
 	}
 	
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
+.megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
 .front h3.pane-titel { font-size: 20px;}
 /*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
@@ -996,11 +1019,11 @@ top: 0;
 
 /*Toggle panels on frontpage --> */
 .toggle-panel {
-  background: url('img/plus.png') no-repeat scroll 97% 15px;
+  background: url('img/plus.png') no-repeat scroll 13px 15px;
   height: 41px;
   position: relative;
   top: -46px;
-  width: 100%;
+  width: 42px;
   cursor: pointer;
   right: 3px;
   float: right;
@@ -1016,7 +1039,7 @@ top: 0;
 	top: -46px;}
 
 .toggle-panel.open {
-  background: url('img/minus.png') no-repeat scroll 97% 15px;
+  background: url('img/minus.png') no-repeat scroll 13px 15px;
 }
 /* <-- Toggle panels on frontpage*/
 
