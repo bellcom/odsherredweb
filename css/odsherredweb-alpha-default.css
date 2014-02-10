@@ -1276,8 +1276,6 @@ top: 0;
   position: absolute;
   right: 10px;
 }
-.view-spotbox-megadd span.titel {;
-}
 
 .view-spotbox-megadd span.titel a { position: absolute;
 	top: 79px; width: 161px; background-image: url(img/spot-overlay-megadd-politik.png); height: 30px; overflow: hidden;
@@ -2552,7 +2550,7 @@ sub {
    }
    
 select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 0px solid #ccc; background-image: url(img/choose-subsitesite.png); background-repeat: no-repeat; height: 38px; width: 282px }
-select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px 
+select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px 
 }
 .view-subsites-og-sites .attachment { padding-left: 335px;}
 
@@ -2590,7 +2588,7 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margi
 
 .imagefield-crop-cropbox { clear: both; padding: 25px;}
 
-.searchcloudblok {; padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: auto; margin-bottom: 15px;}
+.searchcloudblok {padding: 8px; background-repeat: no-repeat; height: 134px; overflow: hidden; width: auto; margin-bottom: 15px;}
 #searchcloud-erhverv { background: url('img/tagwall-erhverv.png')}
 #searchcloud-borger { background: url('img/tagwall-borger.png')}
 
