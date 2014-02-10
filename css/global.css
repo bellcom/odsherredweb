@@ -9,20 +9,33 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 	z-index: 1;}
 	
 
-a:focus, 
-button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner,
-.overlayclass:focus {
-    border: 1 px red dotted;
-    background-color: #dedede !important; color: #333 !important; 
+button::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 2px dotted red;
+    background-color: #dedede !important; 
+    color: #333 !important; 
+    margin: -2px;
     outline-style: auto;
     outline-width: 5px;
     outline-color: red;
-    outline-style: dotted:}
+    outline-style: dotted}
+    
+a:focus, 
+.overlayclass:focus {
+    border: 1px solid blue;
+    background-color: #fff !important; 
+    color: #000 !important; 
+    margin: -1px;
+    outline-style: auto;
+    outline-width: 1px;
+    outline-color: blue;
+    outline-style: solid}
+    
+
     
 body  {
 	color: #272727;
@@ -204,3 +217,4 @@ background: url('img/andresider-listebg.png');
 
 #sliding-popup .popup-content #popup-text { max-width: 90%;}
 #sliding-popup .popup-content { width: 100%;}
+a.overlayclass { display: table}
