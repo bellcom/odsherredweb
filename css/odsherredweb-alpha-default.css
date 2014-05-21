@@ -1444,9 +1444,11 @@ background: url('img/andresider-listebg.png');
 	margin: 0;
 }
 
-.not-front.node-type-os2web-borger-dk-article .panel-region-stack1 .panel-pane,
+.not-front.node-type-os2web-borger-dk-article .panel-region-stack1 .panel-pane {
+  padding: 10px 5px 10px 5px;
+}
 .not-front .panel-region-stack3 .panel-pane {
-	padding: 10px 5px 10px 5px !important;}
+  padding: 10px 5px 10px 10px;}
 
 .no-padding { padding: 0 !important;}
 
