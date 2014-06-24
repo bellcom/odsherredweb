@@ -2,12 +2,12 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 html {
-	overflow: -moz-scrollbars-vertical; 
+	overflow: -moz-scrollbars-vertical;
 	overflow-y: scroll;}
 
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
 	z-index: 1;}
-	
+
 
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -16,32 +16,34 @@ select::-moz-focus-inner,
 button::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner {
     border: 2px dotted red;
-    background-color: #dedede !important; 
-    color: #333 !important; 
+    background-color: #dedede !important;
+    color: #333 !important;
     margin: -2px;
     outline-style: auto;
     outline-width: 5px;
     outline-color: red;
-    outline-style: dotted}
-    
-a:focus, 
+    outline-style: dotted;
+}
+
+a:focus,
 .overlayclass:focus {
     border: 1px solid blue;
-    background-color: #fff !important; 
-    color: #000 !important; 
+    background-color: #fff !important;
+    color: #000 !important;
     margin: -1px;
     outline-style: auto;
     outline-width: 1px;
     outline-color: blue;
-    outline-style: solid}
-    
+    outline-style: solid;
+}
 
-    
+
+
 body  {
 	color: #272727;
-	font-size: 12px; 
+	font-size: 12px;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;	
+	-webkit-font-smoothing: antialiased;
 	}
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.05em;
@@ -50,45 +52,45 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 5px;
 	}
 
-	
+
 a:link, a:visited, a { color: #407DAA;
 	}
-	
-#zone-footer-wrapper { 
+
+#zone-footer-wrapper {
 	background-image:  url(img/footer-bg.png) ;
 	color: #FFF;
 	border-top: 10px solid #00538f;
 	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;		}
-	
+
 .page-andre-sider #zone-footer-wrapper {
 	border-top: 10px solid #00538f;
-	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;	
+	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;
 }
-#zone-footer a { 
-	color: #fff; 
+#zone-footer a {
+	color: #fff;
 	text-decoration: none;
 	}
 #zone-footer li {
-	margin-left: 0; 
-	padding-left: 0; 
+	margin-left: 0;
+	padding-left: 0;
 	list-style: none; }
-	
+
 img { max-width: 100%; height: auto}
 
 .page-nyheder #block-delta-blocks-breadcrumb
 .page-nyheder.responsive-layout-narrow #block-search-form,
 .not-front.responsive-layout-narrow .vegas-background { display: none !important;}
 
-.spotbox-row img { 
+.spotbox-row img {
 	width: 100%; height: auto;
 	}
 
-.spotbox-row .spotbox_right img { 
+.spotbox-row .spotbox_right img {
 	max-width: 230px;
 	max-height: 115px;
 	}
 
-.spotwrapper { 
+.spotwrapper {
     height: auto;
 	padding: 5px;
 	display: block;
@@ -106,7 +108,7 @@ img { max-width: 100%; height: auto}
 }
 
 .show-links.open{
-background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
+  background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
 }
 
 .spotbox .item-list{
@@ -151,10 +153,10 @@ background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
   background: url('img/lineRed.png');
 }
 .spotbox .text {
-height: 58px;
-padding: 5px 8px 0;
-margin: 0;
-background: url('img/andresider-listebg.png');
+  height: 58px;
+  padding: 5px 8px 0;
+  margin: 0;
+  background: url('img/andresider-listebg.png');
 }
 .spotbox .text a{
   color: #272727;
@@ -189,7 +191,7 @@ background: url('img/andresider-listebg.png');
 }
 
 .spotbox .spotbox_no_picture {
-  height: 106px;  
+  height: 106px;
 }
 /* <-- spotbox portal */
 
@@ -200,8 +202,8 @@ background: url('img/andresider-listebg.png');
 	padding: 5px 10px;
 	margin: 0;
 	color: #FFF;
-	}
-	
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -212,7 +214,22 @@ background: url('img/andresider-listebg.png');
     clip: rect(0, 0, 0, 0);
     border: 0
 }
-.mobile-logo a { width: 210px; height: 40px; float: left; background-image: url(../mobil-logo.png); background-size: 27px auto; background-repeat: no-repeat; background-position: 10px 5px; display: block; padding-left: 45px; padding-top: 5px; line-height: 40px; color: #FFF; font-size: 1.75em; text-decoration: none;}
+.mobile-logo a {
+  width: 210px;
+  height: 40px;
+  float: left;
+  background-image: url(../mobil-logo.png);
+  background-size: 27px auto;
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  display: block;
+  padding-left: 45px;
+  padding-top: 5px;
+  line-height: 40px;
+  color: #FFF;
+  font-size: 1.75em;
+  text-decoration: none;
+}
 
 
 #sliding-popup .popup-content #popup-text { max-width: 90%;}
