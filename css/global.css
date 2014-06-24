@@ -245,7 +245,7 @@ img {
   text-decoration: none;
 }
 
-#logo {
+.region-branding .logo-img a {
   display: block;
 }
 
