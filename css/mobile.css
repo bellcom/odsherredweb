@@ -122,11 +122,6 @@ h2.pane-title { font-size: 16px;}
   list-style-image: url(img/ikon-larger.png) !important;
   border-bottom: none;
 }
-
-#region-sidebar-first .menu li.leaf {
-  background-image: url(img/ikon-green-dot.png) !important;
-}
-
 .page-node #region-sidebar-first .menu-block-wrapper  ul li { display: none !important}
 .page-node #region-sidebar-first .menu-block-wrapper  ul li.active { display: block !important}
 
