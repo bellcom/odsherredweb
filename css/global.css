@@ -33,6 +33,10 @@ a.js-menu-minipanel-toggle:focus {
     color: #000 !important;
 }
 
+#mini-panel-forside_minipanel .pane-title a {
+    background-color: transparent !important;
+}
+
 textarea:focus, input[type="text"]:focus {
     background-color: pink;
 }
