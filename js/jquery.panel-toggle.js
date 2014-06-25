@@ -1,7 +1,8 @@
 jQuery(document).ready(function($){
   $("[class*=quicktabs].toggle > .pane-content").hide();
-  $('<a class="toggle-panel"></a>').insertAfter("[class*=quicktabs] > .pane-title");
+  $('<a class="toggle-panel" href="#" title="Åben"></a>').insertAfter("[class*=quicktabs] > .pane-title");
   $('.toggle-panel').click(function(e){
+    e.preventDefault();
     var $thisDiv = $(this);
     $(this).next('.pane-content').toggle();
     $thisDiv.toggleClass('open');
