@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
   $("[class*=quicktabs].toggle > .pane-content").hide();
-  $('<div class="toggle-panel"></div>').insertAfter("[class*=quicktabs] > .pane-title");
+  $('<a class="toggle-panel"></a>').insertAfter("[class*=quicktabs] > .pane-title");
   $('.toggle-panel').click(function(e){
     var $thisDiv = $(this);
     $(this).next('.pane-content').toggle();
