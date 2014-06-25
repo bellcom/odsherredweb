@@ -116,19 +116,27 @@ h2.pane-title { font-size: 16px;}
 .politiksider#region-sidebar-first li a.active { background-color: #C63838; }
 
 #region-sidebar-first #breadcrumb li {
-	display: list-item !important;
-	list-style-position: inside !important;
-	list-style-type: disc !important;
-	list-style-image: url(img/ikon-larger.png) !important;
-	border-bottom: none;
+  display: list-item !important;
+  list-style-position: inside !important;
+  list-style-type: disc !important;
+  list-style-image: url(img/ikon-larger.png) !important;
+  border-bottom: none;
 }
+
+#region-sidebar-first .menu li.leaf {
+  background-image: url(img/ikon-green-dot.png) !important;
+}
+
 .page-node #region-sidebar-first .menu-block-wrapper  ul li { display: none !important}
 .page-node #region-sidebar-first .menu-block-wrapper  ul li.active { display: block !important}
 
-#region-sidebar-first .menu li.active ul li {display: list-item !important;
-	list-style-position: inside !important;
-	list-style-type: disc !important;
-	list-style-image: url(img/ikon-green-dot.png) !important; }
+#region-sidebar-first .menu li.active ul li {
+  display: list-item !important;
+  list-style-position: inside !important;
+  list-style-type: disc !important;
+  list-style-image: url(img/ikon-green-dot.png) !important;
+}
+
 #region-sidebar-first .menu li.active ul li.collapsed { list-style-image:	url(img/ikon-green-larger.png) !important;}
 
 #region-sidebar-first .block-menu-block h2.block-title,

@@ -4,12 +4,12 @@ body  {background-color: #eeece7;
 	background-image: url(img/bg-forloeb.png);
 	background-repeat: repeat-x;
 	}
-	
+
 .logo-img {
 	margin-top: 15px;
 	margin-left: 5px;
 	}
- 
+
 .not-front.page-node #section-content,
 .page-a-aa-index #section-content,
 .page-nyheder #section-content,
@@ -23,13 +23,13 @@ body  {background-color: #eeece7;
 }
 
 #section-header {
-	background-image: url( img/top-blue.png); 
+	background-image: url( img/top-blue.png);
 	background-repeat: repeat-x;
 	}
 
 .page-andre-sider #page_1,
 .bluenwhite #page_1 {
-	background-image: url( img/bluenwhite.png); background-repeat: repeat-x; 
+	background-image: url( img/bluenwhite.png); background-repeat: repeat-x;
 	}
 body.page-andre-sider,
 body.bluenwhite { background-image: none;}
@@ -39,38 +39,16 @@ body.bluenwhite #page_1 #zone-content {
 	padding-top: 0; }
 
 
-#zone-branding { 
+#zone-branding {
 	background-color: transparent;
 	background-image: url(img/top-u-logo.png);
 	background-repeat: no-repeat;
 	}
 
-a:focus, 
-button::-moz-focus-inner,
-input[type="reset"]::-moz-focus-inner,
-input[type="button"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner,
-select::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {
-    border: 1 px red dotted;
-    outline : red dotted 1px;
-    background-color: #dedede !important; color: #333 !important; 
-    outline-style: auto;
-    outline-width: 5px;
-    outline-color: -webkit-focus-ring-color;}
-
-textarea:focus, input[type="text"]:focus {
-    background-color: pink;
-}
-
-textarea:focus {
-    background: pink;
-}
-
-h1 { 
+h1 {
 	font-size: 25px;
 	}
-	
+
 h1#page-title {
 	padding-top: 15px;
 	padding-left: 15px;
@@ -79,20 +57,20 @@ h1#page-title {
 	font-size: 39px;
 	font-weight: normal;
 }
-	
-h2 { 
-	font-size: 20px; 
+
+h2 {
+	font-size: 20px;
 	}
 
 h3 {
 	font-size: 16px;
 	font-weight: bold;
 	}
-	
+
 h4 {
 	font-size: 15px;
 	}
-	
+
 .search-result h3 {
   font-size: 14px;
   font-weight: bold;
@@ -101,7 +79,7 @@ h4 {
 #region-sidebar-first ul.menu li a {
 	color: #1f1f1f;
 	}
-	
+
 #region-sidebar-first ul.menu li a.active {
 	font-weight: bold;
 }
@@ -170,32 +148,32 @@ h4 {
 }
 
 
-#region-branding { 
+#region-branding {
 	height: 170px;
 	}
-	
-.page-andre-sider #region-branding { 
+
+.page-andre-sider #region-branding {
 	height: 140px;
 	}
-	
-#region-user-first { 
+
+#region-user-first {
 	height: 70px;
 	}
-	
+
 .front #region-footer-second {
 	display: none;
 }
 
-#region-header-second { 
+#region-header-second {
 	height: 30px;
 	padding-bottom: 18px;
 	}
-.font #region-header-second { 
+.font #region-header-second {
 	padding-bottom: 30px;
 	}
-	
-#region-user-first ul.menu , 
-#region-header-second ul.menu { 
+
+#region-user-first ul.menu ,
+#region-header-second ul.menu {
 	text-align: right
 	}
 
@@ -206,32 +184,32 @@ h4 {
 .fedbackogminside {
 	margin-left: 15px;
 }
-	
-#region-user-first a, 
-#region-header-second a { 
+
+#region-user-first a,
+#region-header-second a {
 	color: #FFF;
 	text-decoration: none;
 	border-left: 1px solid #FFF;
 	padding-left: 10px;
 	margin-left: 10px;
 	}
-#region-user-first li, 
+#region-user-first li,
 #region-header-second li {
 	margin: 0;padding: 0;
 }
-#region-user-first li.first a, 
-#region-header-second li.first a { 
+#region-user-first li.first a,
+#region-header-second li.first a {
 	padding-left: 0;
 	margin-left: 0;
 	border-left: none;
 	}
-	
+
 #region-user-first .block {
 	float: right;
 }
-	
-#zone-branding ul.menu li { 
-	display: inline; 
+
+#zone-branding ul.menu li {
+	display: inline;
 	list-style: none;
 	}
 
@@ -243,18 +221,18 @@ h4 {
    width:100%;
 }
 
-.panels-flexible-region-new-center { 
+.panels-flexible-region-new-center {
 	width: 100%;
 	}
 
-ul#main-menu { 
+ul#main-menu {
 	margin: 0;
 	padding: 0;
 	}
-	
-ul#main-menu li { 
-	display: block; 
-	float: none; 
+
+ul#main-menu li {
+	display: block;
+	float: none;
 	margin-left: 10px;
 	margin-right: 10px;
 	position:relative;
@@ -262,23 +240,23 @@ ul#main-menu li {
 
 ul#main-menu li.first {
 	margin-left: 0;
-	padding-left: 0; 
+	padding-left: 0;
 	}
-	
+
 ul#main-menu li.last {
 	margin-right: 0;
 	padding-right: 0;
 	}
 
-ul#main-menu li a {  
+ul#main-menu li a {
 	display: block;
 	padding: 16px 16px 16px 50px;
-	background-repeat: no-repeat; 
-	color: #FFF; 
-	text-decoration: none; 
+	background-repeat: no-repeat;
+	color: #FFF;
+	text-decoration: none;
 	font-size: 22px;
 	}
- 
+
 ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
 	}
@@ -291,7 +269,7 @@ ul#main-menu li.menu-784 a {
 	background-image: url(img/portalknap-politik.png);
 	}
 
-#page_1 ul#main-menu li a.menu-minipanel, 
+#page_1 ul#main-menu li a.menu-minipanel,
 #page_1  ul#main-menu li a.menu-minipanel:hover {
   background-image: url('img/plus.png');
   background-repeat: no-repeat;
@@ -307,65 +285,65 @@ ul#main-menu li.menu-784 a {
   margin: 0;
 }
 
-#page_1 ul#main-menu li.first a.menu-minipanel, 
+#page_1 ul#main-menu li.first a.menu-minipanel,
 #page_1  ul#main-menu li.first a.menu-minipanel:hover {
   right: 22px;
 }
 
-#page_1 ul#main-menu li a.menu-minipanel.qtip-hover, 
+#page_1 ul#main-menu li a.menu-minipanel.qtip-hover,
 #page_1 ul#main-menu li a.menu-minipanel.qtip-hover:hover {
   background-image: url('img/minus.png');
 }
 
 .breadcrumb ul {
 	}
-	
+
 ul.breadcrumb {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	}
-	
+
 .breadcrumb li {
 	display: list-item !important;
 	list-style-position: inside !important;
 	list-style-type: disc !important;
 	list-style-image: url(img/ikon-larger.png) !important;
 	}
-	
 
-#region-sidebar-first .block, 
+
+#region-sidebar-first .block,
 .page-node .panel-node,
 .page-search #region-content  {
 	background-image: url(img/c-bg.png);
 	}
-	
+
 .page-node #region-content .block {
 	margin-bottom: 20px
 }
-	
-#region-sidebar-first a { 
+
+#region-sidebar-first a {
 	color: #000;
 	text-decoration: none;
 	}
 
-#zone-content { 
+#zone-content {
 	padding-top: 20px;
 	}
-	
+
 #region-sidebar-first .menu-block-wrapper {
 	padding: 10px;
 	}
-	
+
 #breadcrumb {
 	padding: 10px
 }
-.front .region-header-first-inner { 
-	padding-left: 80px 
+.front .region-header-first-inner {
+	padding-left: 80px
 	}
 
 
 
-#search-block-form { 
+#search-block-form {
 	height: 44px;
 	padding: 0 0 0 10px;
 	background-repeat: no-repeat;
@@ -373,7 +351,7 @@ ul.breadcrumb {
 	}
 
 .front #search-block-form {
-	padding: 5px; 
+	padding: 5px;
 	background-image: url(img/blue-transparent.png);
 	background-repeat: repeat;
 	}
@@ -391,7 +369,7 @@ ul.breadcrumb {
 	border-bottom-left-radius: 5px;
 	padding-left: 10px;
 	float: left;
-	background-position: 0px 0px; 
+	background-position: 0px 0px;
 	}
 .front #search-block-form input[type="image"] {
 	margin-right: 0;
@@ -422,7 +400,7 @@ ul.breadcrumb {
 	}
 
 
-.rel-register-link a { 
+.rel-register-link a {
 	display: none
 	}
 
@@ -460,17 +438,17 @@ overflow-x: hidden;
 top: 0;
 }
 
-.grid-9 .views-row-1.grid-3, 
-.grid-9 .views-row-4.grid-3, 
-.grid-9 .views-row-7.grid-3, 
-.grid-9 .views-row-10.grid-3, 
+.grid-9 .views-row-1.grid-3,
+.grid-9 .views-row-4.grid-3,
+.grid-9 .views-row-7.grid-3,
+.grid-9 .views-row-10.grid-3,
 .grid-9 .views-row-13.grid-3,
 .grid-9 .views-row-16.grid-3,
 .grid-9 .views-row-19.grid-3,
-.grid-9 .views-row-22.grid-3 { 
+.grid-9 .views-row-22.grid-3 {
 	margin-left: 0; clear: left;
 	}
-	
+
 .grid-9 .views-row-3.grid-3,
 .grid-9 .views-row-6.grid-3,
 .grid-9 .views-row-9.grid-3,
@@ -481,48 +459,48 @@ top: 0;
 .grid-9 .views-row-24.grid-3 {
 	margin-right: 0
 	}
-	
-.grid-12 .views-row-1.grid-3, 
-.grid-12 .views-row-5.grid-3, 
-.grid-12 .views-row-9.grid-3, 
-.grid-12 .views-row-13.grid-3, 
-.grid-12 .views-row-17.grid-3, 
+
+.grid-12 .views-row-1.grid-3,
+.grid-12 .views-row-5.grid-3,
+.grid-12 .views-row-9.grid-3,
+.grid-12 .views-row-13.grid-3,
+.grid-12 .views-row-17.grid-3,
 .grid-12 .views-row-21.grid-3 { margin-left: 0; clear: left}
 
-.grid-12 .views-row-4.grid-3, 
-.grid-12 .views-row-8.grid-3, 
-.grid-12 .views-row-12.grid-3, 
-.grid-12 .views-row-16.grid-3, 
-.grid-12 .views-row-20.grid-3, 
+.grid-12 .views-row-4.grid-3,
+.grid-12 .views-row-8.grid-3,
+.grid-12 .views-row-12.grid-3,
+.grid-12 .views-row-16.grid-3,
+.grid-12 .views-row-20.grid-3,
 .grid-12 .views-row-24.grid-3 { margin-right: 0;}
-	
 
-	
-.menu-minipanels .grid-3 .inside { 
+
+
+.menu-minipanels .grid-3 .inside {
 	padding: 20px;
 	}
 
 .menu-minipanels .grid-3.panel-region-kol1 .inside,
-.menu-minipanels .grid-3.panel-region-kol2 .inside { 
+.menu-minipanels .grid-3.panel-region-kol2 .inside {
 	padding: 20px 0px 20px 30px;
 	}
-		
-.menu-minipanels .grid-3.panel-region-kol3 .inside { 
+
+.menu-minipanels .grid-3.panel-region-kol3 .inside {
 	padding: 20px 0 20px 20px;
 	}
 
-.menu-minipanels h2.pane-title, .menu-minipanels h3.pane-title { 
-	font-size: 14px; 
+.menu-minipanels h2.pane-title, .menu-minipanels h3.pane-title {
+	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 5px;
 	}
-	
+
 
 
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h3.pane-title,
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h3.pane-title { 
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h3.pane-title {
 	margin-bottom: 5px;
 	border-bottom: 5px #CC4446 solid; padding-bottom: 3px;
 	}
@@ -570,7 +548,7 @@ top: 0;
   width: 10px;
   height: 9px;
 }
-.slideshow-next, 
+.slideshow-next,
 .slideshow-previous {
   float:left;
   margin: 0 3px 0 0;
@@ -633,28 +611,28 @@ top: 0;
 .view-id-aktuelt.view-display-id-panel_pane_6 .views-label {
 	float: left;
 	}
-	
+
 .view-id-aktuelt.view-display-id-panel_pane_6 {
 	background: #ecc73e;
 	background-image: url(img/breaking-bg.png);
 	line-height: 29px;
 	font-size: 13px;
 	}
-	
+
 .view-id-aktuelt.view-display-id-panel_pane_6 .views-row {
-	float: left; 
+	float: left;
 	margin: 0 20px;
 	}
-	
+
 .view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title,
-.view-id-aktuelt.view-display-id-panel_pane_6 .field-content a, 
+.view-id-aktuelt.view-display-id-panel_pane_6 .field-content a,
 .view-id-aktuelt.view-display-id-panel_pane_6 .field-content  {
 	color: #323232;
-	font-size: 14px; 
+	font-size: 14px;
 	text-decoration: none;
 	}
-	
-.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title { 
+
+.view-id-aktuelt.view-display-id-panel_pane_6 .views-label.views-label-title {
 	font-weight: bold;
 	padding-right: 5px;
 	}
@@ -662,36 +640,36 @@ top: 0;
 
 /*Breaking news on frontpage*/
 
-.megamini .panel-panel .inside { 
+.megamini .panel-panel .inside {
 	background-color: #FFF;
 	border-top-left-radius:  5px;
 	border-top-right-radius:  5px;
     }
 
 .megamini .panel-panel .inside  h2.pane-title,
-.megamini .panel-panel .inside  h3.pane-title { 
-	padding: 10px 10px 10px 50px; 
+.megamini .panel-panel .inside  h3.pane-title {
+	padding: 10px 10px 10px 50px;
 	color: #FFF;
 	height: 31px; margin: 0;
 	text-transform: uppercase;
 	font-size: 20px;
 	}
-	
-	
+
+
 .megamini .panel-panel .inside .pane-content h2.pane-title,
-.megamini .panel-panel .inside .pane-content h3.pane-title { 
-	padding: 50px 10px 10px 10px; 
-	font-size: 10px; 
-	color: #FFF; 
+.megamini .panel-panel .inside .pane-content h3.pane-title {
+	padding: 50px 10px 10px 10px;
+	font-size: 10px;
+	color: #FFF;
 	height: 24px;
 	background-repeat: no-repeat;
 	}
-	
+
 .megamini .panel-panel .inside .pane-content h2.pane-title a,
 .megamini .panel-panel .inside .pane-content h2.pane-title a {
 	color: #FFF;
 	}
-	
+
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
 .megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
 .front h3.pane-titel { font-size: 20px;}
@@ -704,7 +682,7 @@ top: 0;
 
 .page-node #block-system-main .panel-region-stack1,
 .page-node #block-system-main .panel-region-stack2,
-.page-node #block-system-main .panel-region-stack3 { 
+.page-node #block-system-main .panel-region-stack3 {
 	clear: both;
 	padding: 5px;
 	}
@@ -747,56 +725,56 @@ top: 0;
 .megamini .panel-region-stack1 {
     background: url('img/green-transparent.png');
     }
-     
+
 .megamini .panel-region-stack2 {
     background: url('img/blue-transparent.png');
     }
-    
+
 .megamini .panel-region-stack3 {
     background: url('img/red-transparent.png');
     }
 
 .megamini .panel-region-stack1  h2.pane-title,
-.megamini .panel-region-stack1  h3.pane-title { 
+.megamini .panel-region-stack1  h3.pane-title {
 	background-image: url(img/minibar-borger.png);
 	background-repeat: no-repeat;
 	}
 
 .megamini .panel-region-stack2  h2.pane-title,
-.megamini .panel-region-stack2  h3.pane-title { 
+.megamini .panel-region-stack2  h3.pane-title {
 	background-image: url(img/minibar-erhverv.png);
 	background-repeat: no-repeat;
 	}
 
 .megamini .panel-region-stack3  h2.pane-title,
-.megamini .panel-region-stack3  h3.pane-title { 
+.megamini .panel-region-stack3  h3.pane-title {
 	background-image: url(img/minibar-politik.png);
 	background-repeat: no-repeat;
 	}
-	
-.megamini ul.quicktabs-tabs li a { 
+
+.megamini ul.quicktabs-tabs li a {
 	font-weight: normal
 	}
 
 .megamini .panel-region-stack1  ul.quicktabs-tabs li a,
 .megamini .panel-region-stack1 a:hover,
 .menu-minipanels #mini-panel-odsherred_borger ul li a:hover,
-.borger a:hover { 
+.borger a:hover {
 	color: #50942f;
 	}
-	
+
 .megamini .panel-region-stack2  ul.quicktabs-tabs li a,
 .megamini .panel-region-stack2 a:hover,
-.erhverv a:hover { 
+.erhverv a:hover {
 	color: #3081b7;
 	}
-	
+
 .megamini .panel-region-stack3  ul.quicktabs-tabs li a,
 .megamini .panel-region-stack3 a:hover,
-.politik a:hover { 
+.politik a:hover {
 	color: #ce4949;
 	}
-	
+
 .megamini .panel-region-stack1 .overlay {
 	background-image: url(img/minibar-stor-nyhed-borger-bg.png);
 }
@@ -808,20 +786,20 @@ top: 0;
 .megamini .panel-region-stack3 .overlay {
 	background-image: url(img/accordion_red_bg_large.png);
 }
-	
-.megamini ul.quicktabs-tabs li.active a { 
+
+.megamini ul.quicktabs-tabs li.active a {
 	color: #2a2a2a;
 	}
 
-.megamini .pane-content { 
+.megamini .pane-content {
 	color: #888;
 	font-size: 12px;
 	}
 
-.megamini ul.quicktabs-tabs { 
+.megamini ul.quicktabs-tabs {
 	background-image: url(img/minibar-tabs.png);
 	background-repeat: no-repeat;
-	height: 25px; 
+	height: 25px;
 	margin-bottom: 0;
 	width: 100%;
 	font-size: 14px;
@@ -829,8 +807,8 @@ top: 0;
 	padding-left: 0;
 	position: absolute;
 	}
-	
-.megamini ul.quicktabs-tabs li { 
+
+.megamini ul.quicktabs-tabs li {
 	padding-left: 0;
 	margin-left: 15px;
 	margin-right: 5px;
@@ -838,21 +816,21 @@ top: 0;
 
 
 
-.megamini .quicktabs_main { 
+.megamini .quicktabs_main {
 	padding: 25px 10px 10px 15px;
 	background-image: url(img/minibar-footer-bg.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-	
-.megamini .pane-content a { 
-	color: #000; 
-	font-weight: bold; 
+
+.megamini .pane-content a {
+	color: #000;
+	font-weight: bold;
 	text-decoration: none;
 	}
-	
+
 #mini-panel-forside_mini_borger h2,
-#mini-panel-forside_mini_borger h3 { 
+#mini-panel-forside_mini_borger h3 {
 	background-color: green;
 	}
 
@@ -867,28 +845,28 @@ top: 0;
 .megamini .panel-region-stack2 .view-id-aktuelt.view-display-id-panel_pane_5 .views-row {
 		background-image: url(img/ikon-blue-larger.png);
 	}
-	
+
 .megamini .panel-region-stack3 .view-id-aktuelt.view-display-id-panel_pane_5 .views-row {
 		background-image: url(img/ikon-red-larger.png);
 	}
 
 .col2-1-3 {}
-.col2-1-3 .panel-region-col1, 
-.col2-1-3 .panel-region-col2 { 
+.col2-1-3 .panel-region-col1,
+.col2-1-3 .panel-region-col2 {
 	float: left;
 	}
 
-.col2-1-3 .panel-region-col1 { 
+.col2-1-3 .panel-region-col1 {
 	width: 316px;
 	float: left;
 	}
 
-.col2-1-3 .panel-region-col2 { 
+.col2-1-3 .panel-region-col2 {
 	width: 170px;
 	margin-left: 10px;
 	float: left;
 	}
-	
+
 .front .col2-1-3 .panel-region-col2 { float: right }
 .front .panel-region-top-right .view-aktuelt { position: absolute;  width: 180px;}
 .front .panel-region-top-right .quicktabs-tabpage { height: 265px; }
@@ -897,7 +875,7 @@ top: 0;
 	position: absolute;}
 .megamini .view-id-aktuelt .overlay {
 	position: absolute;
-	top: 159px;	
+	top: 159px;
 	padding: 10px;
 	height: 64px;
 	overflow: hidden;
@@ -920,39 +898,39 @@ top: 0;
 	display: block;
 	font-size: 12px;
 	}
-	
-.megamini .view-id-aktuelt .panel-region-col2 { 
-	width: 160px; 
+
+.megamini .view-id-aktuelt .panel-region-col2 {
+	width: 160px;
 	margin-left: 10px;
 	}
-	
-.megamini .view-id-aktuelt .panel-region-col2 .views-row { 
+
+.megamini .view-id-aktuelt .panel-region-col2 .views-row {
 	background-image: url(img/ikon-green-larger.png);
 	background-repeat: no-repeat;
 	padding-left: 15px;
 	background-position: 0 5px;
 	}
-	
+
 .menu-minipanels ul li {
 	margin-left: 15px;
 	line-height: 13px;
-	margin-bottom: 5px; 
+	margin-bottom: 5px;
 }
 
-.megamini ul li { 
-	list-style-image:url(img/ikon-green-larger.png); 
+.megamini ul li {
+	list-style-image:url(img/ikon-green-larger.png);
 	margin-left: 15px;
 	line-height: 13px;
-	margin-bottom: 5px; 
+	margin-bottom: 5px;
 	}
-	
+
 .megamini .panel-region-stack3 ul li {
-	list-style-image:url(img/ikon-red-larger.png); 
+	list-style-image:url(img/ikon-red-larger.png);
 }
 
 .view-nyheder-udbud .views-row a {
 	background:url(img/ikon-blue-larger.png) no-repeat left center !important;
-	display: block; 
+	display: block;
 	padding-left: 10px;
 	color: #000;
 	text-decoration: none;
@@ -961,7 +939,7 @@ top: 0;
 #mini-panel-odsherred_politik .pane-nyheder-hoeringer-panel-pane-1 .views-row a,
 #mini-panel-odsherred_politik .pane-nyheder-moedekalender-panel-pane-1 .views-row a {
 	background:url(img/ikon-red-larger.png) no-repeat left center !important;
-	display: block; 
+	display: block;
 	padding-left: 10px;
 	color: #000;
 	text-decoration: none;
@@ -971,28 +949,28 @@ top: 0;
 
 
 .megamini .panel-region-stack2 ul li {
-	list-style-image:url(img/ikon-blue-larger.png); 
+	list-style-image:url(img/ikon-blue-larger.png);
 }
 
 .menu-minipanels .panel-region-kol2 .view-selvbetjening ul li {
-	background-image: url(img/ikon-gul-3omv.png) !important; 
+	background-image: url(img/ikon-gul-3omv.png) !important;
 	background-position: 0px 2px;
 	padding-left: 13px;
 
 }
-.megamini .view-selvbetjening ul li { 
-	list-style-image:url(img/ikon-gul-3omv.png); 
+.megamini .view-selvbetjening ul li {
+	list-style-image:url(img/ikon-gul-3omv.png);
 	}
-	
-.megamini ul li a { 
+
+.megamini ul li a {
 	font-weight: normal !important;
 	}
-	
-.megamini .panel-region-stack1 ul.menu a:hover { 
+
+.megamini .panel-region-stack1 ul.menu a:hover {
 	color: #316916;
 	}
 
-.selvbetjening-megamenu .view-header { 
+.selvbetjening-megamenu .view-header {
 	display: none
 	}
 
@@ -1006,15 +984,15 @@ top: 0;
 	margin-left: 0 !important;
 	padding-left: 0 !important ;
 	}
-	
+
 .fedbackogminside a.minside {
 	width: 104px;
-} 
-.fedbackogminside a.feedback { 
+}
+.fedbackogminside a.feedback {
 	background-image: url(img/ikon-feedback.png);
 	}
-	
-.fedbackogminside a.minside { 
+
+.fedbackogminside a.minside {
 	background-image: url(img/ikon-minside.png);
 	}
 
@@ -1029,13 +1007,13 @@ top: 0;
   right: 3px;
   float: right;
   }
-  
+
 .pane-quicktabs-borger .toggle-panel {
 	top: -48px;}
 
 .pane-quicktabs-erhverv .toggle-panel {
 	top: -45px;}
-	
+
 .pane-quicktabs-politik .toggle-panel {
 	top: -46px;}
 
@@ -1050,8 +1028,8 @@ top: 0;
 	margin-left: 0;
 	margin-right: 0;
 	}
-	
-.menu-minipanels ul li { 
+
+.menu-minipanels ul li {
 	list-style: none;
 	background-image: url(img/ikon-blue-larger.png);
 	background-repeat: no-repeat;
@@ -1060,12 +1038,12 @@ top: 0;
 	margin-left: 0;
 	margin-right: 0;
 	}
-	
-.menu-minipanels #mini-panel-odsherred_borger ul li { 
+
+.menu-minipanels #mini-panel-odsherred_borger ul li {
 	background-image: url(img/ikon-green-larger.png);
 	}
 
-.menu-minipanels #mini-panel-odsherred_politik ul li { 
+.menu-minipanels #mini-panel-odsherred_politik ul li {
 	background-image: url(img/ikon-red-larger.png);
 	}
 
@@ -1077,7 +1055,7 @@ top: 0;
 .menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title
 .menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-erhverv.png);
-	height: 25px; 
+	height: 25px;
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
@@ -1087,7 +1065,7 @@ top: 0;
 .menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_borger .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-borger.png);
-	height: 25px; 
+	height: 25px;
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
@@ -1097,7 +1075,7 @@ top: 0;
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-politik.png);
-	height: 25px; 
+	height: 25px;
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
@@ -1107,7 +1085,7 @@ top: 0;
 .menu-minipanels .panel-region-kol2 .pane-selvbetjening h2.pane-title,
 .menu-minipanels .panel-region-kol2 .pane-selvbetjening h3.pane-title {
 	background-image:url(img/ikon-megadd-sevbetjening.png) ;
-	height: 25px; 
+	height: 25px;
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
@@ -1117,11 +1095,11 @@ top: 0;
 .menu-minipanels #mini-panel-odsherred_borger .panel-region-kol3 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_borger .panel-region-kol3 h3.pane-title {
 	background-image: url(img/ossmddbg.png);
-	height: 25px; 
+	height: 25px;
 	padding-bottom: 100px;
 	padding-left: 0;
 	background-position: 0 25px;
-	background-repeat: no-repeat;}	
+	background-repeat: no-repeat;}
 
 .front .pane-nyheder-moedekalender-panel-pane-1 h2.pane-title,
 .front .pane-nyheder-hoeringer-panel-pane-1 h2.pane-title,
@@ -1140,7 +1118,7 @@ top: 0;
 .front .pane-nyheder-udbud-panel-pane-1 a,
 .front .pane-nyheder-moedekalender-panel-pane-1 a,
 .front .pane-nyheder-hoeringer-panel-pane-1 a { font-weight: normal}
-	
+
 #page-overlay {
   width: 100%;
   height: 100%;
@@ -1249,7 +1227,7 @@ top: 0;
 .page-node .pane-kle-lonks-boks-panel-pane-1 .item-list ul li {
   margin: 0;
 }
-  
+
 .not-front .panel-region-stack2 a {
   padding: 0 0 0 12px;
   background: url('img/ikon-larger-right.png') no-repeat scroll 0 5px;
@@ -1280,7 +1258,7 @@ top: 0;
 .view-spotbox-megadd span.titel a { position: absolute;
 	top: 79px; width: 161px; background-image: url(img/spot-overlay-megadd-politik.png); height: 30px; overflow: hidden;
 	padding: 10px; display: block ;color: #FFF; font-size: 12px; font-weight: normal; text-decoration: none;}
-	
+
 #mini-panel-odsherred_erhverv .view-spotbox-megadd span.titel a {background-image: url(img/spot-overlay-megadd-erhverv.png); }
 
 
@@ -1320,7 +1298,7 @@ top: 0;
 	margin-top: 5px;
 	}
 
-.del-udskriv a { 
+.del-udskriv a {
 	text-decoration: none;
 	display: inline-block;
 }
@@ -1336,8 +1314,8 @@ top: 0;
 	border-left: 2px solid #e4e4e4;
 	margin-left: 20px;
 	}
-	
-	
+
+
 .pane-addtoany-addtoany-button {
 	padding-right: 2px !important;
 }
@@ -1357,7 +1335,7 @@ top: 0;
 .not-front .panel-region-stack1 .panel-pane,
 .not-front .panel-region-stack3 .panel-pane {
 	padding: 10px 5px 10px 10px;}
-	
+
 .no-padding { padding: 0 !important;}
 
 .node-type-contentpage .field-slideshow  { height: auto}
@@ -1368,17 +1346,17 @@ top: 0;
 .view-id-sitestuktur .views-field-name { position: absolute;}
 .view-id-sitestuktur .views-field-name a { display: block; height: 24px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
 
-.hovenyhed-portalside { 
-  background-color: #FFF; 
-  height: 262px;  
-  margin-bottom: 20px; 
-  font-size: 13px; 
-  padding: 25px 5px 25px 20px; 
+.hovenyhed-portalside {
+  background-color: #FFF;
+  height: 262px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  padding: 25px 5px 25px 20px;
 }
 .hovenyhed-portalside .views-field-field-lead-image { float: right; width: 455px; height: 265px; }
 
-.hovenyhed-portalside a { 
-  color: #3e3e3e; 
+.hovenyhed-portalside a {
+  color: #3e3e3e;
   text-decoration: none;
   width: 207px;
   display: block;
@@ -1465,7 +1443,7 @@ top: 0;
 }
 .node-date {
   float: left;
-} 
+}
 .node-date p {
   margin: 0;
   color: #5c5c5c;
@@ -1512,7 +1490,7 @@ top: 0;
   list-style: none;
 }
 
-.node-type-os2web-borger-dk-article .pane-node-field-os2web-borger-dk-recommend, 
+.node-type-os2web-borger-dk-article .pane-node-field-os2web-borger-dk-recommend,
 .node-type-os2web-borger-dk-article .pane-node-field-os2web-borger-dk-shortlist{
   background-image: url(img/c-bg.png);
   padding: 20px;
@@ -1697,7 +1675,7 @@ img.news_page_1_top, img.news_page_2_left, img.news_page_3_right { max-width: 10
   display: block;
   text-align: center;
   padding: 0 15px 15px 0;
-} 
+}
 
 .date-container span {
   display: block;
@@ -2064,7 +2042,7 @@ p.search-result-text {
 }
 
 .page-node-edit .qtip-cmstheme, .not-logged-in.page-user .qtip-cmstheme, .page-node-add .qtip-cmstheme { display: none !important;}
-.front .view-spotbox-megadd img { max-width: 100%; height: auto;} 
+.front .view-spotbox-megadd img { max-width: 100%; height: auto;}
 
 #zone-footer .pane-menu-block-8, #zone-footer .pane-menu-block-9, #zone-footer .pane-menu-block-10, #zone-footer .pane-selvbetjening { width: 220px !important;}
 
@@ -2144,16 +2122,16 @@ p.search-result-text {
 	width: 220px
 }
 .menu-minipanels .panel-region-kol2,
-.menu-minipanels .panel-region-kol3 { 
+.menu-minipanels .panel-region-kol3 {
 	display: block;
 	background-image: url(img/megakolonner.png);
 	background-repeat: no-repeat;
 	background-position: 0 20px;
-	min-height: 342px;} 
-	
+	min-height: 342px;}
+
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 {
 	background-image: url(img/megakolonne-feather.png);
-	}	
+	}
 
 
 .region-menu {
@@ -2162,20 +2140,20 @@ p.search-result-text {
 }
 
 
-#node_contentpage_form_group_hidden, #edit-field-rotate-publish { 
+#node_contentpage_form_group_hidden, #edit-field-rotate-publish {
 	display: none
 	}
-	
-.logged-in .field-group-htabs-wrapper { 
+
+.logged-in .field-group-htabs-wrapper {
 	background-color: #FFF;
 	}
 
-.form-item-field-termref-kle-und { 
+.form-item-field-termref-kle-und {
 	padding: 1em;
-	border: 1px solid #ccc; 
+	border: 1px solid #ccc;
 	background-color: #FFF;
 	}
-	
+
 .node ol, .node ul {
 	padding-left: 1.2em;
 	}
@@ -2198,8 +2176,8 @@ div.clearfix {
 
 .panel-region-stack2 .pane-node-field-os2web-selfservice li { list-style: none;}
 
-.field-name-body li, .field-type-text-long li, .field-type-text-with-summary li { 
-  margin-left: 1.7em; 
+.field-name-body li, .field-type-text-long li, .field-type-text-with-summary li {
+  margin-left: 1.7em;
   margin-bottom: 10px;
 }
 .field-name-body .microArticle li p { margin: 0;}
@@ -2209,7 +2187,7 @@ div.clearfix {
 	background-image: url(img/c-bg.png);
 	padding: 25px;
 	}
-	
+
 .page-a-aa-index .view-header {
 	border-bottom: solid 1px #CCC;
 }
@@ -2456,7 +2434,7 @@ div.field-items div.field-item.even img {
 	height: auto;
 	position: relative;
 	width: auto;}
-	
+
 .node-type-os2web-borger-dk-article h1#page-title {
 	font-size: 25px;
 }
@@ -2467,14 +2445,14 @@ div.field-items div.field-item.even img {
 .panel-region-stack4 { margin-top: 10px;}
 .node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px; }
 
-.field-type-text-long ul { 
+.field-type-text-long ul {
 	padding-left: 0;
 	}
-	
-.panel-region-stack3 .field-type-text-long ul li, 
-.panel-region-stack3 .field-type-text-with-summary ul li, 
-.panel-region-stack4 .field-type-text-long ul li, 
-.panel-region-stack4 .field-type-text-with-summary ul li { 
+
+.panel-region-stack3 .field-type-text-long ul li,
+.panel-region-stack3 .field-type-text-with-summary ul li,
+.panel-region-stack4 .field-type-text-long ul li,
+.panel-region-stack4 .field-type-text-with-summary ul li {
 	margin-left: 1.7em;
 	margin-bottom: 7px;
 	list-style-type: disc;
@@ -2548,9 +2526,9 @@ sub {
    height: 34px;
    -webkit-appearance: none;
    }
-   
+
 select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 0px solid #ccc; background-image: url(img/choose-subsitesite.png); background-repeat: no-repeat; height: 38px; width: 282px }
-select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px 
+select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px
 }
 .view-subsites-og-sites .attachment { padding-left: 335px;}
 
@@ -2578,7 +2556,7 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin
 
 .page-andre-sider .view-header { font-size: 23px; font-weight: normal; padding-left: 15px; padding-right: 15px; padding-bottom: 20px; color: #999}
 
-.view-id-andre_sider.view-display-id-page select#edit-jump, 
+.view-id-andre_sider.view-display-id-page select#edit-jump,
 .view-id-andre_sider.view-display-id-page select#edit-jump--2  { float: right;  }
 .view-id-andre_sider.view-display-id-page select#edit-jump { margin-top: 20px ; margin-right:20px !important }
 .page-andre-sider .view-id-andre_sider.view-display-id-page select#edit-jump { margin-top: 0px !important; }
@@ -2595,19 +2573,19 @@ select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin
 .searchcloudblok h2.pane-title, .searchcloudblok h3.pane-title { margin-bottom: 15px; color: #FFF;}
 
 #mini-panel-odsherred_borger ul.searchcloud li ,
-ul.searchcloud li { 
+ul.searchcloud li {
 	display: block;
 	float: left;
 	line-height: 10px;
 	padding: 0 10px 0 0 !important;
     background-image: none;
   }
-	
+
 ul.searchcloud li a {
 	color: #FFF;
 	background: url('img/less-than-gray.png') no-repeat scroll right;
 	padding: 0 10px 0 0;}
-	
+
 #mini-panel-odsherred_erhverv .view-id-nyheder_udbud,
 #mini-panel-odsherred_politik .view-id-nyheder_hoeringer { height: 150px;}
 
