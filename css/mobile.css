@@ -103,7 +103,20 @@ h2.pane-title { font-size: 16px;}
 #block-menu-menu-mobil-forside li a,
 #region-sidebar-first li a { text-decoration: none; display: block;font-size: 1.4em; border-bottom: 1px solid #333; line-height: 1.8em; padding: 0 5px; }
 
-#block-menu-menu-mobil-footer li a{ text-decoration: none; display: block;font-size: 1.4em; border-bottom: 1px solid #FFF; line-height: 1.8em; padding: 0 0; }
+#block-menu-menu-mobil-footer ul.menu {
+  margin: 0 -5px;
+  background: white;
+}
+#block-menu-menu-mobil-footer li a{
+  text-decoration: none;
+  display: block;
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+  line-height: 1.8em;
+  color: #407DAA;
+  font-weight: bold;
+  padding: 0 5px;
+}
 
 #region-sidebar-first .breadcrumb li a { border-bottom: none }
 
