@@ -14,12 +14,12 @@ a:link, a:visited, a { color: #407DAA;
 .region-content a:link, .region-content a:visited, .region-content a {font-weight: bold
 	}
 
-
-#zone-footer-wrapper {
+div#zone-footer-wrapper {
 	background-image:  url(img/footer-bg.png) ;
 	color: #FFF;
-	border-top: 10px solid #00538f;
-	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;		}
+	border-top: none;
+	border-image: none;
+}
 
 .page-andre-sider #zone-footer-wrapper {
 	border-top: 10px solid #00538f;
@@ -105,8 +105,13 @@ h2.pane-title { font-size: 16px;}
 
 #block-menu-menu-mobil-footer ul.menu {
   margin: 0 -5px;
+  border-bottom: 10px solid #00538f;
+  padding-bottom: 4px;
+}
+#block-menu-menu-mobil-footer li{
   background: white;
 }
+
 #block-menu-menu-mobil-footer li a{
   text-decoration: none;
   display: block;
