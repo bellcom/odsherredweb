@@ -36,6 +36,7 @@ a.js-menu-minipanel-toggle:focus {
 #mini-panel-forside_minipanel a.toggle-panel,
 #mini-panel-forside_minipanel .pane-title a {
     background-color: transparent !important;
+    text-indent: -9999px;
 }
 
 textarea:focus, input[type="text"]:focus {
