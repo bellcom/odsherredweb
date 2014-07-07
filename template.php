@@ -61,6 +61,10 @@ function odsherredweb_image_style($variables) {
 function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#attributes']['placeholder'] = t('Hvad kan vi hjælpe med?');
+    $form['actions']['submit']['#attributes']['title'] = t('Search');
+  }
+  if ($form_id == 'apachesolr_search_custom_page_search_form') {
+    $form['basic']['keys']['#attributes']['title'] = t('Search');
   }
   if( $form_id == 'contentpage_node_form') {
     foreach( $form['field_billede'][LANGUAGE_NONE] as $key => $value)
