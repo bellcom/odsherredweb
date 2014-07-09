@@ -2550,7 +2550,7 @@ div.field-items div.field-item.even img {
 
 .node-type-os2web-borger-dk-article .billede { float: right; margin-bottom: 20px; margin-left: 10px;}
 
-.node-type-os2web-borger-dk-article #region-content .region-content-inner{ /*background-image: url(img/c-bg.png);*/ padding: 10px;}
+.node-type-os2web-borger-dk-article #region-content .region-content-inner{ background-image: url(img/c-bg.png); padding: 10px;}
 
 .node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px;}
 
