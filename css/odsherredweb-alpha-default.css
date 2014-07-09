@@ -1613,7 +1613,7 @@ background: url('img/andresider-listebg.png');
   margin: 0 0 9px;
 }
 h2.mArticle {
-  background-image: url("../../../modules/os2web_borger_dk/images/foldOut.png");
+  background-image: url("../sites/all/modules/os2web_borger_dk/images/foldOut.png");
   background-repeat: no-repeat;
   background-position: right 50%;
   border-top: 1px solid #ddd;
