@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
 
   $('[class*=pane-quicktabs]').each(function(i){
     var name = $(this).find(' > .pane-title a').text();
-    $('<a class="toggle-panel" href="#" title="Fold ' + name + ' menu ud">"Fold ' + name + ' menu ud"</a>').insertAfter($(this).find(' > .pane-title'));
+    $('<a class="toggle-panel" href="#" title="Fold ' + name + ' menu ud">Fold ' + name + ' menu ud</a>').insertAfter($(this).find(' > .pane-title'));
   });
 
   $('.toggle-panel').click(function(e){
