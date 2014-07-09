@@ -1,7 +1,13 @@
 jQuery(document).ready(function($){
   $("[class*=quicktabs].toggle > .pane-content").hide();
-  $('<div class="toggle-panel"></div>').insertAfter("[class*=quicktabs] > .pane-title");
+
+  $('[class*=pane-quicktabs]').each(function(i){
+    var name = $(this).find(' > .pane-title a').text();
+    $('<a class="toggle-panel" href="#" title="Fold ' + name + ' menu ud">"Fold ' + name + ' menu ud"</a>').insertAfter($(this).find(' > .pane-title'));
+  });
+
   $('.toggle-panel').click(function(e){
+    e.preventDefault();
     var $thisDiv = $(this);
     $(this).next('.pane-content').toggle();
     $thisDiv.toggleClass('open');

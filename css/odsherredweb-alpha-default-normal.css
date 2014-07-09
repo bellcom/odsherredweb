@@ -41,27 +41,12 @@ ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
 }
 
-ul#main-menu li.menu-782 a:hover,
-ul#main-menu li.menu-782 a.hover {
-	background-image: url(img/portalknap-borger-hover.png);
-}
-
 ul#main-menu li.menu-783 a {
 	background-image: url(img/portalknap-erhverv.png);
 }
 
-ul#main-menu li.menu-783 a:hover,
-ul#main-menu li.menu-783 a.hover {
-	background-image: url(img/portalknap-erhverv-hover.png);
-}
-
 ul#main-menu li.menu-784 a {
 	background-image: url(img/portalknap-politik.png);
-}
-
-ul#main-menu li.menu-784 a:hover,
-ul#main-menu li.menu-784 a.hover {
-	background-image: url(img/portalknap-politik-hover.png);
 }
 
 .menu-minipanels .panel-region-kol1 { width: 200px !important}
@@ -95,12 +80,27 @@ ul#main-menu li.menu-784 a.hover {
 	color:#333333;
 
 }
+.page-odherred-forside #search-block-form input[type="text"] {
+	width: 481px !important; 
+	}
+
+#views_slideshow_cycle_main_aktuelt-panel_pane_3 .views-field-title .text-container{
+  font-size: 50px;
+}
+.gaatilforside {
+	position: absolute;
+	width: 486px !important;
+	display: block;
+}
+.megamini .panel-panel .inside .pane-content h2.pane-title { 
+	font-size: 12px; 
+	width: 131px;
+	}
 
 .vegas-loading {
 	/* Loading Gif by http://preloaders.net/ */
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
-	background:#000 url(.img/359.gif) no-repeat center center;
-	background:rgba(0, 0, 0, 0.7) url(images/359.gif) no-repeat center center;
+	background: none;
 	height:32px;
 	left:20px;
 	position:fixed;
@@ -114,13 +114,13 @@ ul#main-menu li.menu-784 a.hover {
 }
 
 .vegas-background {
-	image-rendering: optimizeQuality;
 	-ms-interpolation-mode: bicubic;
 	z-index:-2;
 } 
 
-
 .fedbackogminside { display: inline}
 
 .qtip-cmstheme{ width: 940px !important}
-
+ .pane-quicktabs-nyheder, .page-nyheder .panel-region-lead .relative-container {
+	display: block;
+    }

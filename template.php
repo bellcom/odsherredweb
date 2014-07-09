@@ -61,6 +61,10 @@ function odsherredweb_image_style($variables) {
 function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#attributes']['placeholder'] = t('Hvad kan vi hjælpe med?');
+    $form['actions']['submit']['#attributes']['title'] = t('Search');
+  }
+  if ($form_id == 'apachesolr_search_custom_page_search_form') {
+    $form['basic']['keys']['#attributes']['title'] = t('Search');
   }
   if( $form_id == 'contentpage_node_form') {
     foreach( $form['field_billede'][LANGUAGE_NONE] as $key => $value)
@@ -112,4 +116,18 @@ function odsherredweb_preprocess_node(&$variables) {
       $variables['region'][$region_key] = array();
     }
   }
+}
+
+/**
+ * implements theme_links__system_main_menu()
+ */
+function odsherredweb_links__system_main_menu($variables) {
+  $html = '<ul id="main-menu" class="links inline clearfix main-menu">';
+
+  $items = array('first', '', 'last');
+
+  foreach( array_shift($variables) as $key => $link) {
+    $html .= '<li class="' . $key . ' ' . array_shift($items) .  '"><a href="' . $link['href'] . '" title="' . $link['title']. '" class="portal-link">' . $link['title']. '</a><a href="" class="js-menu-minipanel-toggle '._menu_minipanels_include($link['minipanel'], $link['menu_minipanels_hover']) .'"></a> </li>';
+  }
+  return $html;
 }

@@ -1,4 +1,6 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+<<<<<<< HEAD
+=======
 html {
 	overflow: -moz-scrollbars-vertical;
 	overflow-y: scroll;
@@ -10,11 +12,13 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 	box-shadow: none;
 	z-index: 1;
 	}
+>>>>>>> origin/master
 
-body  {
-	background-color: #eeece7;
+body  {background-color: #eeece7;
 	background-image: url(img/bg-forloeb.png);
 	background-repeat: repeat-x;
+<<<<<<< HEAD
+=======
 	color: #272727;
 	font-size: 12px;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -22,7 +26,9 @@ body  {
 	}
 
 a:link, a:visited, a { color: #407DAA;
+>>>>>>> origin/master
 	}
+
 .logo-img {
 	margin-top: 15px;
 	margin-left: 5px;
@@ -62,6 +68,8 @@ body.bluenwhite #page_1 #zone-content {
 	background-image: url(img/top-u-logo.png);
 	background-repeat: no-repeat;
 	}
+<<<<<<< HEAD
+=======
 
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.05em;
@@ -69,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	margin-bottom: 5px;
 	}
+>>>>>>> origin/master
 
 h1 {
 	font-size: 25px;
@@ -143,11 +152,14 @@ h4 {
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
+<<<<<<< HEAD
+=======
 
 .menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block; position: absolute}
 .menu-minipanels .view-spotbox-megadd.view-display-id-panel_pane_2 { position: relative }
 
 
+>>>>>>> origin/master
 #region-sidebar-first li.active-trail a {
 	color: #000}
 /*arrow*/
@@ -173,6 +185,7 @@ h4 {
 .erhvervssider #region-sidebar-first ul.menu li.expanded {
 	background-image: url(img/ikon-blue-down.png);
 }
+<<<<<<< HEAD
 /*left*/
 .politiksider #region-sidebar-first ul.menu li.collapsed {
 	background-image: url(img/ikon-red-larger.png);
@@ -182,6 +195,8 @@ h4 {
 }
 
 
+=======
+>>>>>>> origin/master
 #region-branding {
 	height: 170px;
 	}
@@ -255,12 +270,15 @@ h4 {
    width:100%;
 }
 
+<<<<<<< HEAD
+=======
 /* IE 6 */
 * html #footer {
    position:absolute;
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
+>>>>>>> origin/master
 .panels-flexible-region-new-center {
 	width: 100%;
 	}
@@ -309,6 +327,7 @@ ul#main-menu li.menu-784 a {
 	background-image: url(img/portalknap-politik.png);
 	}
 
+<<<<<<< HEAD
 #page_1 ul#main-menu li a.menu-minipanel,
 #page_1  ul#main-menu li a.menu-minipanel:hover {
   background-image: url('img/plus.png');
@@ -335,6 +354,8 @@ ul#main-menu li.menu-784 a {
   background-image: url('img/minus.png');
 }
 
+=======
+>>>>>>> origin/master
 .breadcrumb ul {
 	}
 
@@ -376,10 +397,15 @@ ul.breadcrumb {
 
 #breadcrumb {
 	padding: 10px
+}
+.front .region-header-first-inner {
+	padding-left: 80px
 	}
 
 
 
+<<<<<<< HEAD
+=======
 
 .front .region-header-first-inner {
 	padding-left: 80px
@@ -387,6 +413,7 @@ ul.breadcrumb {
 
 
 
+>>>>>>> origin/master
 #search-block-form {
 	height: 44px;
 	padding: 0 0 0 10px;
@@ -415,10 +442,13 @@ ul.breadcrumb {
 	float: left;
 	background-position: 0px 0px;
 	}
+<<<<<<< HEAD
+=======
 .page-odherred-forside #search-block-form input[type="text"] {
 	width: 481px !important;
 	}
 
+>>>>>>> origin/master
 .front #search-block-form input[type="image"] {
 	margin-right: 0;
 	}
@@ -521,6 +551,10 @@ top: 0;
 .grid-12 .views-row-16.grid-3,
 .grid-12 .views-row-20.grid-3,
 .grid-12 .views-row-24.grid-3 { margin-right: 0;}
+<<<<<<< HEAD
+
+
+=======
 
 .spotbox-row img {
 	width: 100%
@@ -538,6 +572,7 @@ top: 0;
 	margin-bottom: 10px;
 	background-image: url(img/c-bg.png);
 	}
+>>>>>>> origin/master
 
 .menu-minipanels .grid-3 .inside {
 	padding: 20px;
@@ -552,12 +587,24 @@ top: 0;
 	padding: 20px 0 20px 20px;
 	}
 
+<<<<<<< HEAD
 .menu-minipanels h2.pane-title, .menu-minipanels h3.pane-title {
+=======
+.menu-minipanels h2.pane-title {
+>>>>>>> origin/master
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 5px;
 	}
 
+<<<<<<< HEAD
+
+
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h3.pane-title,
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h3.pane-title {
+=======
 .grid-3 .spotwrapper h2.pane-title {
 	background-image: url(img/spot-title-yellow.png);
 	height: 19px;
@@ -568,9 +615,8 @@ top: 0;
 	}
 
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h3.pane-title,
-.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h3.pane-title {
+.menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title {
+>>>>>>> origin/master
 	margin-bottom: 5px;
 	border-bottom: 5px #CC4446 solid; padding-bottom: 3px;
 	}
@@ -716,8 +762,12 @@ top: 0;
 	border-top-right-radius:  5px;
     }
 
+<<<<<<< HEAD
 .megamini .panel-panel .inside  h2.pane-title,
 .megamini .panel-panel .inside  h3.pane-title {
+=======
+.megamini .panel-panel .inside  h2.pane-title {
+>>>>>>> origin/master
 	padding: 10px 10px 10px 50px;
 	color: #FFF;
 	height: 31px; margin: 0;
@@ -726,24 +776,35 @@ top: 0;
 	}
 
 
+<<<<<<< HEAD
 .megamini .panel-panel .inside .pane-content h2.pane-title,
 .megamini .panel-panel .inside .pane-content h3.pane-title {
 	padding: 50px 10px 10px 10px;
 	font-size: 10px;
+=======
+.megamini .panel-panel .inside .pane-content h2.pane-title {
+	padding: 50px 10px 10px 10px;
+	font-size: 12px;
+>>>>>>> origin/master
 	color: #FFF;
 	height: 24px;
 	background-repeat: no-repeat;
-	width: 131px;
 	}
 
+<<<<<<< HEAD
 .megamini .panel-panel .inside .pane-content h2.pane-title a,
+=======
+>>>>>>> origin/master
 .megamini .panel-panel .inside .pane-content h2.pane-title a {
 	color: #FFF;
 	}
 
+<<<<<<< HEAD
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
 .megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
 .front h3.pane-titel { font-size: 20px;}
+=======
+>>>>>>> origin/master
 /*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
 	text-transform: none;
@@ -805,20 +866,32 @@ top: 0;
     background: url('img/red-transparent.png');
     }
 
+<<<<<<< HEAD
 .megamini .panel-region-stack1  h2.pane-title,
 .megamini .panel-region-stack1  h3.pane-title {
+=======
+.megamini .panel-region-stack1  h2.pane-title {
+>>>>>>> origin/master
 	background-image: url(img/minibar-borger.png);
 	background-repeat: no-repeat;
 	}
 
+<<<<<<< HEAD
 .megamini .panel-region-stack2  h2.pane-title,
 .megamini .panel-region-stack2  h3.pane-title {
+=======
+.megamini .panel-region-stack2  h2.pane-title {
+>>>>>>> origin/master
 	background-image: url(img/minibar-erhverv.png);
 	background-repeat: no-repeat;
 	}
 
+<<<<<<< HEAD
 .megamini .panel-region-stack3  h2.pane-title,
 .megamini .panel-region-stack3  h3.pane-title {
+=======
+.megamini .panel-region-stack3  h2.pane-title {
+>>>>>>> origin/master
 	background-image: url(img/minibar-politik.png);
 	background-repeat: no-repeat;
 	}
@@ -900,8 +973,12 @@ top: 0;
 	text-decoration: none;
 	}
 
+<<<<<<< HEAD
 #mini-panel-forside_mini_borger h2,
 #mini-panel-forside_mini_borger h3 {
+=======
+#mini-panel-forside_mini_borger h2 {
+>>>>>>> origin/master
 	background-color: green;
 	}
 
@@ -1064,8 +1141,12 @@ top: 0;
 	}
 
 .fedbackogminside a.minside {
+<<<<<<< HEAD
+	background-image: url(img/ikon-minside.png);
+=======
 /*	background-image: url(img/ikon-minside.png);*/
 	background-image: url(img/minside.png);
+>>>>>>> origin/master
 	}
 
 /*Toggle panels on frontpage --> */
@@ -1095,6 +1176,8 @@ top: 0;
 /* <-- Toggle panels on frontpage*/
 
 /* spotbox portal --> */
+<<<<<<< HEAD
+=======
 .show-links {
   background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px ;
   height: 31px;
@@ -1189,6 +1272,7 @@ background: url('img/andresider-listebg.png');
   height: 106px;
 }
 /* <-- spotbox portal */
+>>>>>>> origin/master
 
 .menu-minipanels ul {
 	margin-left: 0;
@@ -1513,7 +1597,11 @@ background: url('img/andresider-listebg.png');
 .view-id-sitestuktur .views-field-name a { display: block; height: 24px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
 
 .hovenyhed-portalside {
+<<<<<<< HEAD
+  background-color: #FFF;
+=======
   background-image: url(img/c-bg.png);
+>>>>>>> origin/master
   height: 262px;
   margin-bottom: 20px;
   font-size: 13px;
@@ -2611,6 +2699,11 @@ div.field-items div.field-item.even img {
 .panel-region-stack4 { margin-top: 10px;}
 .node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px; }
 
+<<<<<<< HEAD
+=======
+.node-type-os2web-borger-dk-article .panel-region-stack4 { padding: 0 15px;}
+
+>>>>>>> origin/master
 .field-type-text-long ul {
 	padding-left: 0;
 	}
@@ -2694,7 +2787,11 @@ sub {
    }
 
 select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 0px solid #ccc; background-image: url(img/choose-subsitesite.png); background-repeat: no-repeat; height: 38px; width: 282px }
+<<<<<<< HEAD
+select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px
+=======
 select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px
+>>>>>>> origin/master
 }
 .view-subsites-og-sites .attachment { padding-left: 335px;}
 

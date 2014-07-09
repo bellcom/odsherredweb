@@ -1,25 +1,255 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;}
 
-#zone-footer-wrapper { 
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+	z-index: 1;}
+
+
+/* Focuses */
+a:focus,
+.overlayclass:focus {
+    background-color: #fff !important;
+    color: #000 !important;
+    outline: 1px dotted blue;
+}
+
+a.js-menu-minipanel-toggle:focus {
+    background-color: transparent !important;
+}
+
+.zone-branding a:focus {
+    background-color: transparent !important;
+    padding: 2px inherit;
+    color: white !important;
+    outline: 1px dotted white;
+    margin-left: 8px;
+}
+
+.view-id-sitestuktur .views-field-name a:focus {
+    color: #000 !important;
+}
+
+#mini-panel-forside_minipanel a.toggle-panel,
+#mini-panel-forside_minipanel .pane-title a {
+    background-color: transparent !important;
+    text-indent: -9999px;
+}
+
+textarea:focus, input[type="text"]:focus {
+    background-color: pink;
+}
+
+textarea:focus {
+    background: pink;
+}
+
+
+body  {
+	color: #272727;
+	font-size: 12px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.05em;
+	font-weight: normal;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin-bottom: 5px;
+}
+
+
+a:link, a:visited, a {
+  color: #407DAA;
+}
+
+#zone-footer-wrapper {
 	background-image:  url(img/footer-bg.png) ;
 	color: #FFF;
 	border-top: 10px solid #00538f;
-	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;		}
-	
+	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;
+  }
+
 .page-andre-sider #zone-footer-wrapper {
 	border-top: 10px solid #00538f;
-	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;	
+	border-image: url(img/footer-bg-andresider.png) 9 0 0 0 repeat;
 }
-	
-#zone-footer a { 
-	color: #fff; 
+#zone-footer a {
+	color: #fff;
 	text-decoration: none;
-	}
-	
-#zone-footer li { 
-	margin-left: 0; 
-	padding-left: 0; 
-	list-style: none;
+}
+#zone-footer li {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none; }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-nyheder #block-delta-blocks-breadcrumb
+.page-nyheder.responsive-layout-narrow #block-search-form,
+.not-front.responsive-layout-narrow .vegas-background { display: none !important;}
+
+.spotbox-row img {
+	width: 100%; height: auto;
+	}
+
+.spotbox-row .spotbox_right img {
+	max-width: 230px;
+	max-height: 115px;
+	}
+
+.spotwrapper {
+    height: auto;
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+	background-image: url(img/c-bg.png);
+	}
+
+.show-links {
+  background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px ;
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  z-index: 90;
+  cursor: pointer;
+}
+
+.show-links.open{
+  background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
+}
+
+.spotbox .item-list{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  height: 148px;
+  width: 210px;
+  overflow: hidden;
+  border-bottom: 5px solid #efbe02;
+}
+
+.spotbox .item-list ul {
+  padding-top: 10px;
+}
+.spotbox .item-list ul li {
+  margin: 0 0 0 11px;
+  height: 13px;
+  padding: 0 0 9px;
+  overflow: hidden;
+}
+.spotbox .item-list a {
+  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
+  padding-left: 17px;
+  color: #2d2d2b;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.spotbox .border {
+  height: 9px;
+}
+.spotbox .border.selvbetjening {
+  background: url('img/lineYellow.png');
+}
+.spotbox .border.term-4 {
+  background: url('img/lineGreen.png');
+}
+.spotbox .border.term-5 {
+  background: url('img/lineBlue.png');
+}
+.spotbox .border.term-6 {
+  background: url('img/lineRed.png');
+}
+.spotbox .text {
+  height: 58px;
+  padding: 5px 8px 0;
+  margin: 0;
+  background: url('img/andresider-listebg.png');
+}
+.spotbox .text a{
+  color: #272727;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.spotbox .goto {
+  width: 31px;
+  height: 31px;
+  display: block;
+  position: absolute;
+}
+.spotbox .goto.term-4 { background: url('img/spotbox-sprite.png') no-repeat scroll -74px -3px; }
+.spotbox .goto.term-5 { background: url('img/spotbox-sprite.png') no-repeat scroll -111px -3px; }
+.spotbox .goto.term-6 { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
+
+.spotbox .show-links-wrapper,
+.spotbox .goto-wrapper {
+  position: relative;
+  top: -10px;
+  right: 36px;
+  float: right;
+}
+
+.spotbox .pane-title {
+  overflow: hidden;
+}
+.spotbox .pane-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.spotbox .spotbox_no_picture {
+  height: 106px;
+}
+/* <-- spotbox portal */
+
+.spotwrapper h2.pane-title, .spotwrapper h3.pane-title {
+	background-image: url(img/spot-title-yellow.png);
+	height: 19px;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0;
+	color: #FFF;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+.mobile-logo a {
+  width: 210px;
+  height: 40px;
+  float: left;
+  background-image: url(../mobil-logo.png);
+  background-size: 27px auto;
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  display: block;
+  padding-left: 45px;
+  padding-top: 5px;
+  line-height: 40px;
+  color: #FFF;
+  font-size: 1.75em;
+  text-decoration: none;
+}
+
+.region-branding .logo-img a {
+  display: block;
+}
+
+
+#sliding-popup .popup-content #popup-text { max-width: 90%;}
+#sliding-popup .popup-content { width: 100%;}
+a.overlayclass { display: table}
