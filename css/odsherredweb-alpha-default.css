@@ -1,10 +1,28 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
-
-body  {background-color: #eeece7;
-	background-image: url(img/bg-forloeb.png);
-	background-repeat: repeat-x;
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
 	}
 
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+	-moz-box-shadow:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	z-index: 1;
+	}
+
+body  {
+	background-color: #eeece7;
+	background-image: url(img/bg-forloeb.png);
+	background-repeat: repeat-x;
+	color: #272727;
+	font-size: 12px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	}
+
+a:link, a:visited, a { color: #407DAA;
+	}
 .logo-img {
 	margin-top: 15px;
 	margin-left: 5px;
@@ -43,6 +61,13 @@ body.bluenwhite #page_1 #zone-content {
 	background-color: transparent;
 	background-image: url(img/top-u-logo.png);
 	background-repeat: no-repeat;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.05em;
+	font-weight: normal;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin-bottom: 5px;
 	}
 
 h1 {
@@ -118,6 +143,11 @@ h4 {
 #region-sidebar-first ul.menu li ul li.first {
 	margin-top: 5px;
 }
+
+.menu-minipanels .view-spotbox-megadd, .menu-minipanels .pane-tagadelic-view  { display: block; position: absolute}
+.menu-minipanels .view-spotbox-megadd.view-display-id-panel_pane_2 { position: relative }
+
+
 #region-sidebar-first li.active-trail a {
 	color: #000}
 /*arrow*/
@@ -223,6 +253,12 @@ h4 {
    bottom:0px;
    height:40px;
    width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
 .panels-flexible-region-new-center {
@@ -340,7 +376,11 @@ ul.breadcrumb {
 
 #breadcrumb {
 	padding: 10px
-}
+	}
+
+
+
+
 .front .region-header-first-inner {
 	padding-left: 80px
 	}
@@ -375,6 +415,10 @@ ul.breadcrumb {
 	float: left;
 	background-position: 0px 0px;
 	}
+.page-odherred-forside #search-block-form input[type="text"] {
+	width: 481px !important;
+	}
+
 .front #search-block-form input[type="image"] {
 	margin-right: 0;
 	}
@@ -478,7 +522,22 @@ top: 0;
 .grid-12 .views-row-20.grid-3,
 .grid-12 .views-row-24.grid-3 { margin-right: 0;}
 
+.spotbox-row img {
+	width: 100%
+	}
 
+.spotbox-row .spotbox_right img {
+	max-width: 230px;
+	max-height: 115px;
+	}
+
+.spotwrapper {
+    height: 207px;
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+	background-image: url(img/c-bg.png);
+	}
 
 .menu-minipanels .grid-3 .inside {
 	padding: 20px;
@@ -499,7 +558,14 @@ top: 0;
 	margin-bottom: 5px;
 	}
 
-
+.grid-3 .spotwrapper h2.pane-title {
+	background-image: url(img/spot-title-yellow.png);
+	height: 19px;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0;
+	color: #FFF;
+	}
 
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol2 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_politik .panel-region-kol3 h2.pane-title,
@@ -667,6 +733,7 @@ top: 0;
 	color: #FFF;
 	height: 24px;
 	background-repeat: no-repeat;
+	width: 131px;
 	}
 
 .megamini .panel-panel .inside .pane-content h2.pane-title a,
@@ -997,7 +1064,8 @@ top: 0;
 	}
 
 .fedbackogminside a.minside {
-	background-image: url(img/ikon-minside.png);
+/*	background-image: url(img/ikon-minside.png);*/
+	background-image: url(img/minside.png);
 	}
 
 /*Toggle panels on frontpage --> */
@@ -1027,6 +1095,100 @@ top: 0;
 /* <-- Toggle panels on frontpage*/
 
 /* spotbox portal --> */
+.show-links {
+  background: url('img/spotbox-sprite.png') no-repeat scroll 0 -3px ;
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  z-index: 90;
+  cursor: pointer;
+}
+
+.show-links.open{
+background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
+}
+
+.spotbox .item-list{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  height: 148px;
+  width: 210px;
+  overflow: hidden;
+  border-bottom: 5px solid #efbe02;
+}
+
+.spotbox .item-list ul {
+  padding-top: 10px;
+}
+.spotbox .item-list ul li {
+  margin: 0 0 0 11px;
+  height: 13px;
+  padding: 0 0 9px;
+  overflow: hidden;
+}
+.spotbox .item-list a {
+  background: url('img/ikon-gul-3omv.png') no-repeat scroll 0 2px;
+  padding-left: 17px;
+  color: #2d2d2b;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.spotbox .border {
+  height: 9px;
+}
+.spotbox .border.selvbetjening {
+  background: url('img/lineYellow.png');
+}
+.spotbox .border.term-4 {
+  background: url('img/lineGreen.png');
+}
+.spotbox .border.term-5 {
+  background: url('img/lineBlue.png');
+}
+.spotbox .border.term-6 {
+  background: url('img/lineRed.png');
+}
+.spotbox .text {
+height: 58px;
+padding: 5px 8px 0;
+margin: 0;
+background: url('img/andresider-listebg.png');
+}
+.spotbox .text a{
+  color: #272727;
+  text-decoration: none;
+}
+.spotbox .goto {
+  width: 31px;
+  height: 31px;
+  display: block;
+  position: absolute;
+}
+.spotbox .goto.term-4 { background: url('img/spotbox-sprite.png') no-repeat scroll -74px -3px; }
+.spotbox .goto.term-5 { background: url('img/spotbox-sprite.png') no-repeat scroll -111px -3px; }
+.spotbox .goto.term-6 { background: url('img/spotbox-sprite.png') no-repeat scroll -149px -3px; }
+
+.spotbox .show-links-wrapper,
+.spotbox .goto-wrapper {
+  position: relative;
+  top: -10px;
+  right: 36px;
+  float: right;
+}
+
+.spotbox .pane-title {
+  overflow: hidden;
+}
+.spotbox .pane-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.spotbox .spotbox_no_picture {
+  height: 106px;
+}
+/* <-- spotbox portal */
 
 .menu-minipanels ul {
 	margin-left: 0;
@@ -1351,7 +1513,7 @@ top: 0;
 .view-id-sitestuktur .views-field-name a { display: block; height: 24px; padding-left: 41px; padding-top: 6px; color: #FFF !important; font-size: 18px;}
 
 .hovenyhed-portalside {
-  background-color: #FFF;
+  background-image: url(img/c-bg.png);
   height: 262px;
   margin-bottom: 20px;
   font-size: 13px;
@@ -2532,7 +2694,7 @@ sub {
    }
 
 select#edit-jump {float: left; margin-bottom: 20px; margin-top: 20px;   border: 0px solid #ccc; background-image: url(img/choose-subsitesite.png); background-repeat: no-repeat; height: 38px; width: 282px }
-select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px
+select#edit-jump--2 { float: left; margin-bottom: 20px; margin-top: 20px;; margin-right: 40px;  border: 0px solid #ccc;background-image: url(img/choose-subsitesite-cat.png); background-repeat: no-repeat; height: 38px; width: 282px
 }
 .view-subsites-og-sites .attachment { padding-left: 335px;}
 

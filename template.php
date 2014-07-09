@@ -74,10 +74,9 @@ function odsherredweb_form_alter(&$form, &$form_state, $form_id) {
         $form['field_billede'][LANGUAGE_NONE][$key]['#element_validate'] = array('odsherredweb_image_alt_text_required_validate');
       }
     }
-
   }
-
 }
+
 /**
  * Custom quick and dirty form validation
  *
