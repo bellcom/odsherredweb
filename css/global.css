@@ -23,7 +23,7 @@ a.js-menu-minipanel-toggle:focus {
 
 .zone-branding a:focus {
     background-color: transparent !important;
-    outline: node; 
+    outline: none; 
 }
 
 .view-id-sitestuktur .views-field-name a:focus {
