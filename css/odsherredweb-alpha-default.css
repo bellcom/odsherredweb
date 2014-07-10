@@ -1051,7 +1051,10 @@ top: 0;
 	height: 30px;
 	background-repeat: no-repeat;
 	border-left: none !important;
-	text-indent: -99999px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	outline-color: #FFF;
 	margin-left: 0 !important;
 	padding-left: 0 !important ;
 	}
