@@ -748,7 +748,7 @@ top: 0;
 .megamini .panel-panel .inside .pane-content h3.pane-title a:focus { color: #FFF !important; font-weight: bold; }
 
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
-.megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
+.megamini h3.pane-title a:hover, .megamini h3.pane-title a:focus { color: #FFF; text-decoration: underline;}
 .front h3.pane-titel { font-size: 20px;}
 /*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
