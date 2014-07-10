@@ -298,6 +298,8 @@ ul#main-menu li a {
 	font-size: 22px;
 	}
 
+ul#main-menu li a:focus { color: #FFF !important; font-weight: bold; }
+
 ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
 	}
@@ -738,9 +740,12 @@ top: 0;
 	}
 
 .megamini .panel-panel .inside .pane-content h2.pane-title a,
-.megamini .panel-panel .inside .pane-content h2.pane-title a {
+.megamini .panel-panel .inside .pane-content h3.pane-title a {
 	color: #FFF;
 	}
+
+.megamini .panel-panel .inside .pane-content h2.pane-title a:focus,
+.megamini .panel-panel .inside .pane-content h3.pane-title a:focus { color: #FFF !important; font-weight: bold; }
 
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
 .megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
