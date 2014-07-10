@@ -23,10 +23,7 @@ a.js-menu-minipanel-toggle:focus {
 
 .zone-branding a:focus {
     background-color: transparent !important;
-    padding: 2px inherit;
-    color: white !important;
-    outline: 1px dotted white;
-    margin-left: 8px;
+    outline: node; 
 }
 
 .view-id-sitestuktur .views-field-name a:focus {

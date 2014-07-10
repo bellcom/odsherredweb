@@ -26,6 +26,7 @@ a:link, a:visited, a { color: #407DAA;
 .logo-img {
 	margin-top: 15px;
 	margin-left: 5px;
+	float: none;
 	}
 
 .not-front.page-node #section-content,
