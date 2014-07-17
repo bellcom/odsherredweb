@@ -1227,7 +1227,7 @@ background: url('img/andresider-listebg.png');
 	text-decoration: none;
 }
 
-.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title
+.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-erhverv.png);
 	height: 25px;
