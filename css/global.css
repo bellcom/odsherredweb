@@ -10,10 +10,8 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 
 
 /* Focuses */
-a:focus,
+.a:focus,
 .overlayclass:focus {
-    background-color: #fff !important;
-    color: #000;
     outline: 1px dotted #333
 }
 #skip-link a, #skip-link a:focus { color: #333 !important}
