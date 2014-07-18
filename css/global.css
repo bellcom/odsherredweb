@@ -253,3 +253,9 @@ img {
 #sliding-popup .popup-content #popup-text { max-width: 90%;}
 #sliding-popup .popup-content { width: 100%;}
 a.overlayclass { display: table}
+
+.jcrop-holder img, 
+.jcrop-preview-wrapper img,
+.imagefield-crop-cropbox img {
+    max-width: none;
+}
