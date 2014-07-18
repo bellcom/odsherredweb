@@ -22,7 +22,8 @@ a.js-menu-minipanel-toggle:focus {
 }
 
 .zone-branding a:focus,
-.view-sitestuktur a:focus {
+.view-sitestuktur a:focus,
+.front .view-aktuelt a:focus {
     background-color: transparent !important;
     color: #FFF;
     text-decoration: underline;
