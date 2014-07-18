@@ -14,7 +14,7 @@ a:focus,
 .overlayclass:focus {
     background-color: #fff !important;
     color: #000 !important;
-    outline: 1px dotted #fff;
+    outline: 1px dotted #333
 }
 
 a.js-menu-minipanel-toggle:focus {
@@ -27,7 +27,7 @@ a.js-menu-minipanel-toggle:focus {
     color: #FFF;
     text-decoration: underline;
 }
-
+.zone-branding a:focus { background-color: transparent;}
 .view-id-sitestuktur .views-field-name a:focus {
     color: #000 !important;
 }
