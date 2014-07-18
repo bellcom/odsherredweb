@@ -13,7 +13,7 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 a:focus,
 .overlayclass:focus {
     background-color: #fff !important;
-    color: #000 !important;
+    color: #000;
     outline: 1px dotted #333
 }
 
