@@ -163,3 +163,7 @@ aside#region-sidebar-first.grid-3.region.region-sidebar-first { overflow: hidden
 #block-menu-menu-mobil-top { display: none !important;}
 
 .responsive-layout-narrow .view-id-sitestuktur .views-field-name a { display: block; height: auto; width: auto; padding-left: 28px; padding-top: 3px; font-size: 14px;}
+
+.spotbox .text a{
+  font-size: 0.9em;
+}

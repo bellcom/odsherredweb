@@ -1167,6 +1167,7 @@ background: url('img/andresider-listebg.png');
 .spotbox .text a{
   color: #272727;
   text-decoration: none;
+  font-size: 1em;
 }
 .spotbox .goto {
   width: 31px;
