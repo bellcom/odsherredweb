@@ -16,7 +16,7 @@ a:focus,
     color: #000;
     outline: 1px dotted #333
 }
-
+#skip-link a, #skip-link a:focus { color: #333 !important}
 a.js-menu-minipanel-toggle:focus {
     background-color: transparent !important;
 }
