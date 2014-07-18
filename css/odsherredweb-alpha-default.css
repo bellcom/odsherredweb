@@ -1169,6 +1169,7 @@ background: url('img/andresider-listebg.png');
   text-decoration: none;
   font-size: 1em;
 }
+.spotbox .text a:focus{text-decoration: underline}
 .spotbox .goto {
   width: 31px;
   height: 31px;
@@ -1194,6 +1195,7 @@ background: url('img/andresider-listebg.png');
   color: white;
   text-decoration: none;
 }
+.spotbox .pane-title a:focus { text-decoration: underline;}
 
 .spotbox .spotbox_no_picture {
   height: 106px;

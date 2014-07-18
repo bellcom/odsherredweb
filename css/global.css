@@ -14,7 +14,7 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
 .overlayclass:focus {
     background-color: #fff !important;
     color: #000;
-    outline: 1px dotted #333
+    outline: 1px dotted #333;
 }
 #skip-link a, #skip-link a:focus { color: #333 !important}
 a.js-menu-minipanel-toggle:focus {
@@ -30,6 +30,7 @@ a.js-menu-minipanel-toggle:focus {
     outline: 1px dotted #fff;
     font-weight: bold;
 }
+.zone-content a:focus { outline: 1px dotted #333}
 
 .view-id-sitestuktur .views-field-name a:focus {
     color: #000 !important;
