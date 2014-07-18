@@ -21,13 +21,13 @@ a.js-menu-minipanel-toggle:focus {
     background-color: transparent !important;
 }
 
-.zone-branding .logo-img a:focus,
+.zone-branding a:focus,
 .view-sitestuktur a:focus {
     background-color: transparent !important;
     color: #FFF;
     text-decoration: underline;
-}
-.region-user-first a:focus { background-color: transparent !important;    outline: 1px dotted #fff
+    outline: 1px dotted #fff;
+    font-weight: bold;
 }
 
 .view-id-sitestuktur .views-field-name a:focus {
