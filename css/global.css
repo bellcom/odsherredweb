@@ -14,7 +14,7 @@ a:focus,
 .overlayclass:focus {
     background-color: #fff !important;
     color: #000 !important;
-    outline: 1px dotted blue;
+    outline: 1px dotted #fff;
 }
 
 a.js-menu-minipanel-toggle:focus {
