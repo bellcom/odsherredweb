@@ -27,7 +27,8 @@ a.js-menu-minipanel-toggle:focus {
     color: #FFF;
     text-decoration: underline;
 }
-.region-user-first a:focus { background-color: transparent !important;}
+.region-user-first a:focus { background-color: transparent !important;    outline: 1px dotted #fff
+}
 
 .view-id-sitestuktur .views-field-name a:focus {
     color: #000 !important;
