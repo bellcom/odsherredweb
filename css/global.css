@@ -31,6 +31,7 @@ a.js-menu-minipanel-toggle:focus {
     font-weight: bold;
 }
 .zone-content a:focus { outline: 1px dotted #333}
+.zone-footer a:focus { outline: 1px dotted #fff; font-weight: bold;}
 .view-spotboxe a:focus {}
 
 .view-id-sitestuktur .views-field-name a:focus {
