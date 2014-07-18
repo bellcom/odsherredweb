@@ -26,6 +26,7 @@ a:link, a:visited, a { color: #407DAA;
 .logo-img {
 	margin-top: 15px;
 	margin-left: 5px;
+	float: none;
 	}
 
 .not-front.page-node #section-content,
@@ -296,6 +297,8 @@ ul#main-menu li a {
 	text-decoration: none;
 	font-size: 22px;
 	}
+
+ul#main-menu li a:focus { color: #FFF !important; font-weight: bold; }
 
 ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
@@ -737,12 +740,15 @@ top: 0;
 	}
 
 .megamini .panel-panel .inside .pane-content h2.pane-title a,
-.megamini .panel-panel .inside .pane-content h2.pane-title a {
+.megamini .panel-panel .inside .pane-content h3.pane-title a {
 	color: #FFF;
 	}
 
+.megamini .panel-panel .inside .pane-content h2.pane-title a:focus,
+.megamini .panel-panel .inside .pane-content h3.pane-title a:focus { color: #FFF !important; font-weight: bold; }
+
 .megamini h3.pane-title a { color: #FFF; font-size: 20px;}
-.megamini h3.pane-title a:hover { color: #FFF; text-decoration: underline;}
+.megamini h3.pane-title a:hover, .megamini h3.pane-title a:focus { color: #FFF; text-decoration: underline;}
 .front h3.pane-titel { font-size: 20px;}
 /*.megamini .panel-panel .inside .pane-content .pane-menu-block-8 h2.pane-title {
 	background-image: url(img/menu-mini-borger.png);
@@ -1051,7 +1057,10 @@ top: 0;
 	height: 30px;
 	background-repeat: no-repeat;
 	border-left: none !important;
-	text-indent: -99999px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	outline-color: #FFF;
 	margin-left: 0 !important;
 	padding-left: 0 !important ;
 	}
@@ -1218,7 +1227,7 @@ background: url('img/andresider-listebg.png');
 	text-decoration: none;
 }
 
-.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title
+.menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h2.pane-title,
 .menu-minipanels #mini-panel-odsherred_erhverv .panel-region-kol1 h3.pane-title {
 	background-image: url(img/menu-mini-erhverv.png);
 	height: 25px;
