@@ -255,3 +255,9 @@ img {
 #sliding-popup .popup-content #popup-text { max-width: 90%;}
 #sliding-popup .popup-content { width: 100%;}
 a.overlayclass { display: table}
+
+/* Fix some issues when max-width are set globally on all img. */
+.jcrop-holder img, .jcrop-preview {
+  max-width: initial;
+  height: initial;
+}
