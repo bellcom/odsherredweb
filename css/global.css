@@ -16,7 +16,7 @@ button:focus, button:active, input:focus, input:active, select:focus, select:act
     color: #000;
     outline: 1px dotted #333;
 }
-#skip-link a, #skip-link a:focus { color: #333 !important}
+#skip-link a, #skip-link a:focus { color: #FFF !important}
 a.js-menu-minipanel-toggle:focus {
     background-color: transparent !important;
 }
@@ -31,6 +31,7 @@ a.js-menu-minipanel-toggle:focus {
     font-weight: bold;
 }
 .zone-content a:focus { outline: 1px dotted #333}
+.view-spotboxe a:focus {}
 
 .view-id-sitestuktur .views-field-name a:focus {
     color: #000 !important;
