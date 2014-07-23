@@ -298,7 +298,11 @@ ul#main-menu li a {
 	font-size: 22px;
 	}
 
-ul#main-menu li a:focus { color: #FFF !important; font-weight: bold; }
+ul#main-menu li a:focus { 
+        color: #FFF !important; 
+        font-weight: bold;
+        outline: 1px dotted black;
+}
 
 ul#main-menu li.menu-782 a {
 	background-image: url(img/portalknap-borger.png);
