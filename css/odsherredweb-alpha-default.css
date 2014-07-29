@@ -123,7 +123,7 @@ h4 {
 	}
 
 #region-sidebar-first ul.menu li.leaf {
-  background-image: url(img/ikon-green-dot.png) !important;
+  background-image: url(img/ikon-green-dot.png);
 }
 #region-sidebar-first ul.menu li.expanded {
 	background-image: url(img/ikon-green-down.png);
