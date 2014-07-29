@@ -161,6 +161,8 @@ h4 {
 	background-image:  url(img/ikon-blue-larger.png);
 }
 /*dot*/
+.page-taxonomy-term-6 #region-sidebar-first ul.menu li.leaf,
+.politiksider #region-sidebar-first ul.menu li.leaf,
 .politiksider #region-sidebar-first ul.menu li ul li {
 	background-image:  url(img/ikon-red-dot.png);
 }
