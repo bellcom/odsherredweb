@@ -723,6 +723,7 @@ top: 0;
 	background-color: #FFF;
 	border-top-left-radius:  5px;
 	border-top-right-radius:  5px;
+        position: relative;
     }
 
 .megamini .panel-panel .inside  h2.pane-title,
@@ -1086,23 +1087,27 @@ top: 0;
 /*Toggle panels on frontpage --> */
 .toggle-panel {
   background: url('img/plus.png') no-repeat scroll 13px 15px;
-  height: 41px;
-  position: relative;
-  top: -46px;
+  height: 20px;
+  position: absolute;
+  top: 17px;
   width: 42px;
   cursor: pointer;
-  right: 3px;
-  float: right;
+  right: 5px;
+  background-position: 100%;;
   }
 
 .pane-quicktabs-borger .toggle-panel {
-	top: -48px;}
+	top: 15px;
+        right: 4px;
+}
 
 .pane-quicktabs-erhverv .toggle-panel {
-	top: -45px;}
+	top: 18px;
+        right: 4px;
+}
 
 .pane-quicktabs-politik .toggle-panel {
-	top: -46px;}
+	top: 17px;}
 
 .toggle-panel.open {
   background: url('img/minus.png') no-repeat scroll 13px 15px;

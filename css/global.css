@@ -47,6 +47,7 @@ ul#main-menu li .js-menu-minipanel-toggle:focus {
     white-space: nowrap;
     overflow: hidden;
     outline-color: #FFF;
+    background-position: 50% 50%;
 }
 
 textarea:focus, input[type="text"]:focus {
