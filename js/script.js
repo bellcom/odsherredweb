@@ -28,5 +28,22 @@ jQuery(document).ready(function () {
 	jQuery('.vis-andre-sites a').toggle();
       });
 
+      var width = jQuery(window).width();
+      if (width < 740) {
+        jQuery('.panel-region-middle-top').prependTo('.panel-display.container-9.panel-node');
+      }
+      var resize = function() {
+          width = jQuery(window).width();
+          if (width < 740) {
+            jQuery('.panel-region-middle-top').prependTo('.panel-display.container-9.panel-node');
+          }
+          else {
+            jQuery('.panel-region-lead').prependTo('.panel-display.container-9.panel-node');
+          }
+      };
+      jQuery(window).resize(resize);
+      resize();
+
+
 });
 

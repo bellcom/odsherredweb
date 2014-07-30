@@ -138,11 +138,23 @@ h2.pane-title { font-size: 16px;}
 .page-node #region-sidebar-first .menu-block-wrapper  ul li { display: none !important}
 .page-node #region-sidebar-first .menu-block-wrapper  ul li.active { display: block !important}
 
+.erhvervssider #region-sidebar-first ul.menu li.collapsed {
+  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-blue-larger.png);
+}
+.erhvervssider #region-sidebar-first ul.menu li.leaf {
+  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-blue-dot.png);
+}
+.politiksider #region-sidebar-first ul.menu li.collapsed {
+  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-red-larger.png);
+}
+.politiksider #region-sidebar-first ul.menu li.leaf {
+  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-red-dot.png);
+}
 #region-sidebar-first .menu li.active ul li {
   display: list-item !important;
   list-style-position: inside !important;
   list-style-type: disc !important;
-  list-style-image: url(img/ikon-green-dot.png) !important;
+  list-style-image: url(img/ikon-green-dot.png);
 }
 
 #region-sidebar-first .menu li.active ul li.collapsed { list-style-image:	url(img/ikon-green-larger.png) !important;}
@@ -264,6 +276,7 @@ background: url('img/spotbox-sprite.png') no-repeat scroll -37px -3px;
 .spotbox .text {
 height: 58px;
 padding: 5px 8px 0;
+line-height: 1.2;
 margin: 0;
 background: url('img/andresider-listebg.png');
 }
@@ -367,6 +380,10 @@ background: url('img/andresider-listebg.png');
 /* Nyheder */
 
 .view-news-page-views a { text-decoration: none;}
+.panel-region-lead {
+  padding: 5px;
+  clear: both;
+}
 .panel-region-lead .header { font-size: 2em; background: url('img/news-page-header.png');color: #FFF; padding-left: 8px;}
 .relative-container,
 .page-nyheder .panel-region-middle-right { display: none !important;}
