@@ -139,16 +139,16 @@ h2.pane-title { font-size: 16px;}
 .page-node #region-sidebar-first .menu-block-wrapper  ul li.active { display: block !important}
 
 .erhvervssider #region-sidebar-first ul.menu li.collapsed {
-  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-blue-larger.png);
+  list-style-image: url(img/ikon-blue-larger.png) !important;
 }
 .erhvervssider #region-sidebar-first ul.menu li.leaf {
-  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-blue-dot.png);
+  list-style-image: url(img/ikon-blue-dot.png);
 }
 .politiksider #region-sidebar-first ul.menu li.collapsed {
-  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-red-larger.png);
+  list-style-image: url(img/ikon-red-larger.png) !important;
 }
 .politiksider #region-sidebar-first ul.menu li.leaf {
-  background-image: url(/profiles/os2web/themes/odsherredweb/css/img/ikon-red-dot.png);
+  list-style-image: url(img/ikon-red-dot.png);
 }
 #region-sidebar-first .menu li.active ul li {
   display: list-item !important;
@@ -157,7 +157,8 @@ h2.pane-title { font-size: 16px;}
   list-style-image: url(img/ikon-green-dot.png);
 }
 
-#region-sidebar-first .menu li.active ul li.collapsed { list-style-image:	url(img/ikon-green-larger.png) !important;}
+#region-sidebar-first .menu li.active ul li.collapsed {
+  list-style-image: url(img/ikon-green-larger.png);}
 
 #region-sidebar-first .block-menu-block h2.block-title,
 #region-sidebar-first #breadcrumb li.depth-1.odd.first { display: none !important}
