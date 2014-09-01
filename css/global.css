@@ -270,3 +270,13 @@ a.overlayclass { display: table}
 .imagefield-crop-cropbox img {
     max-width: none;
 }
+
+div.field.field-name-field-resume-long.field-type-text-with-summary,
+div.field.field-name-field-os2web-borger-dk-header.field-type-text-long,
+div.field.field-name-field-resume-long.field-type-text-with-summary p,
+div.field.field-name-field-os2web-borger-dk-header.field-type-text-long p,{
+font-size: 15px;
+color: #666;
+font-style: italic;
+font-weight: normal;
+}
